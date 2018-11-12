@@ -1,3 +1,13 @@
+/*
+GLOBAL SELECTORS
+ */
+
+a {
+ color:white;
+ font-size:2em;
+ text-decoration: none;
+}
+
 body {
   padding:0;
   margin:0;
@@ -9,59 +19,59 @@ body {
   color:white;
 }
 
-
-.navbar {
-  width:100%;
-  height:50px;
-  background-color: white;
-  display: flex;
-  justify-content: center;¨
-  align-items: center;
-  position:fixed;
-  bottom:0;
-  z-index: 2;
+li:after {
+  content: "";
+  display: block;
+  background-color:white;
+  width: 0;
+  position:absolute;
+  height: 3px;
+  margin: 5px 0 0 0;
+  transition:width 0.5s ease-in-out;
 }
 
-.hamburger-menu {
-  width: 46px;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-
+ul {
+  list-style-type:none;
 }
+
+ul li {
+  margin: 35px 0 35px 0;
+}
+
+/*
+CLASS SELECTORS
+ */
 
 .bar {
-  position: relative;
-  width: 30px;
-  margin:3px;
-  height: 2px;
-  background: #000;
+ position: relative;
+ width: 30px;
+ margin:3px;
+ height: 2px;
+ background: #000;
 }
 
 .bar:before {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: inherit;
-  left: 0;
-  top: -10px;
-  transform-origin: center center;
-  transition: transform .25s ease, top .25s ease, bottom .25s ease;
+ content: '';
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ background: inherit;
+ left: 0;
+ top: -10px;
+ transform-origin: center center;
+ transition: transform .25s ease, top .25s ease, bottom .25s ease;
 }
 
 .bar:after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: inherit;
-  left: 0;
-  bottom: -10px;
-  transform-origin: center center;
-  transition: transform .25s ease, top .25s ease, bottom .25s ease;
+ content: '';
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ background: inherit;
+ left: 0;
+ bottom: -10px;
+ transform-origin: center center;
+ transition: transform .25s ease, top .25s ease, bottom .25s ease;
 }
 
 .clicked.bar {
@@ -80,49 +90,47 @@ body {
   background: #000;
 }
 
+
+.hamburger-menu {
+  width: 46px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
 .menu {
   height:0;
   width:100%;
-  background-color: #00205A;
+  background-color:  #000C21;
   opacity:0;
   transition:all 0.5s ease-in-out;
   display:flex;
   bottom: -100%;
   position:fixed;
   bottom:0;
+  overflow: hidden;
   padding-bottom:50px;
   box-sizing: border-box;
   align-items: center;
 }
 
+.navbar {
+  width:100%;
+  height:50px;
+  background-color: white;
+  display: flex;
+  justify-content: center;¨
+  align-items: center;
+  position:fixed;
+  bottom:0;
+  z-index: 2;
+}
+
 .open {
   opacity:1;
   height:100vh;
-}
-
-ul {
-  list-style-type:none;
-}
-
-ul li {
-  margin: 35px 0 35px 0;
-}
-
-a {
-  color:white;
-  font-size:2em;
-  text-decoration: none;
-}
-
-li:after {
-  content: "";
-  display: block;
-  background-color:white;
-  width: 0;
-  position:absolute;
-  height: 3px;
-  margin: 5px 0 0 0;
-  transition:width 0.5s ease-in-out;
 }
 
 .selected:after {
