@@ -1,3 +1,16 @@
+<?php
+
+declare(strict_types=1);
+require __DIR__.'/functions.php';
+
+session_start();
+
+if(!isset($_SESSION['lang'])){
+  $_SESSION['lang'] = 'en';
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,19 +28,25 @@
   <div class="menu">
     <ul>
       <li class="menu-item selected">
-        <a href="#">Home</a>
+        <a href="#"><?= translate('home') ?></a>
       </li>
       <li class="menu-item">
-        <a href="#">Specs</a>
+        <a href="#"><?= translate('specs') ?></a>
       </li>
       <li class="menu-item">
-        <a href="#">Safety</a>
+        <a href="#"><?= translate('safety') ?></a>
       </li>
       <li class="menu-item">
-        <a href="#">Testimonials</a>
+        <a href="#"><?= translate('testimonials') ?></a>
       </li>
       <li class="menu-item">
-        <a href="#">Contact</a>
+        <a href="#"><?= translate('contact') ?></a>
+      </li>
+      <li>
+        <a href="/?lang=sv">SWE</a>
+      </li>
+      <li>
+        <a href="/?lang=en">ENG</a>
       </li>
     </ul>
   </div>
