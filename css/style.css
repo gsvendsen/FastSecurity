@@ -1,6 +1,14 @@
+@import url("https://p.typekit.net/p.css?s=1&k=yrr6lcj&ht=tk&f=14032.14033.14034&a=13081250&app=typekit&e=css");
+
 /*
 GLOBAL SELECTORS
  */
+
+*{
+  margin:0;
+  padding:0;
+}
+
 
 a {
  color:white;
@@ -13,10 +21,22 @@ body {
   margin:0;
   width:100%;
   height:100vh;
-  font-family:helvetica, sans-serif;
+  font-family:aktiv-grotesk, sans-serif;
   transition: all 0.3s;
   background-color: grey;
   color:white;
+}
+
+p {
+  font-size:16px;
+  padding-right: 4px;
+  margin-top:10px;
+}
+
+h1 {
+  font-size:60px;
+  margin:0;
+  line-height: 0.95;
 }
 
 li:after {
@@ -28,6 +48,10 @@ li:after {
   height: 3px;
   margin: 5px 0 0 0;
   transition:width 0.5s ease-in-out;
+}
+
+li .lang-option {
+  font-size:1.0em;
 }
 
 ul {
@@ -90,6 +114,35 @@ CLASS SELECTORS
   background: #000;
 }
 
+.email-sign-up {
+  width:100%;
+  height:50px;
+  margin: 25px 0 0 0;
+  display:flex;
+}
+
+.email-sign-up > input {
+  box-sizing: border-box;
+  font-size:16px;
+  padding-left: 10px;
+  height:100%;
+  width:183px;
+}
+
+.email-sign-up > button {
+  height:100%;
+  font-size:16px;
+  width:100%;
+  border:none;
+  color:white;
+  background-color:#00205A;
+}
+
+.filler-block {
+  width:100%;
+  height:400vh;
+  background-color: brown;
+}
 
 .hamburger-menu {
   width: 46px;
@@ -100,8 +153,34 @@ CLASS SELECTORS
   cursor: pointer;
 }
 
-li .lang-option {
-  font-size:1.0em;
+.hero {
+  background-color: darkgrey;
+  width:100%;
+  height:100vh;
+  display:flex;
+  background-image:url('../resources/mobile-hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-attachment: fixed;
+  padding: 220px 31px 0 22px;
+  margin:0;
+}
+
+.logotype {
+  position:fixed;
+  height:50px;
+  width:50px;
+}
+
+.logo-container {
+  width:100%;
+  position: fixed;
+  padding-top:5px;
+  z-index:2;
+  display: flex;
+  justify-content: center;
 }
 
 .menu {
@@ -115,7 +194,7 @@ li .lang-option {
   position:fixed;
   bottom:0;
   overflow: hidden;
-  padding-bottom:50px;
+  padding:0 0 50px 55px;
   box-sizing: border-box;
   align-items: center;
 }
