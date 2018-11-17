@@ -20,6 +20,9 @@ if(!isset($_SESSION['lang'])){
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+  <div class="logo-container">
+    <a href="" class="logo-container"><img class="logotype" src="resources/logo.svg" alt="logo"></a>
+  </div>
   <div class="navbar">
     <div class="hamburger-menu">
       <div class="bar"></div>
@@ -47,6 +50,19 @@ if(!isset($_SESSION['lang'])){
         <a class="lang-option" href="/?lang=en">ENG</a>
       </li>
     </ul>
+  </div>
+
+  <div class="hero">
+    <div class="title-container">
+      <h1><?= translate('hero-header') ?></h1>
+      <p><?= translate('hero-desc') ?></p>
+    </div>
+    <form class="email-sign-up">
+      <input class="email-input" type="text" name="email" placeholder="Email...">
+      <button class="register-button" type="submit" name="button"><?= translate('register') ?></button>
+    </form>
+  </div>
+  <div class="filler-block">
   </div>
 </body>
 <script src="js/script.js"></script>
