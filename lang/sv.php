@@ -7,5 +7,8 @@ return [
   'specs' => 'Specifikationer',
   'safety' => 'Säkerhet',
   'testimonials' => 'Vittnesmål',
-  'contact' => 'Kontakt'
+  'contact' => 'Kontakt',
+  'hero-header' => 'Till en ny framtid.',
+  'hero-desc' => 'Skriv upp dig för nyhetsbrevet för att få senast information & erbjudanden för nästa generationen av motorcyklar.',
+  'register' => 'Registrera'
 ];
