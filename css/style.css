@@ -100,6 +100,10 @@ CLASS SELECTORS
   cursor: pointer;
 }
 
+li .lang-option {
+  font-size:1.0em;
+}
+
 .menu {
   height:0;
   width:100%;
