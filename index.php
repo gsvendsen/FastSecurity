@@ -46,8 +46,8 @@ if(!isset($_SESSION['lang'])){
         <a href="#"><?= translate('contact') ?></a>
       </li>
       <li>
-        <a class="lang-option" href="/?lang=sv">SWE</a>
-        <a class="lang-option" href="/?lang=en">ENG</a>
+        <a class="lang-option" href="/?lang=en"><img class="flag" src="resources/Flag_UK.svg"></a>
+        <a class="lang-option" href="/?lang=sv"><img class="flag" src="resources/Flag_SWE.svg"></a>
       </li>
     </ul>
   </div>

@@ -144,6 +144,11 @@ CLASS SELECTORS
   background-color: brown;
 }
 
+.flag {
+  width:38px;
+  height:19px;
+}
+
 .hamburger-menu {
   width: 46px;
   height: 100%;
