@@ -98,7 +98,30 @@ if(!isset($_SESSION['lang'])){
   </div><!--/autonomous-->
   <div class="filler-block">
   </div>
+  <div class="comfort">
+  </div><!--/comfort-->
 
+  <div class="CTA">
+     <h3><?= translate('CTA-header') ?></h3>
+     <p><?= translate('CTA-desc') ?></p>
+     <form class="email-sign-up">
+      <input class="email-input" type="text" name="email" placeholder="Email...">
+      <button class="register-button" type="submit" name="button"><?= translate('register') ?></button>
+     </form>
+  </div><!--/CTA-->
+
+  <div class="footer">
+     <div class="CTA last">
+      <h3><?= translate('CTA-header') ?></h3>
+      <p><?= translate('CTA-desc') ?></p>
+      <form class="email-sign-up">
+       <input class="email-input" type="text" name="email" placeholder="Email...">
+       <button class="register-button" type="submit" name="button"><?= translate('register') ?></button>
+      </form>
+     </div><!--/CTA last-->
+     <div class="contact">
+     </div><!--/contact-->
+    </div>
 
 </body>
 <script src="js/script.js"></script>
