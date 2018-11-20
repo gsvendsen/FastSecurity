@@ -64,6 +64,15 @@ if(!isset($_SESSION['lang'])){
   </div>
   <div class="filler-block">
   </div>
+  <div class="history">
+     <div class="history-content">
+        <h3 ><?=translate('history-header') ?></h3>
+        <p><?= translate('history-cont') ?></p>
+     </div><!--/history-content-->
+     <div class="history-btn">
+        <button class="history-button" type="button" name="button">Read More</button>
+     </div>
+  </div><!--/history-->
 </body>
 <script src="js/script.js"></script>
 </html>
