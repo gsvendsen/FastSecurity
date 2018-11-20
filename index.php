@@ -67,7 +67,7 @@ if(!isset($_SESSION['lang'])){
   <div class="history">
      <div class="history-content">
         <h3 ><?=translate('history-header') ?></h3>
-        <p><?= translate('history-cont') ?></p>
+         <p><?= translate('history-cont') ?></p>
      </div><!--/history-content-->
      <div class="history-btn">
         <button class="history-button" type="button" name="button" style="
@@ -83,6 +83,23 @@ if(!isset($_SESSION['lang'])){
   </div><!--/history-->
   <div class="filler-block">
   </div>
+  <div class="slideshow">
+  </div><!--slideshow-->
+  <div class="filler-block">
+  </div>
+  <div class="autonomous">
+     <h3><?=translate('auto-header') ?></h3>
+       <p><?=translate('auto-cont') ?></p>
+   <div class="filler-block-pink">
+   </div>
+     <h5><?= translate('break-header') ?></h5>
+       <p><?= translate('break-cont') ?></p>
+   <div class="divider"></div>
+  </div><!--/autonomous-->
+  <div class="filler-block">
+  </div>
+
+
 </body>
 <script src="js/script.js"></script>
 </html>
