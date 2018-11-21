@@ -28,3 +28,14 @@ menuItems.forEach((menuItem) => {
 window.addEventListener('scroll', ()=>{
   logo.style.opacity = 1 - window.pageYOffset / 250;
 })
+
+const navBar = document.querySelector('.navbar')
+var startScrollPos = 0;
+
+window.addEventListener('scroll', ()=>{
+  if(window.pageYOffset > startScrollPos){
+    navBar.classList.remove('hidden');
+  } else {
+    navBar.classList.add('hidden');
+  }
+})
