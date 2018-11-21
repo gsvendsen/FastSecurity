@@ -1,0 +1,40 @@
+.autonomous {
+  margin:220px 0 0 0;
+  padding:0 0 0 180px;
+  width:100%;
+  height:100vh;
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content:space-between;
+  background-color:#FEFEFE;
+  box-sizing: border-box;
+}
+
+.header-section {
+  max-width:570px;
+  margin:0 0 120px 0;
+}
+
+.subheader-section {
+  max-width:570px;
+}
+
+.autonomous-image {
+  width:650px;
+  height:650px;
+  background-size: contain;
+  background-position: center;
+  background: url('../resources/tekniskoverlay.png');
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+  .autonomous {
+    height:auto;
+    width:100%;
+  }
+
+}
