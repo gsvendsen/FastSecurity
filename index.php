@@ -106,8 +106,74 @@ if(!isset($_SESSION['lang'])){
   </div><!--/history-->
   <div class="filler-block">
   </div>
-  <div class="slideshow">
-  </div><!--slideshow-->
+  <!-- SLIDESHOW -->
+  <div class="viewport-container">
+    <div class="image-slider">
+      <div class="slide-container">
+        <div class="slide">
+          <div class="slide-show-photo">
+            <img src="https://dwv100zweqd2m.cloudfront.net/uploads/user/avatar/1261/Square_Profile_Shot.jpg" class="photo">
+          </div>
+          <div class="slide-show-text">
+            <div class="text-container">
+              <h1 class="quote">"The FS1 is an incredible vehicle! More text here please... And especially the extra safety measures!"</h1>
+              <p class="quote-name">Mathilde Thatsum</p>
+              <p class="quote-source">CEO, Electric Solutions</p>
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="slide-show-photo">
+            <img src="https://pbs.twimg.com/profile_images/73758361/square_profile_shot_400x400.jpg" class="photo">
+          </div>
+          <div class="slide-show-text">
+            <div class="text-container">
+              <h1 class="quote">"Waheeey!!!"</h1>
+              <p class="quote-name">Mathilde Thatsum</p>
+              <p class="quote-source">CEO, Electric Solutions</p>
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="slide-show-photo">
+            <img src="https://www.hawthorn.biz/sites/default/files/styles/segment_people_profile/public/David%20Barton%20Profile%20Shot%20Square_2.jpg?itok=kFNiCDSU" class="photo">
+          </div>
+          <div class="slide-show-text">
+            <div class="text-container">
+              <h1 class="quote">"Another quote!!!"</h1>
+              <p class="quote-name">Mathilde Thatsum</p>
+              <p class="quote-source">CEO, Electric Solutions</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slide-show-controller">
+        <div class="left-arrow">
+          <svg class="arrow" width="30" height="26" viewBox="0 0 30 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M28.3342 13.3961L1.99999 13.3961" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M13.3961 24.7922L2 13.3962" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M13.3961 2L2 13.3961" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+
+        <div class="button-container">
+          <div class="button selected-button">
+          </div>
+          <div class="button">
+          </div>
+          <div class="button">
+          </div>
+        </div>
+        <div class="right-arrow">
+          <svg class="arrow" width="29" height="26" viewBox="0 0 29 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 13.3961L27.3342 13.3961" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M15.9381 2L27.3342 13.3961" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M15.9381 24.7922L27.3342 13.3962" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div> <!-- /SLIDESHOW -->
   <div class="filler-block">
   </div>
   <div class="autonomous">
