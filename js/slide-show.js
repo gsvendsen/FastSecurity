@@ -3,7 +3,7 @@ const next = document.querySelector('.right-arrow');
 const prev = document.querySelector('.left-arrow')
 const container = document.querySelector('.slide-container');
 const slides = document.querySelectorAll('.slide');
-const buttons = document.querySelectorAll('.button');
+const buttons = document.querySelectorAll('.slide-button');
 
 var selectedImage = 0;
 var isSliding = false;
@@ -12,7 +12,7 @@ console.log(slide);
 
 const slideScroll = (num)=>{
   selectedSlide = slides.item(num);
-  selectedSlide.scrollIntoView({block:'center'});
+  selectedSlide.scrollIntoView({block: 'nearest'});
   updateButton(num);
 }
 

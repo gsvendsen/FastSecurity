@@ -159,11 +159,11 @@ if(!isset($_SESSION['lang'])){
         </div>
 
         <div class="button-container">
-          <div class="button selected-button">
+          <div class="slide-button selected-button">
           </div>
-          <div class="button">
+          <div class="slide-button">
           </div>
-          <div class="button">
+          <div class="slide-button">
           </div>
         </div>
         <div class="right-arrow">
