@@ -59,7 +59,7 @@ if(!isset($_SESSION['lang'])){
     </div>
     <form class="email-sign-up">
       <input class="email-input" type="text" name="email" placeholder="Email...">
-      <button class="register-button" type="submit" name="button"><?= translate('register') ?></button>
+      <button class="button" type="submit" name="register-button"><?= translate('register') ?></button>
     </form>
   </div>
   <div class="filler-block">
@@ -70,15 +70,15 @@ if(!isset($_SESSION['lang'])){
          <p><?= translate('history-cont') ?></p>
      </div><!--/history-content-->
      <div class="history-btn">
-        <button class="history-button" type="button" name="button" style="
+        <button class="button" type="button" name="history-button" style="
     display: flex;
     justify-content: space-around;
     align-items: center;">Our history <svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M1 8.396L18.091 8.396" stroke="white" stroke-linecap="round"/>
-<path d="M10.6948 1L18.0909 8.39608" stroke="white" stroke-linecap="round"/>
-<path d="M10.6948 15.7922L18.0909 8.39615" stroke="white" stroke-linecap="round"/>
-</svg>
-</button>
+      <path d="M1 8.396L18.091 8.396" stroke="white" stroke-linecap="round"/>
+      <path d="M10.6948 1L18.0909 8.39608" stroke="white" stroke-linecap="round"/>
+      <path d="M10.6948 15.7922L18.0909 8.39615" stroke="white" stroke-linecap="round"/>
+      </svg>
+      </button>
      </div>
   </div><!--/history-->
   <div class="filler-block">
