@@ -21,6 +21,10 @@ if(!isset($_SESSION['lang'])){
   <link rel="stylesheet" type="text/css" href="css/slide-show.css">
   <link rel="stylesheet" type="text/css" href="css/footer.css">
   <link rel="stylesheet" type="text/css" href="css/history.css">
+  <link rel="stylesheet" type="text/css" href="css/article.css">
+  <link rel="stylesheet" type="text/css" href="css/autonomous.css">
+
+
 
 </head>
 <body>
@@ -178,17 +182,24 @@ if(!isset($_SESSION['lang'])){
 
   <!-- AUTONOMOUS SECTION -->
   <div class="autonomous">
-     <h3><?=translate('auto-header') ?></h3>
-       <p><?=translate('auto-cont') ?></p>
-   <div class="filler-block-pink">
-   </div>
-     <h5><?= translate('break-header') ?></h5>
-       <p><?= translate('break-cont') ?></p>
+    <div class="text-section">
+      <div class="header-section pink-margin">
+        <h3 class="article-header"><?=translate('auto-header') ?></h3>
+        <p class="article-text">Autonomous cars combine a variety of sensors to perceive their surroundings, such as radar, computer vision, Lidar, sonar, GPS, odometry and inertial measurement units.</p>
+        <p class="article-text">A self-driving car, also known as a robot car, autonomous car, or driverless car is a vehicle that is capable of sensing its environment and moving with little or no human input.</p>
+      </div>
+      <div class="subheader-section">
+        <h5 class="article-subheader">BRAKING SENSORS</h5>
+        <p class="article-text"><?= translate('break-cont') ?></p>
+      </div>
+    </div>
+    <div class="autonomous-image">
+
+    </div>
+  </div>
    <div class="divider"></div>
   </div><!--/autonomous-->
 
-  <div class="filler-block">
-  </div>
   <div class="comfort">
   </div><!--/comfort-->
 
