@@ -98,11 +98,12 @@ if(!isset($_SESSION['lang'])){
         <button class="button" type="button" name="history-button" style="
     display: flex;
     justify-content: space-around;
-    align-items: center;">Our history <svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M1 8.396L18.091 8.396" stroke="white" stroke-linecap="round"/>
-      <path d="M10.6948 1L18.0909 8.39608" stroke="white" stroke-linecap="round"/>
-      <path d="M10.6948 15.7922L18.0909 8.39615" stroke="white" stroke-linecap="round"/>
-      </svg>
+    align-items: center;">Our history
+        <svg class="button-arrow" width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M1 8.396L18.091 8.396" stroke="white" stroke-linecap="round"/>
+          <path d="M10.6948 1L18.0909 8.39608" stroke="white" stroke-linecap="round"/>
+          <path d="M10.6948 15.7922L18.0909 8.39615" stroke="white" stroke-linecap="round"/>
+        </svg>
       </button>
      </div>
   </div><!--/history-->
