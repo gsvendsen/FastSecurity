@@ -18,6 +18,8 @@ if(!isset($_SESSION['lang'])){
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FastSecurity</title>
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/slide-show.css">
+
 </head>
 <body>
   <div class="logo-container">
@@ -214,4 +216,6 @@ if(!isset($_SESSION['lang'])){
 
 </body>
 <script src="js/script.js"></script>
+<script src="js/slide-show.js"></script>
+
 </html>
