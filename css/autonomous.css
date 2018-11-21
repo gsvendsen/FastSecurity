@@ -41,6 +41,8 @@
     align-items:flex-start;
   }
 
+
+
   .autonomous-image {
     width:60%;
     height:300px;
@@ -50,6 +52,7 @@
 
   .text-section {
     margin: 0 0 19px 0;
+    padding: 0 22px 0 0;
   }
 
 }
