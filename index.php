@@ -25,7 +25,7 @@ if(!isset($_SESSION['lang'])){
   <div class="logo-container">
     <a href="" class="logo-container"><img class="logotype" src="resources/logo.svg" alt="logo"></a>
   </div>
-  <div class="navbar">
+  <div class="navbar hidden">
     <div class="hamburger-menu">
       <div class="bar"></div>
     </div>
