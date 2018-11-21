@@ -310,16 +310,6 @@ CLASS SELECTORS
    background-color:white;
 }
 
-.autonomous {
-   display:flex;
-   flex-direction:column;
-   justify-content:center;
-   background-color:#ffffff;
-   padding:20px;
-   color:#000000;
-
-}
-
 /*
 MEDIA QUERY MOBILE
  */
