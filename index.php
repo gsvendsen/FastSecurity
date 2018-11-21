@@ -213,9 +213,9 @@ if(!isset($_SESSION['lang'])){
     </div>
   </div><!--/comfort-->
 
-  <div class="CTA">
-     <h3><?= translate('CTA-header') ?></h3>
-     <p><?= translate('CTA-desc') ?></p>
+  <div class="CTA margin-after">
+     <h3 class="article-header"><?= translate('CTA-header') ?></h3>
+     <p class="cta-text"><?= translate('CTA-desc') ?></p>
      <form class="email-sign-up">
       <input class="email-input" type="text" name="email" placeholder="Email...">
       <button class="register-button" type="submit" name="button"><?= translate('register') ?></button>
@@ -224,8 +224,8 @@ if(!isset($_SESSION['lang'])){
 
   <div class="footer">
      <div class="CTA last">
-      <h3><?= translate('CTA-header') ?></h3>
-      <p><?= translate('CTA-desc') ?></p>
+      <h3 class="article-header white"><?= translate('CTA-header') ?></h3>
+      <p class="cta-text white"><?= translate('CTA-desc') ?></p>
       <form class="email-sign-up">
        <input class="email-input" type="text" name="email" placeholder="Email...">
        <button class="register-button" type="submit" name="button"><?= translate('register') ?></button>
