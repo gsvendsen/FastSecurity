@@ -196,8 +196,6 @@ if(!isset($_SESSION['lang'])){
     <div class="autonomous-image">
 
     </div>
-  </div>
-   <div class="divider"></div>
   </div><!--/autonomous-->
 
   <div class="comfort">
