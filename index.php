@@ -28,6 +28,29 @@ if(!isset($_SESSION['lang'])){
       <div class="bar"></div>
     </div>
   </div>
+  <div class="desktop-menu">
+    <ul class="menu-list">
+      <li class="menu-item">
+        <a class="nav-link" href="#"><?= translate('home') ?></a>
+      </li>
+      <li class="menu-item">
+        <a class="nav-link" href="#"><?= translate('specs') ?></a>
+      </li>
+      <li class="menu-item">
+        <a class="nav-link" href="#"><?= translate('safety') ?></a>
+      </li>
+      <li class="menu-item">
+        <a class="nav-link" href="#"><?= translate('testimonials') ?></a>
+      </li>
+      <li class="menu-item">
+        <a class="nav-link" href="#"><?= translate('contact') ?></a>
+      </li>
+      <li>
+        <a class="lang-option" href="/?lang=en"><img class="flag" src="resources/Flag_UK.svg"></a>
+        <a class="lang-option" href="/?lang=sv"><img class="flag" src="resources/Flag_SWE.svg"></a>
+      </li>
+    </ul>
+  </div>
   <div class="menu">
     <ul>
       <li class="menu-item selected">
@@ -54,12 +77,12 @@ if(!isset($_SESSION['lang'])){
 
   <div class="hero">
     <div class="title-container">
-      <h1><?= translate('hero-header') ?></h1>
-      <p><?= translate('hero-desc') ?></p>
+      <h1 class="hero-header"><?= translate('hero-header') ?></h1>
+      <p class="hero-sub"><?= translate('hero-desc') ?></p>
     </div>
     <form class="email-sign-up">
       <input class="email-input" type="text" name="email" placeholder="Email...">
-      <button class="button" type="submit" name="register-button"><?= translate('register') ?></button>
+      <button type="submit" name="register-button"><?= translate('register') ?></button>
     </form>
   </div>
   <div class="filler-block">
