@@ -362,6 +362,12 @@ MEDIA QUERY MOBILE
      padding-right: 4px;
    }
 
+   div.hidden {
+     opacity:0;
+     overflow: hidden;
+     height:0;
+   }
+
    .desktop-menu {
      display:none;
    }
