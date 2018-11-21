@@ -23,7 +23,7 @@
 .autonomous-image {
   width:650px;
   height:650px;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background: url('../resources/tekniskoverlay.png');
 }
@@ -33,8 +33,23 @@
     /* For mobile phones: */
 
   .autonomous {
+    margin:110px 0 0 0;
     height:auto;
     width:100%;
+    flex-direction:column;
+    padding:0 0 0 22px;
+    align-items:flex-start;
+  }
+
+  .autonomous-image {
+    width:60%;
+    height:300px;
+    align-self: flex-end;
+    background-size: cover;
+  }
+
+  .text-section {
+    margin: 0 0 19px 0;
   }
 
 }
