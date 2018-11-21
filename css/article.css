@@ -24,6 +24,49 @@
 }
 
 
+.CTA {
+   display:flex;
+   flex-direction:column;
+   justify-content:center;
+   height:337px;
+   background-color:#FAFAFA;
+   border-top:1px solid rgba(0,0,0,0.2);
+   border-bottom:1px solid rgba(0,0,0,0.2);
+   padding:20px;
+   color:#334A74;
+}
+
+.cta-text {
+  line-height: 22px;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  color:#334A74;
+  font-weight: normal;
+  margin:19px 0 0 0;
+}
+
+.CTA > .email-sign-up > .email-input {
+  border: 1px solid rgba(0,0,0,0.2);
+}
+
+.white {
+  color:white;
+}
+
+.margin-after {
+  margin:0 0 220px 0;
+}
+
+
+.last {
+  background-color:#000C21;
+  color:#FFFFFF;
+  border-top:0px ;
+  border-bottom:0px;
+}
+
+
+
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     /* Fully Autonomous */
@@ -38,4 +81,8 @@
 
     .article-text {
       font-size: 16px;
+    }
+
+    .margin-after {
+      margin:0 0 110px 0;
     }
