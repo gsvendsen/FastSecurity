@@ -33,9 +33,9 @@ const navBar = document.querySelector('.navbar')
 var startScrollPos = 0;
 
 window.addEventListener('scroll', ()=>{
-  if(window.pageYOffset > startScrollPos){
-    navBar.classList.remove('hidden');
-  } else {
+  if(window.pageYOffset == startScrollPos || (window.innerHeight + window.scrollY) >= document.body.offsetHeight){
     navBar.classList.add('hidden');
+  } else {
+    navBar.classList.remove('hidden');
   }
 })
