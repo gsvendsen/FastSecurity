@@ -291,19 +291,6 @@ CLASS SELECTORS
   transition:width 0.5s ease-in-out;
 }
 
-.history {
-   display:flex;
-   flex-direction:column;
-   justify-content:center;
-   height:688px;
-   background-image:url('../resources/X-Walk.jpg');
-   background-repeat:no-repeat;
-   background-size:cover;
-   padding:20px;
-   margin:110px 0 0 0;
-   font-family:aktiv-grotesk, sans-serif;
-}
-
 .button {
    height:100%;
    font-size:16px;
@@ -314,6 +301,9 @@ CLASS SELECTORS
    background-color:#00205A;
    margin-top:58px;
    font-family:aktiv-grotesk, sans-serif;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
 }
 .slideshow {
    height:617px;

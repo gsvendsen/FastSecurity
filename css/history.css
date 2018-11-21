@@ -1,0 +1,31 @@
+/* History of the FS1 */
+
+.history {
+   display:flex;
+   flex-direction:column;
+   justify-content:center;
+   height:688px;
+   background-image:url('../resources/X-Walk.jpg');
+   background-repeat:no-repeat;
+   background-size:cover;
+   padding:20px;
+   margin:110px 0 0 0;
+   font-family:aktiv-grotesk, sans-serif;
+}
+
+.history-header {
+  line-height: normal;
+  font-size: 24px;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  font-weight: normal;
+  margin:0 0 19px 0;
+}
+
+.history-text {
+  line-height: 20px;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  font-weight: 100;
+}
