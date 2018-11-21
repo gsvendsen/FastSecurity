@@ -20,6 +20,7 @@ if(!isset($_SESSION['lang'])){
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/slide-show.css">
   <link rel="stylesheet" type="text/css" href="css/footer.css">
+  <link rel="stylesheet" type="text/css" href="css/history.css">
 
 </head>
 <body>
@@ -91,15 +92,12 @@ if(!isset($_SESSION['lang'])){
 
   <!-- HISTORY -->
   <div class="history">
-     <div class="history-content">
-        <h3 ><?=translate('history-header') ?></h3>
-         <p><?= translate('history-cont') ?></p>
+     <div>
+        <h3 class="history-header"><?=translate('history-header') ?></h3>
+         <p class="history-text"><?= translate('history-cont') ?></p>
      </div><!--/history-content-->
-     <div class="history-btn">
-        <button class="button" type="button" name="history-button" style="
-    display: flex;
-    justify-content: space-around;
-    align-items: center;">Our history
+     <div>
+        <button class="button history-button" type="button" name="history-button">Our history
         <svg class="button-arrow" width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M1 8.396L18.091 8.396" stroke="white" stroke-linecap="round"/>
           <path d="M10.6948 1L18.0909 8.39608" stroke="white" stroke-linecap="round"/>
@@ -188,7 +186,7 @@ if(!isset($_SESSION['lang'])){
        <p><?= translate('break-cont') ?></p>
    <div class="divider"></div>
   </div><!--/autonomous-->
-  
+
   <div class="filler-block">
   </div>
   <div class="comfort">
