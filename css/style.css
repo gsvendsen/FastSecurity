@@ -103,6 +103,15 @@ CLASS SELECTORS
  transition: transform .25s ease, top .25s ease, bottom .25s ease;
 }
 
+.button-arrow {
+  transform:translateX(-20px);
+  transition:transform 0.5s ease-in-out;
+}
+
+.button:hover>.button-arrow {
+  transform:translateX(0);
+}
+
 .clicked.bar {
 	background: transparent;
 }
@@ -250,6 +259,7 @@ CLASS SELECTORS
   position:fixed;
   bottom:0;
   overflow: hidden;
+  z-index:1;
   padding:0 0 50px 55px;
   box-sizing: border-box;
   align-items: center;
