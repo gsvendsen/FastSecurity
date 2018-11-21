@@ -25,3 +25,31 @@
 .text-container {
   max-width: 550px;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+  .comfort {
+    flex-direction: column-reverse;
+    margin: 0 0 110px 0;
+    height:auto;
+  }
+
+  .comfort-image {
+    width:100%;
+    height:226px;
+    background: url('../resources/comfort.png');
+    background-size:cover;
+    margin:55px 0 0 0;
+  }
+
+  .comfort-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0 0 0 22px;
+    box-sizing: border-box;
+    width:60%;
+  }
+
+}
