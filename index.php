@@ -88,8 +88,8 @@ if(!isset($_SESSION['lang'])){
       <button type="submit" name="register-button"><?= translate('register') ?></button>
     </form>
   </div>
-  <div class="filler-block">
-  </div>
+
+  <!-- HISTORY -->
   <div class="history">
      <div class="history-content">
         <h3 ><?=translate('history-header') ?></h3>
@@ -108,8 +108,7 @@ if(!isset($_SESSION['lang'])){
       </button>
      </div>
   </div><!--/history-->
-  <div class="filler-block">
-  </div>
+
   <!-- SLIDESHOW -->
   <div class="viewport-container">
     <div class="image-slider">
@@ -178,8 +177,8 @@ if(!isset($_SESSION['lang'])){
       </div>
     </div>
   </div> <!-- /SLIDESHOW -->
-  <div class="filler-block">
-  </div>
+
+  <!-- AUTONOMOUS SECTION -->
   <div class="autonomous">
      <h3><?=translate('auto-header') ?></h3>
        <p><?=translate('auto-cont') ?></p>
@@ -189,6 +188,7 @@ if(!isset($_SESSION['lang'])){
        <p><?= translate('break-cont') ?></p>
    <div class="divider"></div>
   </div><!--/autonomous-->
+  
   <div class="filler-block">
   </div>
   <div class="comfort">
