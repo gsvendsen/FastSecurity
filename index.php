@@ -19,6 +19,7 @@ if(!isset($_SESSION['lang'])){
   <title>FastSecurity</title>
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/slide-show.css">
+  <link rel="stylesheet" type="text/css" href="css/footer.css">
 
 </head>
 <body>
@@ -212,7 +213,48 @@ if(!isset($_SESSION['lang'])){
       </form>
      </div><!--/CTA last-->
      <div class="contact">
+       <div class="contact-menu">
+         <div class="menu-col">
+          <ul>
+            <li class="menu-item">
+              <a href="#">Home</a>
+            </li>
+            <li class="menu-item">
+              <a href="#">Merchandise</a>
+            </li>
+            <li class="menu-item">
+              <a href="#">Comfort</a>
+            </li>
+            <li class="menu-item">
+              <a href="#">Safety</a>
+            </li>
+          </ul>
+         </div>
+         <div class="menu-col">
+           <ul>
+             <li class="menu-item">
+               <a href="#">Specifications</a>
+             </li>
+             <li class="menu-item">
+               <a href="#">Connect</a>
+             </li>
+             <li class="menu-item">
+               <a href="#">Policy</a>
+             </li>
+             <li class="menu-item">
+               <a href="#">Your Data</a>
+             </li>
+           </ul>
+         </div>
+       </div>
+       <div class="company-info">
+         <img class="footer-logotype" src="resources/logo.svg" alt="logo">
+         <p>FastSecurity, Inc.</p>
+         <p>Bråtaviks 12</p>
+         <p>439 53 - Åsa, Sweden</p>
+       </div>
      </div><!--/contact-->
+
     </div>
 
 </body>
