@@ -12,7 +12,7 @@ console.log(slide);
 
 const slideScroll = (num)=>{
   selectedSlide = slides.item(num);
-  selectedSlide.scrollIntoView();
+  selectedSlide.scrollIntoView({block:'center'});
   updateButton(num);
 }
 
