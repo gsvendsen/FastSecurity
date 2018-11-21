@@ -27,6 +27,13 @@ menuItems.forEach((menuItem) => {
 /* FADES LOGO OUT WHEN WINDOW SCROLLS DOWN */
 window.addEventListener('scroll', ()=>{
   logo.style.opacity = 1 - window.pageYOffset / 250;
+
+  if(logo.style.opacity < 0) {
+    logo.style.display = "none";
+  } else {
+    logo.style.display = "block";
+  }
+
 })
 
 const navBar = document.querySelector('.navbar')
