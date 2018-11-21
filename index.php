@@ -23,6 +23,8 @@ if(!isset($_SESSION['lang'])){
   <link rel="stylesheet" type="text/css" href="css/history.css">
   <link rel="stylesheet" type="text/css" href="css/article.css">
   <link rel="stylesheet" type="text/css" href="css/autonomous.css">
+  <link rel="stylesheet" type="text/css" href="css/comfort.css">
+
 
 
 
@@ -198,7 +200,17 @@ if(!isset($_SESSION['lang'])){
     </div>
   </div><!--/autonomous-->
 
+
+  <!-- COMFORT SECTION -->
   <div class="comfort">
+    <div class="comfort-image">
+    </div>
+    <div class="comfort-text">
+      <div class="text-container">
+        <h3 class="article-header">Maximum Comfort</h3>
+        <p class="article-text">The FS1 is engineered to perfection with the finest materials in mind, creating a fantastic experience combined with the luxorious comfort of leather seats.</p>
+      </div>
+    </div>
   </div><!--/comfort-->
 
   <div class="CTA">
