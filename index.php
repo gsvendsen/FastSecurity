@@ -26,6 +26,7 @@ if(!isset($_SESSION['lang'])){
   <link rel="stylesheet" type="text/css" href="css/comfort.css">
   <link rel="stylesheet" type="text/css" href="css/statistics.css">
   <link rel="stylesheet" type="text/css" href="css/smartphone.css">
+  <link rel="stylesheet" type="text/css" href="css/merch.css">
 
 
 
@@ -279,15 +280,13 @@ if(!isset($_SESSION['lang'])){
   </div><!--/smartphone-->
 
   <!--MERCH-->
-  <div class="smartphone">
-     <div class="smartphone-content">
-        <div>
+  <div class="merch">
+     <div class="merch-content">
+       <div class="merch-img">
            <img src='../resources/merch-store.png'>
-        </div>
-     </div>
-     <div class="merch-article">
-        <h3 class="merch-header"></h3>
-        <p class="merch-text"></p>
+       </div>
+       <h3 class="article-header merch-header">Yo</h3>
+       <p class="article-text merch-text">Waddup</p>
      <button class="button merch-button" type="button" name="merch-button">Our merch
      <svg class="button-arrow" width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
        <path d="M1 8.396L18.091 8.396" stroke="white" stroke-linecap="round"/>
@@ -296,6 +295,7 @@ if(!isset($_SESSION['lang'])){
      </svg>
      </button>
   </div><!--/merch-->
+
 
   <div class="footer">
      <div class="CTA last">
