@@ -3,6 +3,8 @@ const hamBar = document.querySelector(".bar");
 const menu = document.querySelector('.menu');
 const menuItems = document.querySelectorAll('.menu>ul>.menu-item')
 const logo = document.querySelector('.logo-container');
+const hyperLinks = document.querySelectorAll('a');
+const navBar = document.querySelector('.navbar')
 
 
 /* HAMBURGER MENU TOGGLE FOR MOBILE/TABLET */
@@ -25,23 +27,26 @@ menuItems.forEach((menuItem) => {
   })
 });
 
+/* PREVENTS LINKS FROM WORKING FOR DEMO */
+hyperLinks.forEach((hyperLink)=>{
+  hyperLink.addEventListener('click', (e)=>{
+    e.preventDefault();
+  })
+})
+
 /* FADES LOGO OUT WHEN WINDOW SCROLLS DOWN */
 window.addEventListener('scroll', ()=>{
-  logo.style.opacity = 1 - window.pageYOffset / 250;
 
+  /* HIDES LOGO THROUGH INITIAL SCROLL DOWN */
+  logo.style.opacity = 1 - window.pageYOffset / 250;
   if(logo.style.opacity < 0) {
     logo.style.display = "none";
   } else {
     logo.style.display = "block";
   }
 
-})
-
-const navBar = document.querySelector('.navbar')
-var startScrollPos = 0;
-
-window.addEventListener('scroll', ()=>{
-  if(window.pageYOffset == startScrollPos || (window.innerHeight + window.scrollY) >= document.body.offsetHeight){
+  /* HIDES NAVBAR AT TOP OR BOTTOM OF PAGE */
+  if(window.pageYOffset < 20 || (window.innerHeight + window.scrollY) >= document.body.offsetHeight){
     navBar.classList.add('hidden');
   } else {
     navBar.classList.remove('hidden');
