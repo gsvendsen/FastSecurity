@@ -473,20 +473,19 @@ if(!isset($_SESSION['lang'])){
    </div>
  </div><!--/merch-->
 
+ <div class="CTA last">
+   <div class="cta-section">
+     <h3 class="article-header white"><?= translate('CTA-header') ?></h3>
+     <p class="cta-text white"><?= translate('CTA-desc') ?></p>
+   </div>
+   <form class="email-sign-up">
+     <input class="email-input" type="text" name="email" placeholder="Email...">
+     <button class="register-button" type="submit" name="button"><?= translate('register') ?></button>
+   </form>
+ </div><!--/cta last-->
 
   <div class="footer">
-     <div class="CTA last">
-       <div class="cta-section">
-         <h3 class="article-header white"><?= translate('CTA-header') ?></h3>
-         <p class="cta-text white"><?= translate('CTA-desc') ?></p>
-       </div>
-      <form class="email-sign-up">
-       <input class="email-input" type="text" name="email" placeholder="Email...">
-       <button class="register-button" type="submit" name="button"><?= translate('register') ?></button>
-      </form>
-     </div><!--/cta last-->
      <div class="contact">
-       <div class="contact-menu">
          <div class="menu-col">
           <ul>
             <li class="menu-item">
@@ -519,7 +518,6 @@ if(!isset($_SESSION['lang'])){
              </li>
            </ul>
          </div>
-       </div>
        <div class="company-info">
          <img class="footer-logotype" src="resources/logo.svg" alt="logo">
          <p>FastSecurity, Inc.</p>
