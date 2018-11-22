@@ -23,8 +23,7 @@
   margin:19px 0 0 0;
 }
 
-
-.CTA {
+.cta {
    display:flex;
    flex-direction:row;
    align-items: center;
@@ -42,15 +41,15 @@
   width:50%;
 }
 
-.CTA > form {
+.cta > form {
   margin:0;
 }
 
-.CTA > form > button {
+.cta > form > button {
   width:150px;
 }
 
-.CTA > form > input {
+.cta > form > input {
   width:205px;
 }
 
@@ -90,7 +89,7 @@
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
 
-    .CTA {
+    .cta {
        display:flex;
        flex-direction:column;
        justify-content:center;
@@ -148,7 +147,7 @@
       color:white;
     }
 
-    .CTA.last {
+    .cta.last {
       background-color:#000C21;
       color:#FFFFFF;
       border-top:0px ;
