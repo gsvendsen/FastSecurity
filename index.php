@@ -467,7 +467,8 @@ if(!isset($_SESSION['lang'])){
        <path d="M10.6948 15.7922L18.0909 8.39615" stroke="white" stroke-linecap="round"/>
      </svg>
      </button>
-  </div><!--/merch-->
+   </div>
+ </div><!--/merch-->
 
 
   <div class="footer">
