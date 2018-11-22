@@ -10,6 +10,7 @@ hamButton.addEventListener("click", ()=>{
   console.log("bla");
   hamBar.classList.toggle("clicked");
   menu.classList.toggle("open");
+  document.body.classList.toggle("no-scroll");
 });
 
 /* GIVES MENU ITEM CLASS SELECTED WHEN CLICKED */
