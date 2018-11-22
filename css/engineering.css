@@ -18,8 +18,13 @@
   background-color: lightgrey;
   height:500px;
   width:100%;
-  align-items: flex-end;
+  align-items: flex-start;
   margin:0 0 120px 0;
+}
+
+.left {
+  margin: 0 0 120px -180px;
+  height:auto;
 }
 
 .read-more {
@@ -61,8 +66,72 @@
 }
 
 .stat-image {
-  /* graf-02 */
   background-image: url('../resources/graph.png');
   width:274px;
   height:150px;
+}
+
+.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+  .engineering {
+    padding: 0 0 0 22px;
+  }
+
+  .engineering-image {
+    height:170px;
+    margin:0 0 120px 0;
+  }
+
+  .left {
+    margin: 0 0 120px 0;
+    height:auto;
+  }
+
+  .engineering-article {
+    flex-direction: column;
+  }
+
+  .text-section {
+    width:auto;
+    margin:0 0 58px 0;
+  }
+
+  .stat-section {
+    padding:0;
+    width:100%;
+    flex-direction:column;
+  }
+
+  .stats {
+    margin: 0 0 53px 0;
+  }
+
+  .stats > p {
+    margin: 0px 0 5px 0;
+  }
+
+  .stat-image {
+    margin: 0 22px 0 0;
+    align-self: center;
+  }
+
+  .image-section {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .desktop {
+    display:none;
+  }
+
+  .mobile {
+    display:block;
+  }
+
 }
