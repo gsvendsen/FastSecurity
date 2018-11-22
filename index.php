@@ -214,17 +214,17 @@ if(!isset($_SESSION['lang'])){
     </div>
   </div><!--/comfort-->
 
-  <!-- CTA -->
-  <div class="CTA margin-after">
+  <!-- cta -->
+  <div class="cta margin-after">
     <div class="cta-section">
-      <h3 class="article-header"><?= translate('CTA-header') ?></h3>
-      <p class="cta-text"><?= translate('CTA-desc') ?></p>
+      <h3 class="article-header"><?= translate('cta-header') ?></h3>
+      <p class="cta-text"><?= translate('cta-desc') ?></p>
     </div>
      <form class="email-sign-up">
       <input class="email-input" type="text" name="email" placeholder="Email...">
       <button class="register-button" type="submit" name="button"><?= translate('register') ?></button>
      </form>
-  </div><!--/CTA-->
+  </div><!--/cta-->
 
   <!-- STATS -->
   <div class="statistics">
@@ -246,10 +246,10 @@ if(!isset($_SESSION['lang'])){
   </div>
 
   <!-- CTA -->
-  <div class="CTA margin-after">
+  <div class="cta margin-after">
     <div class="cta-section">
-      <h3 class="article-header"><?= translate('CTA-header') ?></h3>
-      <p class="cta-text"><?= translate('CTA-desc') ?></p>
+      <h3 class="article-header"><?= translate('cta-header') ?></h3>
+      <p class="cta-text"><?= translate('cta-desc') ?></p>
     </div>
      <form class="email-sign-up">
       <input class="email-input" type="text" name="email" placeholder="Email...">
@@ -258,16 +258,16 @@ if(!isset($_SESSION['lang'])){
   </div><!--/CTA-->
 
   <div class="footer">
-     <div class="CTA last">
+     <div class="cta last">
        <div class="cta-section">
-         <h3 class="article-header white"><?= translate('CTA-header') ?></h3>
-         <p class="cta-text white"><?= translate('CTA-desc') ?></p>
+         <h3 class="article-header white"><?= translate('cta-header') ?></h3>
+         <p class="cta-text white"><?= translate('cta-desc') ?></p>
        </div>
       <form class="email-sign-up">
        <input class="email-input" type="text" name="email" placeholder="Email...">
        <button class="register-button" type="submit" name="button"><?= translate('register') ?></button>
       </form>
-     </div><!--/CTA last-->
+     </div><!--/cta last-->
      <div class="contact">
        <div class="contact-menu">
          <div class="menu-col">
