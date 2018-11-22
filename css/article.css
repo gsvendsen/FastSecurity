@@ -65,8 +65,7 @@
    background-color:#FAFAFA;
    border-top:1px solid rgba(0,0,0,0.2);
    border-bottom:1px solid rgba(0,0,0,0.2);
-   padding:0 0 0 180px;
-   box-sizing: border-box;
+   padding:10px 0 10px 180px;
    color:#334A74;
 }
 
@@ -91,7 +90,6 @@
   font-size: 18px;
   letter-spacing: 0.03em;
   color:#334A74;
-  width:50%;
   font-weight: normal;
   margin:19px 0 0 0;
 }
@@ -171,6 +169,7 @@
        border-top:1px solid rgba(0,0,0,0.2);
        border-bottom:1px solid rgba(0,0,0,0.2);
        padding:20px;
+       box-sizing:border-box;
        color:#334A74;
     }
 
