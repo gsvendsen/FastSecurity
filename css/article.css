@@ -23,7 +23,7 @@
   margin:19px 0 0 0;
 }
 
-.cta {
+.CTA {
    display:flex;
    flex-direction:row;
    align-items: center;
@@ -41,15 +41,15 @@
   width:50%;
 }
 
-.cta > form {
+.CTA > form {
   margin:0;
 }
 
-.cta > form > button {
+.CTA > form > button {
   width:150px;
 }
 
-.cta > form > input {
+.CTA > form > input {
   width:205px;
 }
 
@@ -89,7 +89,7 @@
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
 
-    .cta {
+    .CTA {
        display:flex;
        flex-direction:column;
        justify-content:center;
