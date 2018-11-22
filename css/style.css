@@ -225,9 +225,15 @@ CLASS SELECTORS
   flex-direction: column;
   box-sizing: border-box;
   background-attachment: fixed;
-  padding: 0 31px 0 180px;
+  padding: 0 180px 0 180px;
   margin:0;
   justify-content: center;
+}
+
+.down-arrow {
+  position:absolute;
+  bottom:40px;
+  align-self: center;
 }
 
 .logotype {
