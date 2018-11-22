@@ -1,0 +1,41 @@
+.statistics {
+  width:100%;
+  height:500px;
+  background-color: #FBFBFB;
+  margin:0 0 220px 0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stats-box {
+  margin:50px;
+}
+
+.stats-text {
+  line-height: 17px;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: rgba(0, 0, 0, 0.55);
+  font-weight:normal;
+}
+
+.stats-info {
+  line-height: 27px;
+  font-size: 22px;
+  text-align: center;
+  color: #00205A;
+  font-weight: normal;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+  .statistics {
+    flex-direction: column;
+    height:585px;
+  }
+
+}
