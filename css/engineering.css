@@ -103,6 +103,7 @@
 
   .engineering-article {
     flex-direction: column;
+    margin: 0 0 62px 0;
   }
 
   .text-section {
