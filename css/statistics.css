@@ -36,6 +36,7 @@
   .statistics {
     flex-direction: column;
     height:585px;
+    margin:0 0 110px 0;
   }
 
 }
