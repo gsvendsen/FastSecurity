@@ -1,4 +1,20 @@
-@import url("https://p.typekit.net/p.css?s=1&k=yrr6lcj&ht=tk&f=14032.14033.14034&a=13081250&app=typekit&e=css");
+@font-face {
+font-family:"aktiv-grotesk";
+src:url("https://use.typekit.net/af/affdf5/00000000000000003b9b0328/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/affdf5/00000000000000003b9b0328/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/affdf5/00000000000000003b9b0328/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"aktiv-grotesk";
+src:url("https://use.typekit.net/af/90ce96/00000000000000003b9b0329/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/90ce96/00000000000000003b9b0329/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/90ce96/00000000000000003b9b0329/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+font-style:italic;font-weight:400;
+}
+
+@font-face {
+font-family:"aktiv-grotesk";
+src:url("https://use.typekit.net/af/b5ce2a/00000000000000003b9b032d/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/b5ce2a/00000000000000003b9b032d/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/b5ce2a/00000000000000003b9b032d/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-style:bold;font-weight:700;
+}
 
 /*
 GLOBAL SELECTORS
@@ -194,6 +210,7 @@ CLASS SELECTORS
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 .hero {
