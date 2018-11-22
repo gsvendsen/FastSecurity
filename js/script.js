@@ -1,7 +1,7 @@
 const hamButton = document.querySelector(".hamburger-menu");
 const hamBar = document.querySelector(".bar");
 const menu = document.querySelector('.menu');
-const menuItems = document.querySelectorAll('.menu-item')
+const menuItems = document.querySelectorAll('.menu>ul>.menu-item')
 const logo = document.querySelector('.logo-container');
 
 
