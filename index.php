@@ -298,21 +298,138 @@ if(!isset($_SESSION['lang'])){
         </div>
       </div>
     </div>
+
     <img class="engineering-image left" src="resources/interior.png">
+
+    <p class="article-subheader">WEIGHT</p>
+    <div class="engineering-article">
+      <div class="text-section">
+        <p class="article-medium">The difference between GVWR and wet weight is how much the motorcycle can safely carry, including fuel; the rider, passenger and their clothing; cargo; and other accessories.</p>
+        <div class="read-more desktop">
+          <a href="#">
+            Read more
+            <svg width="23" height="13" viewBox="0 0 23 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 6.60791L21.5263 6.60791" stroke="#7E8EAB" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M16.8923 2L21.6662 6.77387" stroke="#7E8EAB" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M16.8923 11.5479L21.6662 6.77399" stroke="#7E8EAB" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="stat-section">
+        <div class="stats">
+          <p class="stats-text">FS1 weighs</p>
+          <p class="stats-info">180 kg</p>
+          <p class="stats-text">with a</p>
+          <p class="stats-info">200 kWh</p>
+          <p class="stats-text">ion battery</p>
+        </div>
+        <div class="read-more mobile">
+          <a href="#">
+            Read more
+            <svg width="23" height="13" viewBox="0 0 23 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 6.60791L21.5263 6.60791" stroke="#7E8EAB" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M16.8923 2L21.6662 6.77387" stroke="#7E8EAB" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M16.8923 11.5479L21.6662 6.77399" stroke="#7E8EAB" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="engineering-image">
+    </div>
+
+    <p class="article-subheader">RANGE</p>
+    <div class="engineering-article">
+      <div class="text-section">
+        <p class="article-medium">The EPA rated the 2017 90D Model S's energy consumption at 3.096 miles per kWh (200.9 watt-hours per kilometer or 32.33 kWh/100 mi or 20.09 kWh/100.</p>
+        <div class="read-more desktop">
+          <a href="#">
+            Read more
+            <svg width="23" height="13" viewBox="0 0 23 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 6.60791L21.5263 6.60791" stroke="#7E8EAB" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M16.8923 2L21.6662 6.77387" stroke="#7E8EAB" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M16.8923 11.5479L21.6662 6.77399" stroke="#7E8EAB" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="stat-section">
+        <div class="stats">
+          <p class="stats-text">with an ion</p>
+          <p class="stats-info">200 kWh</p>
+          <p class="stats-text">and a range of</p>
+          <p class="stats-info">970 km</p>
+        </div>
+        <div class="read-more mobile">
+          <a href="#">
+            Read more
+            <svg width="23" height="13" viewBox="0 0 23 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 6.60791L21.5263 6.60791" stroke="#7E8EAB" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M16.8923 2L21.6662 6.77387" stroke="#7E8EAB" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M16.8923 11.5479L21.6662 6.77399" stroke="#7E8EAB" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- CTA -->
+    <div class="CTA margin-after indented">
+      <div class="cta-section">
+        <h3 class="article-header"><?= translate('CTA-header') ?></h3>
+        <p class="cta-text"><?= translate('CTA-desc') ?></p>
+      </div>
+       <form class="email-sign-up">
+        <input class="email-input" type="text" name="email" placeholder="Email...">
+        <button class="register-button" type="submit" name="button"><?= translate('register') ?></button>
+       </form>
+    </div><!--/CTA-->
+
+    <div class="multi-headers">
+      <div class="subheader">
+        <p class="article-subheader">REGENERATIVE BRAKES</p>
+      </div>
+      <div class="subheader">
+        <p class="article-subheader">SOMETHING ELSE</p>
+      </div>
+    </div>
+
+    <div class="engineering-article">
+      <div class="text-section no-border">
+        <p class="article-medium">The EPA rated the 2017 90D Model S's energy consumption at 3.096 miles per kWh (200.9 watt-hours per kilometer or 32.33 kWh/100 mi or 20.09 kWh/100.</p>
+        <div class="read-more desktop">
+          <a href="#">
+            Read more
+            <svg width="23" height="13" viewBox="0 0 23 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 6.60791L21.5263 6.60791" stroke="#7E8EAB" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M16.8923 2L21.6662 6.77387" stroke="#7E8EAB" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M16.8923 11.5479L21.6662 6.77399" stroke="#7E8EAB" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="text-section no-border">
+        <p class="article-medium">The EPA rated the 2017 90D Model S's energy consumption at 3.096 miles per kWh (200.9 watt-hours per kilometer or 32.33 kWh/100 mi or 20.09 kWh/100.</p>
+        <div class="read-more mobile">
+          <a href="#">
+            Read more
+            <svg width="23" height="13" viewBox="0 0 23 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 6.60791L21.5263 6.60791" stroke="#7E8EAB" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M16.8923 2L21.6662 6.77387" stroke="#7E8EAB" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M16.8923 11.5479L21.6662 6.77399" stroke="#7E8EAB" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="engineering-image">
+    </div>
+
+
   </div>
   <!-- /ENGINEERING -->
-
-  <!-- CTA -->
-  <div class="CTA margin-after">
-    <div class="cta-section">
-      <h3 class="article-header"><?= translate('CTA-header') ?></h3>
-      <p class="cta-text"><?= translate('CTA-desc') ?></p>
-    </div>
-     <form class="email-sign-up">
-      <input class="email-input" type="text" name="email" placeholder="Email...">
-      <button class="register-button" type="submit" name="button"><?= translate('register') ?></button>
-     </form>
-  </div><!--/CTA-->
 
   <!--SMARTPHONE-->
   <div class="smartphone">
