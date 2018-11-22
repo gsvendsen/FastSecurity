@@ -25,6 +25,7 @@ if(!isset($_SESSION['lang'])){
   <link rel="stylesheet" type="text/css" href="css/autonomous.css">
   <link rel="stylesheet" type="text/css" href="css/comfort.css">
   <link rel="stylesheet" type="text/css" href="css/statistics.css">
+  <link rel="stylesheet" type="text/css" href="css/smartphone.css">
 
 
 
@@ -256,6 +257,45 @@ if(!isset($_SESSION['lang'])){
       <button class="register-button" type="submit" name="button"><?= translate('register') ?></button>
      </form>
   </div><!--/CTA-->
+
+  <!--SMARTPHONE-->
+  <div class="smartphone">
+     <div class="smartphone-content">
+        <div class="smartphone-article">
+           <h3 class="article-header"><?= translate('phone-header') ?></h3>
+           <p class="article-text"><?= translate('phone-content') ?></p>
+        </div>
+        <div>
+           <img src='../resources/smartphone.png'>
+        </div>
+     </div>
+     <button class="button phone-button" type="button" name="phone-button">Read more
+     <svg class="button-arrow" width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+       <path d="M1 8.396L18.091 8.396" stroke="white" stroke-linecap="round"/>
+       <path d="M10.6948 1L18.0909 8.39608" stroke="white" stroke-linecap="round"/>
+       <path d="M10.6948 15.7922L18.0909 8.39615" stroke="white" stroke-linecap="round"/>
+     </svg>
+     </button>
+  </div><!--/smartphone-->
+
+  <!--MERCH-->
+  <div class="smartphone">
+     <div class="smartphone-content">
+        <div>
+           <img src='../resources/merch-store.png'>
+        </div>
+     </div>
+     <div class="merch-article">
+        <h3 class="merch-header"></h3>
+        <p class="merch-text"></p>
+     <button class="button merch-button" type="button" name="merch-button">Our merch
+     <svg class="button-arrow" width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+       <path d="M1 8.396L18.091 8.396" stroke="white" stroke-linecap="round"/>
+       <path d="M10.6948 1L18.0909 8.39608" stroke="white" stroke-linecap="round"/>
+       <path d="M10.6948 15.7922L18.0909 8.39615" stroke="white" stroke-linecap="round"/>
+     </svg>
+     </button>
+  </div><!--/merch-->
 
   <div class="footer">
      <div class="CTA last">
