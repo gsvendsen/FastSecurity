@@ -19,5 +19,7 @@ return [
   'auto-cont' => 'Autonomous cars combine a variety of sensors to perceive their surroundings, such as radar, computer vision, Lidar, sonar, GPS, odometry and inertial measurement units. A self-driving car, also known as a robot car, autonomous car, or driverless car is a vehicle that is capable of sensing its environment and moving with little or no human input.',
   'break-header' => 'Breaking sensors',
   'break-cont' => 'Hitting top speeds or hugging tight corners, the Lucid Air’s perfectly calibrated air springs, advanced damper technology, and low center of gravity deliver precision handling and a smooth ride.',
+  'phone-header' => 'Smartphone App',
+  'phone-content' => 'Adjust your special bike to your liking using our smartphone app that you can connect to the FS1. Calibrate temperature, torque and other special features in order to make your FS1 suited best for you.',
 
 ];
