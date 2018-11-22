@@ -25,6 +25,7 @@ if(!isset($_SESSION['lang'])){
   <link rel="stylesheet" type="text/css" href="css/autonomous.css">
   <link rel="stylesheet" type="text/css" href="css/comfort.css">
   <link rel="stylesheet" type="text/css" href="css/statistics.css">
+  <link rel="stylesheet" type="text/css" href="css/engineering.css">
 
 
 
@@ -244,6 +245,46 @@ if(!isset($_SESSION['lang'])){
       <p class="stats-text">gives 1 hours driving</p>
     </div>
   </div>
+
+  <!-- ENGINEERING -->
+  <div class="engineering">
+    <div class="eng-header">
+      <p class="article-pre">SPECIFICATIONS</p>
+      <p class="article-bold">Engineered with perfection in mind.</p>
+      <p class="article-subbold">The FS1 is engineered to perfection with the finest materials in mind, creating a fantastic experience combined with the luxorious comfort of leather seats.</p>
+    </div>
+    <div class="engineering-image">
+    </div>
+    <p class="article-subheader">ACCELERATION AND SPEED</p>
+    <div class="engineering-article">
+      <div class="text-section">
+        <p class="article-medium">The FS1 is engineered to perfection with the finest materials in mind, creating a fantastic experience combined with the luxorious comfort of leather seats.</p>
+        <div class="read-more">
+          <a href="#">
+            Read more
+            <svg width="23" height="13" viewBox="0 0 23 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 6.60791L21.5263 6.60791" stroke="#7E8EAB" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M16.8923 2L21.6662 6.77387" stroke="#7E8EAB" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M16.8923 11.5479L21.6662 6.77399" stroke="#7E8EAB" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="stat-section">
+        <div class="stats">
+          <p class="stats-text">uo to</p>
+          <p class="stats-info">360 km / h</p>
+          <p class="stats-text">with</p>
+          <p class="stats-info">600hp</p>
+          <p class="stats-text">with turbo charge</p>
+        </div>
+        <div class="stat-image">
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /ENGINEERING -->
 
   <!-- CTA -->
   <div class="CTA margin-after">
