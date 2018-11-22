@@ -213,6 +213,19 @@ if(!isset($_SESSION['lang'])){
     </div>
   </div><!--/comfort-->
 
+  <!-- CTA -->
+  <div class="CTA margin-after">
+    <div class="cta-section">
+      <h3 class="article-header"><?= translate('CTA-header') ?></h3>
+      <p class="cta-text"><?= translate('CTA-desc') ?></p>
+    </div>
+     <form class="email-sign-up">
+      <input class="email-input" type="text" name="email" placeholder="Email...">
+      <button class="register-button" type="submit" name="button"><?= translate('register') ?></button>
+     </form>
+  </div><!--/CTA-->
+
+  <!-- CTA -->
   <div class="CTA margin-after">
     <div class="cta-section">
       <h3 class="article-header"><?= translate('CTA-header') ?></h3>
