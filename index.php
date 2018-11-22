@@ -24,6 +24,7 @@ if(!isset($_SESSION['lang'])){
   <link rel="stylesheet" type="text/css" href="css/article.css">
   <link rel="stylesheet" type="text/css" href="css/autonomous.css">
   <link rel="stylesheet" type="text/css" href="css/comfort.css">
+  <link rel="stylesheet" type="text/css" href="css/statistics.css">
 
 
 
@@ -224,6 +225,25 @@ if(!isset($_SESSION['lang'])){
       <button class="register-button" type="submit" name="button"><?= translate('register') ?></button>
      </form>
   </div><!--/CTA-->
+
+  <!-- STATS -->
+  <div class="statistics">
+    <div class="stats-box">
+      <p class="stats-text">more than</p>
+      <p class="stats-info">300 hours</p>
+      <p class="stats-text">battery charge life</p>
+    </div>
+    <div class="stats-box">
+      <p class="stats-text">less than</p>
+      <p class="stats-info">5 hours</p>
+      <p class="stats-text">charge time</p>
+    </div>
+    <div class="stats-box">
+      <p class="stats-text">charging</p>
+      <p class="stats-info">5 minutes</p>
+      <p class="stats-text">gives 1 hours driving</p>
+    </div>
+  </div>
 
   <!-- CTA -->
   <div class="CTA margin-after">
