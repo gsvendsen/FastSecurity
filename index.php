@@ -391,7 +391,7 @@ if(!isset($_SESSION['lang'])){
         <p class="article-subheader">REGENERATIVE BRAKES</p>
       </div>
       <div class="subheader">
-        <p class="article-subheader">SOMETHING ELSE</p>
+        <p class="desktop article-subheader">SOMETHING ELSE</p>
       </div>
     </div>
 
@@ -409,6 +409,7 @@ if(!isset($_SESSION['lang'])){
           </a>
         </div>
       </div>
+      <p class="mobile article-subheader">SOMETHING ELSE</p>
       <div class="text-section no-border">
         <p class="article-medium">The EPA rated the 2017 90D Model S's energy consumption at 3.096 miles per kWh (200.9 watt-hours per kilometer or 32.33 kWh/100 mi or 20.09 kWh/100.</p>
         <div class="read-more mobile">

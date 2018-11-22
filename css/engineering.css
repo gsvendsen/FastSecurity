@@ -139,4 +139,8 @@
     display:block;
   }
 
+  .mobile.article-subheader {
+    margin: 0 0 19px 0;
+  }
+
 }
