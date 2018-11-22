@@ -252,6 +252,10 @@ CLASS SELECTORS
   letter-spacing: 0.03em;
 }
 
+.no-scroll {
+  overflow-y: hidden;
+}
+
 
 .desktop-menu {
   height:80px;
