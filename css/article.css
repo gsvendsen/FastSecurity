@@ -108,6 +108,9 @@
   margin:0 0 220px 0;
 }
 
+.text-section.no-border {
+  border:0;
+}
 
 .CTA.last {
   background-color:#000C21;
@@ -117,6 +120,9 @@
   height:370px;
 }
 
+.indented {
+  margin: 0 0 120px -180px;
+}
 
 
 @media only screen and (max-width: 768px) {
@@ -198,6 +204,10 @@
 
     .CTA > form > input {
       width:205px;
+    }
+
+    .indented {
+      margin: 0 0 120px -22px;
     }
 
     .cta-text {
