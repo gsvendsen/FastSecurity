@@ -69,6 +69,8 @@ if(!isset($_SESSION['lang'])){
       </li>
     </ul>
   </div>
+
+  <!-- MOBILE MENU -->
   <div class="menu">
     <ul>
       <li class="menu-item selected">
@@ -91,8 +93,9 @@ if(!isset($_SESSION['lang'])){
         <a class="lang-option" href="/?lang=sv"><img class="flag" src="resources/Flag_SWE.svg"></a>
       </li>
     </ul>
-  </div>
+  </div><!-- / MOBILE MENU -->
 
+  <!-- HERO -->
   <div class="hero">
     <div class="title-container">
       <h1 class="hero-header"><?= translate('hero-header') ?></h1>
@@ -102,7 +105,13 @@ if(!isset($_SESSION['lang'])){
       <input class="email-input" type="text" name="email" placeholder="Email...">
       <button type="submit" name="register-button"><?= translate('register') ?></button>
     </form>
-  </div>
+    <svg class="down-arrow" width="26" height="29" viewBox="0 0 26 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M13.3961 1V27.3342" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M24.7922 15.9381L13.3962 27.3342" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M2 15.9381L13.3961 27.3342" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    </svg>
+
+  </div><!-- /HERO -->
 
   <!-- HISTORY -->
   <div class="history">
