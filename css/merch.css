@@ -1,0 +1,14 @@
+.merch {
+   display:flex;
+   flex-direction:column;
+   padding:0px 20px 0px 20px;
+   color: #000000;
+}
+
+.merch-img {
+   margin-bottom:120px;
+}
+
+.merch-button {
+   margin-bottom:110px;
+}
