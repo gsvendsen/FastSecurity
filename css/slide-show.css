@@ -42,6 +42,10 @@
   align-items: center;
 }
 
+.slide-show-photo > img {
+  border-radius: 40px;
+}
+
 .slide-show-text {
   width:50%;
   height:453px;
