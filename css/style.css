@@ -80,7 +80,7 @@ GLOBAL SELECTORS
  }
 
  ul li {
-   margin: 35px 0 35px 0;
+   margin: 50px 0 50px 0;
  }
 
 
@@ -421,6 +421,12 @@ MEDIA QUERY MOBILE
      opacity:1;
      height:100vh;
    }
+
+   .menu-item a{
+    font-size: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+   }
  }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -474,6 +480,12 @@ MEDIA QUERY MOBILE
    padding:0 0 50px 55px;
    box-sizing: border-box;
    align-items: center;
+ }
+
+ .menu-item a{
+  font-size: 24px;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
  }
 
  .open {
