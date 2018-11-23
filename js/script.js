@@ -4,8 +4,9 @@ const menu = document.querySelector('.menu');
 const menuItems = document.querySelectorAll('.menu>ul>.menu-item')
 const logo = document.querySelector('.logo-container');
 const hyperLinks = document.querySelectorAll('a');
-const navBar = document.querySelector('.navbar')
-
+const navBar = document.querySelector('.navbar');
+const downArrow = document.querySelector('.down-arrow');
+const historySection = document.querySelector('.history');
 
 /* HAMBURGER MENU TOGGLE FOR MOBILE/TABLET */
 hamButton.addEventListener("click", ()=>{
@@ -14,6 +15,10 @@ hamButton.addEventListener("click", ()=>{
   menu.classList.toggle("open");
   document.body.classList.toggle("no-scroll");
 });
+
+downArrow.addEventListener('click', ()=>{
+  historySection.scrollIntoView({block:'center'});
+})
 
 /* GIVES MENU ITEM CLASS SELECTED WHEN CLICKED */
 menuItems.forEach((menuItem) => {
