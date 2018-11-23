@@ -16,8 +16,8 @@
 }
 
 .engineering-image {
+  height: auto;
   background-color: lightgrey;
-  height:500px;
   width:100%;
   align-items: flex-start;
   margin:0 0 120px 0;

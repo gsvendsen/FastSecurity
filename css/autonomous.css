@@ -23,9 +23,9 @@
 .autonomous-image {
   width:650px;
   height:650px;
-  background-size: cover;
   background-position: center;
   background: url('../resources/tekniskoverlay.png');
+  background-size: cover;
 }
 
 
