@@ -52,6 +52,8 @@
   display: flex;
   margin:0 0 0 5px;
   align-items: center;
+  padding: 0 0 0 50px;
+  box-sizing: border-box;
 }
 
 .slide-show-controller {
@@ -192,4 +194,11 @@ display: none;
       font-size:24px;
     }
 
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+ /* For Tablets: */
+  .viewport-container {
+    padding:0 100px 0 100px;
+  }
 }
