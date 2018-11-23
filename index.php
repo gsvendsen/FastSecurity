@@ -268,8 +268,7 @@ if(!isset($_SESSION['lang'])){
       <p class="article-bold">Engineered with perfection in mind.</p>
       <p class="article-subbold">The FS1 is engineered to perfection with the finest materials in mind, creating a fantastic experience combined with the luxorious comfort of leather seats.</p>
     </div>
-    <div class="engineering-image">
-    </div>
+    <img class="engineering-image" src="resources/engineering.jpg">
     <p class="article-subheader">ACCELERATION AND SPEED</p>
     <div class="engineering-article">
       <div class="text-section">
@@ -349,8 +348,7 @@ if(!isset($_SESSION['lang'])){
       </div>
     </div>
 
-    <div class="engineering-image">
-    </div>
+    <img class="engineering-image" src="resources/exterior.jpg">
 
     <p class="article-subheader">RANGE</p>
     <div class="engineering-article">
