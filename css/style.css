@@ -42,6 +42,21 @@ GLOBAL SELECTORS
    color:white;
  }
 
+ a:after{
+   content: "Links dont work in demo!";
+   display: block;
+   background-color:white;
+   width: 0;
+   position:absolute;
+   height: 0;
+   opacity: 0;
+   overflow:hidden;
+   padding:4px;
+   margin:30px 0 40px 0;
+   transition:width 0.2s ease-in-out;
+   transition:height 1s ease-in-out;
+ }
+
  .hero-sub {
    line-height: normal;
    font-size: 18px;
@@ -143,6 +158,19 @@ CLASS SELECTORS
   transform: rotate(-45deg);
   bottom: 0;
   background: #000;
+}
+
+.deny:after {
+  content: "Links dont work in demo!";
+  display: block;
+  background-color:red;
+  width: 200px;
+  color:white;
+  opacity:1;
+  position:absolute;
+  height: auto;
+  transition:width 0.2s ease-in-out;
+  transition:height 1s ease-in-out;
 }
 
 .email-sign-up {
