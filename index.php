@@ -201,7 +201,7 @@ if(!isset($_SESSION['lang'])){
 
   <!-- AUTONOMOUS SECTION -->
   <div class="autonomous">
-    <div class="text-section">
+    <div class="autonomous-text-section">
       <div class="header-section pink-margin">
         <h3 class="article-header"><?=translate('auto-header') ?></h3>
         <p class="article-text">Autonomous cars combine a variety of sensors to perceive their surroundings, such as radar, computer vision, Lidar, sonar, GPS, odometry and inertial measurement units.</p>
