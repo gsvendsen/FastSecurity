@@ -33,7 +33,7 @@
     /* For mobile phones: */
 
   .autonomous {
-    margin:110px 0 0 0;
+    margin:110px 0 110px 0;
     height:auto;
     width:100%;
     flex-direction:column;
@@ -44,7 +44,7 @@
 
 
   .autonomous-image {
-    width:60%;
+    width:100%;
     height:300px;
     align-self: flex-end;
     background-size: cover;
