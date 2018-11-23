@@ -32,10 +32,15 @@ menuItems.forEach((menuItem) => {
   })
 });
 
-/* PREVENTS LINKS FROM WORKING FOR DEMO */
+/* PREVENTS LINKS FROM WORKING FOR DEMO AND PROMPTS USER */
 hyperLinks.forEach((hyperLink)=>{
   hyperLink.addEventListener('click', (e)=>{
     e.preventDefault();
+
+    hyperLink.classList.add('deny');
+    setTimeout(function(){
+      hyperLink.classList.remove('deny');
+    }, 500)
   })
 })
 
