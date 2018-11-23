@@ -148,25 +148,25 @@ if(!isset($_SESSION['lang'])){
         </div>
         <div class="slide">
           <div class="slide-show-photo">
-            <img src="https://pbs.twimg.com/profile_images/73758361/square_profile_shot_400x400.jpg" class="photo">
+            <img src="https://stelena.se/wp-content/uploads/2018/02/Maria-Nemeth-Headshot-1-Square.jpeg" class="photo">
           </div>
           <div class="slide-show-text">
             <div class="text-container">
-              <h1 class="quote">"Waheeey!!!"</h1>
-              <p class="quote-name">Mathilde Thatsum</p>
-              <p class="quote-source">CEO, Electric Solutions</p>
+              <h1 class="quote">"Oh my this bike is brilliant!"</h1>
+              <p class="quote-name">Margaret Thatcher</p>
+              <p class="quote-source">CEO, Hybrid Technology</p>
             </div>
           </div>
         </div>
         <div class="slide">
           <div class="slide-show-photo">
-            <img src="https://www.hawthorn.biz/sites/default/files/styles/segment_people_profile/public/David%20Barton%20Profile%20Shot%20Square_2.jpg?itok=kFNiCDSU" class="photo">
+            <img src="https://static1.squarespace.com/static/50f79c6fe4b00d3480c9bbf0/5b2a97c4f950b7e4204d64a4/5b4e3bb0aa4a9964ca2c7804/1531853792642/Headshot_20180510_Angel+Rosario_Richard_Waine_Lancaster_PA_0080+%28square+500px%29.jpg" class="photo">
           </div>
           <div class="slide-show-text">
             <div class="text-container">
-              <h1 class="quote">"Another quote!!!"</h1>
-              <p class="quote-name">Mathilde Thatsum</p>
-              <p class="quote-source">CEO, Electric Solutions</p>
+              <h1 class="quote">"The FS01 is a revolutionary piece of transport for the best."</h1>
+              <p class="quote-name">Adam Savage</p>
+              <p class="quote-source">President, France</p>
             </div>
           </div>
         </div>
