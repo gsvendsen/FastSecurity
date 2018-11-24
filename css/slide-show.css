@@ -8,9 +8,12 @@
 }
 
 .quote {
-  font-weight: normal;
-  font-size:35px;
-  color:black;
+  line-height: 28px;
+  font-size: 23px;
+  letter-spacing: 0.03em;
+  color: #000000;
+  font-weight:normal;
+
 }
 
 .viewport-container {
@@ -40,10 +43,6 @@
   align-self: center;
   display: flex;
   align-items: center;
-}
-
-.slide-show-photo > img {
-  border-radius: 40px;
 }
 
 .slide-show-text {
@@ -87,12 +86,21 @@ display: none;
 
 .quote-name {
   margin: 45px 0 0 0;
-  font-weight: bold;
-  color:black;
+  line-height: normal;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  font-weight:normal;
 }
 
 .quote-source {
-  color:grey;
+  line-height: normal;
+  font-size: 12px;
+  letter-spacing: 0.03em;
+  font-weight:normal;
+  color: rgba(0, 0, 0, 0.5);
+
+
 }
 
 .slide-button {
@@ -153,8 +161,8 @@ display: none;
     }
 
     .slide-show-photo {
-      width:50%;
-      height:50%;
+      width:100%;
+      height:100%;
       justify-content: center;
     }
 
@@ -184,15 +192,21 @@ display: none;
 
     .photo {
       margin:0;
-      max-height: 200px;
-      max-width: 200px;
+      max-height: 246px;
+      max-width: 246px;
       width:100%;
       height:100%;
     }
 
     .quote {
-      font-weight: normal;
-      font-size:24px;
+      line-height: 17px;
+      font-size: 14px;
+      text-align: center;
+      letter-spacing: 0.03em;
+      font-weight:normal;
+      color: #000000;
+
+
     }
 
 }
