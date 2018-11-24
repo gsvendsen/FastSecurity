@@ -38,7 +38,7 @@ if(!isset($_SESSION['lang'])){
 
 </head>
 <body>
-  <div class="mobile-container mobile">
+  <div class="mobile-container">
     <a href="" class="logo-container"><img class="logotype" src="resources/logo_white.svg" alt="logo"></a>
   </div>
   <div class="navbar hidden">
@@ -523,6 +523,9 @@ if(!isset($_SESSION['lang'])){
              </li>
              <li class="menu-item">
                <a href="#">Your Data</a>
+             </li>
+             <li class="menu-item">
+              <a href="#">Product Folder</a>
              </li>
            </ul>
          </div>
