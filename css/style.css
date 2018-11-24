@@ -272,15 +272,14 @@ CLASS SELECTORS
 }
 
 .logotype {
-  height:50px;
-  width:50px;
+  height:22px;
+  width:29px;
 }
 
 .logo-container {
   position:static;
   z-index:2;
   display: flex;
-  padding-left:90px;
   height:80px;
   align-items: center;
   justify-content: flex-start;
@@ -305,6 +304,8 @@ CLASS SELECTORS
   display:flex;
   flex-direction: row;
   position:absolute;
+  padding:0 0 0 180px;
+  box-sizing: border-box;
   top:0;
   z-index:1;
 }
@@ -429,6 +430,11 @@ MEDIA QUERY MOBILE
      width:100%;
    }
 
+   .logotype {
+     width:33px;
+     height:26px;
+   }
+
    .menu-list {
      display:flex;
      width:100%;
@@ -513,6 +519,11 @@ MEDIA QUERY MOBILE
    width:100%;
  }
 
+ .logotype {
+   width:33px;
+   height:26px;
+ }
+
  .menu {
    height:0;
    width:100%;
@@ -545,7 +556,7 @@ MEDIA QUERY MOBILE
    align-items: center;
    justify-content: flex-start;
  }
- 
+
 
  .open {
    opacity:1;
