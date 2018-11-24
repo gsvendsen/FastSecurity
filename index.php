@@ -18,7 +18,7 @@ if(!isset($_SESSION['lang'])){
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FastSecurity</title>
 
-  <link rel="icon" href="/resources/logo.svg">
+  <link rel="icon" href="/resources/logo_black.svg">
 
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/slide-show.css">
@@ -39,7 +39,7 @@ if(!isset($_SESSION['lang'])){
 </head>
 <body>
   <div class="logo-container">
-    <a href="" class="logo-container"><img class="logotype" src="resources/logo.svg" alt="logo"></a>
+    <a href="" class="logo-container"><img class="logotype" src="resources/logo_black.svg" alt="logo"></a>
   </div>
   <div class="navbar hidden">
     <div class="hamburger-menu">
@@ -526,7 +526,7 @@ if(!isset($_SESSION['lang'])){
            </ul>
          </div>
        <div class="company-info">
-         <img class="footer-logotype" src="resources/logo.svg" alt="logo">
+         <img class="footer-logotype" src="resources/logo_white.svg" alt="logo">
          <p>FastSecurity, Inc.</p>
          <p>Bråtaviks 12</p>
          <p>439 53 - Åsa, Sweden</p>
