@@ -38,8 +38,8 @@ if(!isset($_SESSION['lang'])){
 
 </head>
 <body>
-  <div class="logo-container">
-    <a href="" class="logo-container"><img class="logotype" src="resources/logo_black.svg" alt="logo"></a>
+  <div class="mobile-container mobile">
+    <a href="" class="logo-container"><img class="logotype" src="resources/logo_white.svg" alt="logo"></a>
   </div>
   <div class="navbar hidden">
     <div class="hamburger-menu">
@@ -47,6 +47,7 @@ if(!isset($_SESSION['lang'])){
     </div>
   </div>
   <div class="desktop-menu">
+    <a href="" class="logo-container"><img class="logotype" src="resources/logo_black.svg" alt="logo"></a>
     <ul class="menu-list">
       <li class="menu-item">
         <a class="nav-link" href="#"><?= translate('home') ?></a>
@@ -58,12 +59,12 @@ if(!isset($_SESSION['lang'])){
         <a class="nav-link" href="#"><?= translate('safety') ?></a>
       </li>
       <li class="menu-item">
-        <a class="nav-link" href="#"><?= translate('testimonials') ?></a>
+        <a class="nav-link" href="#">Product Folder</a>
       </li>
       <li class="menu-item">
         <a class="nav-link" href="#"><?= translate('contact') ?></a>
       </li>
-      <li>
+      <li class="flag-container">
         <a class="lang-option" href="/?lang=en"><img class="flag" src="resources/Flag_UK.svg"></a>
         <a class="lang-option" href="/?lang=sv"><img class="flag" src="resources/Flag_SWE.svg"></a>
       </li>

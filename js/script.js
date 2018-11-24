@@ -55,7 +55,7 @@ window.addEventListener('scroll', ()=>{
   if(logo.style.opacity < 0) {
     logo.style.display = "none";
   } else {
-    logo.style.display = "block";
+    logo.style.display = "flex";
   }
 
   /* HIDES NAVBAR AT TOP OR BOTTOM OF PAGE */
