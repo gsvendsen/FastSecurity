@@ -331,7 +331,9 @@ CLASS SELECTORS
   display: none;
 }
 
-
+.mobile-container {
+  display:none;
+}
 
 .navbar {
   display:none;
