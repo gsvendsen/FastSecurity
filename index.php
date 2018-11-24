@@ -141,7 +141,7 @@ if(!isset($_SESSION['lang'])){
           </div>
           <div class="slide-show-text">
             <div class="text-container">
-              <h1 class="quote">"The FS1 is an incredible vehicle! More text here please... And especially the extra safety measures!"</h1>
+              <h1 class="quote">“The FS1 is an incredible vehicle! All of the components are crafted to perfection. The luxurious interior and the slick design is just what a motorcycle enthusiast deserves. To keep you safe we have incorporated strong materials especially in the extra safety measures!”</h1>
               <p class="quote-name">Mathilde Thatsum</p>
               <p class="quote-source">CEO, Electric Solutions</p>
             </div>
@@ -210,7 +210,7 @@ if(!isset($_SESSION['lang'])){
       </div>
       <div class="subheader-section">
         <h5 class="article-subheader">BRAKING SENSORS</h5>
-        <p class="article-text"><?= translate('break-cont') ?></p>
+        <p class="article-text">With the new SG-2 braking sensors self driving has never been safer. Humans, with a one second reaction time do not always have enough time to react to dangers in trafic, with AI systems in place you can rest assured that less accidents will take place.</p>
       </div>
     </div>
     <div class="autonomous-image">
@@ -226,7 +226,7 @@ if(!isset($_SESSION['lang'])){
     <div class="comfort-text">
       <div class="text-container">
         <h3 class="article-header">Maximum Comfort</h3>
-        <p class="article-text">The FS1 is engineered to perfection with the finest materials in mind, creating a fantastic experience combined with the luxorious comfort of leather seats.</p>
+        <p class="article-text">The FS1 is engineered to perfection with the finest materials in mind, creating a fantastic experience combined with the luxurious comfort of leather seats. All of the materials are carefully selected from the interior carpet to the strings in the seat. The comforting cushion embedded in the seat measures shape and stability. All of this to give you the most satisfying experience of this century.</p>
       </div>
     </div>
   </div><!--/comfort-->
@@ -294,8 +294,7 @@ if(!isset($_SESSION['lang'])){
           <p class="stats-text">with turbo charge</p>
         </div>
         <div class="image-section">
-          <div class="stat-image">
-          </div>
+          <img class="stat-image" src="resources/graph.png" alt="Graph of acceleration">
           <p class="stats-text">Graph on the acceleration – FS1</p>
         </div>
         <div class="read-more mobile">
@@ -316,7 +315,7 @@ if(!isset($_SESSION['lang'])){
     <p class="article-subheader">WEIGHT</p>
     <div class="engineering-article">
       <div class="text-section">
-        <p class="article-medium">The difference between GVWR and wet weight is how much the motorcycle can safely carry, including fuel; the rider, passenger and their clothing; cargo; and other accessories.</p>
+        <p class="article-medium">The FS1 is as light as a heavy motorcycle safetely can be. With an astounding  weight of 180 kilograms, sliding through curves is as natural as it gets.</p>
         <div class="read-more desktop">
           <a href="#">
             Read more
@@ -354,7 +353,7 @@ if(!isset($_SESSION['lang'])){
     <p class="article-subheader">RANGE</p>
     <div class="engineering-article">
       <div class="text-section">
-        <p class="article-medium">The EPA rated the 2017 90D Model S's energy consumption at 3.096 miles per kWh (200.9 watt-hours per kilometer or 32.33 kWh/100 mi or 20.09 kWh/100.</p>
+        <p class="article-medium">With lithium ion battery packs, The FS1 has a range up to 970 km per charge, depending on speed, acceleration, weather and terrain. </p>
         <div class="read-more desktop">
           <a href="#">
             Read more
@@ -402,13 +401,13 @@ if(!isset($_SESSION['lang'])){
         <p class="article-subheader">REGENERATIVE BRAKES</p>
       </div>
       <div class="subheader">
-        <p class="desktop article-subheader">SOMETHING ELSE</p>
+        <p class="desktop article-subheader">ELECTRIC DRIVE-TRAIN MOTOR</p>
       </div>
     </div>
 
     <div class="engineering-article">
       <div class="text-section no-border">
-        <p class="article-medium">The EPA rated the 2017 90D Model S's energy consumption at 3.096 miles per kWh (200.9 watt-hours per kilometer or 32.33 kWh/100 mi or 20.09 kWh/100.</p>
+        <p class="article-medium">The regenerative brakes in the FS1 converts the kinetic energy which is usually lost when applying the brakes into a form of energy which can be either used immediately or stored until needed.</p>
         <div class="read-more desktop">
           <a href="#">
             Read more
@@ -420,9 +419,9 @@ if(!isset($_SESSION['lang'])){
           </a>
         </div>
       </div>
-      <p class="mobile article-subheader">SOMETHING ELSE</p>
+      <p class="mobile article-subheader">ELECTRIC DRIVE-TRAIN MOTOR</p>
       <div class="text-section no-border">
-        <p class="article-medium">The EPA rated the 2017 90D Model S's energy consumption at 3.096 miles per kWh (200.9 watt-hours per kilometer or 32.33 kWh/100 mi or 20.09 kWh/100.</p>
+        <p class="article-medium">The regenerative brakes in the FS1 converts the kinetic energy which is usually lost when applying the brakes into a form of energy which can be either used immediately or stored until needed.</p>
         <div class="read-more mobile">
           <a href="#">
             Read more
@@ -436,8 +435,8 @@ if(!isset($_SESSION['lang'])){
       </div>
     </div>
 
-    <div class="engineering-image">
-    </div>
+    <img class="engineering-image left" src="resources/interior2.jpg">
+
 
 
   </div>
