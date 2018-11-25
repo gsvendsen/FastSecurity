@@ -1,15 +1,53 @@
 .smartphone {
    display:flex;
    flex-direction:column;
-   padding:0px 20px 0px 20px;
+   padding: 0px 303px 0px 180px;
 }
 
 .smartphone-content {
    display:flex;
    flex-direction:row;
    margin-bottom:58px;
+   justify-content: space-between;
+   box-sizing: border-box;
 }
 
-.phone-button {
-   margin-bottom:110px;
+.smartphone-article {
+   width:42%;
+}
+
+.smartphone-image {
+   width:34%;
+   background-image:url('../resources/smartphone.png');
+   background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+   .smartphone {
+      display:flex;
+      flex-direction:column;
+      padding:0px 20px 0px 20px;
+   }
+
+   .smartphone-content {
+      display:flex;
+      flex-direction:row;
+      margin-bottom:58px;
+      box-sizing: border-box;
+   }
+
+   .smartphone-article {
+      width:60%;
+   }
+
+   .smartphone-image {
+      width:40%;
+      background-image:url('../resources/smartphone.png');
+   }
+
+   .phone-button {
+      margin-bottom:110px;
+   }
 }
