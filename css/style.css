@@ -42,6 +42,20 @@ GLOBAL SELECTORS
    color:white;
  }
 
+ a:after{
+   content: "Links dont work in demo!";
+   display: block;
+   background-color:white;
+   width: 0;
+   position:absolute;
+   height: 0;
+   border-radius: 5px;
+   opacity: 0;
+   overflow:hidden;
+   padding:4px;
+   transition:opacity 0.2s ease-in-out;
+  }
+
  .hero-sub {
    line-height: normal;
    font-size: 18px;
@@ -80,7 +94,7 @@ GLOBAL SELECTORS
  }
 
  ul li {
-   margin: 35px 0 35px 0;
+   margin: 50px 0 50px 0;
  }
 
 
@@ -145,6 +159,17 @@ CLASS SELECTORS
   background: #000;
 }
 
+.deny:after {
+  content: "Links dont work in demo!";
+  display: block;
+  background-color:red;
+  width: 200px;
+  color:white;
+  opacity:1;
+  position:absolute;
+  height: auto;
+}
+
 .email-sign-up {
   width:100%;
   height:50px;
@@ -177,6 +202,16 @@ CLASS SELECTORS
 
 .desktop-menu> .menu-list > .menu-item {
   margin:0 50px 0 50px;
+}
+
+.desktop-menu> .menu-list > .menu-item > a {
+  line-height: 13px;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+
+  color: black;
+
+
 }
 
 .filler-block {
@@ -237,16 +272,14 @@ CLASS SELECTORS
 }
 
 .logotype {
-  position:fixed;
-  height:50px;
-  width:50px;
+  height:22px;
+  width:29px;
 }
 
 .logo-container {
-  position: fixed;
+  position:static;
   z-index:2;
   display: flex;
-  padding-left:90px;
   height:80px;
   align-items: center;
   justify-content: flex-start;
@@ -266,13 +299,20 @@ CLASS SELECTORS
 .desktop-menu {
   height:80px;
   width:100%;
-  background-color:;
+  background-color:white;
   opacity:1;
   display:flex;
   flex-direction: row;
   position:absolute;
+  padding:0 0 0 180px;
+  box-sizing: border-box;
   top:0;
   z-index:1;
+}
+
+.flag-container {
+  display: flex;
+  flex-direction: column;
 }
 
 .menu {
@@ -285,6 +325,14 @@ CLASS SELECTORS
   justify-content: flex-end;
   align-items: center;
   padding:0 25px 0 0;
+}
+
+.mobile-logo {
+  display: none;
+}
+
+.mobile-container {
+  display:none;
 }
 
 .navbar {
@@ -380,7 +428,13 @@ MEDIA QUERY MOBILE
    .logo-container {
      justify-content: center;
      padding:0;
+     position:fixed;
      width:100%;
+   }
+
+   .logotype {
+     width:33px;
+     height:26px;
    }
 
    .menu-list {
@@ -407,9 +461,27 @@ MEDIA QUERY MOBILE
      align-items: center;
    }
 
+
+
+  .mobile-container{
+    position: fixed;
+    z-index:2;
+    display: flex;
+    height:80px;
+    width:100%;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
    .open {
      opacity:1;
      height:100vh;
+   }
+
+   .menu-item a{
+    font-size: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
    }
  }
 
@@ -449,6 +521,11 @@ MEDIA QUERY MOBILE
    width:100%;
  }
 
+ .logotype {
+   width:33px;
+   height:26px;
+ }
+
  .menu {
    height:0;
    width:100%;
@@ -465,6 +542,23 @@ MEDIA QUERY MOBILE
    box-sizing: border-box;
    align-items: center;
  }
+
+ .menu-item a{
+  font-size: 24px;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+ }
+
+ .mobile-container{
+   position: fixed;
+   z-index:2;
+   display: flex;
+   height:80px;
+   width:100%;
+   align-items: center;
+   justify-content: flex-start;
+ }
+
 
  .open {
    opacity:1;

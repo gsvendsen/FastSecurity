@@ -16,8 +16,8 @@
 }
 
 .engineering-image {
+  height: auto;
   background-color: lightgrey;
-  height:500px;
   width:100%;
   align-items: flex-start;
   margin:0 0 120px 0;
@@ -43,14 +43,14 @@
 
 .text-section {
   width:50%;
-  padding:0 55px 0 0;
+  padding:0 20px 0 0;
   box-sizing: border-box;
   border-right:lightgrey 1px solid;
 }
 
 .stat-section {
   width:60%;
-  padding:0 180px 0 40px;
+  padding:0 100px 0 40px;
   box-sizing: border-box;
   justify-content: space-between;
   flex-direction: row;
@@ -92,7 +92,6 @@
   }
 
   .engineering-image {
-    height:170px;
     margin:0 0 120px 0;
   }
 

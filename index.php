@@ -18,7 +18,7 @@ if(!isset($_SESSION['lang'])){
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FastSecurity</title>
 
-  <link rel="icon" href="/resources/logo.svg">
+  <link rel="icon" href="/resources/logo_black.svg">
 
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/slide-show.css">
@@ -31,6 +31,7 @@ if(!isset($_SESSION['lang'])){
   <link rel="stylesheet" type="text/css" href="css/engineering.css">
   <link rel="stylesheet" type="text/css" href="css/smartphone.css">
   <link rel="stylesheet" type="text/css" href="css/merch.css">
+  <link rel="stylesheet" type="text/css" href="css/product.css">
 
 
 
@@ -38,8 +39,8 @@ if(!isset($_SESSION['lang'])){
 
 </head>
 <body>
-  <div class="logo-container">
-    <a href="" class="logo-container"><img class="logotype" src="resources/logo.svg" alt="logo"></a>
+  <div class="mobile-container">
+    <a href="" class="logo-container"><img class="logotype" src="resources/logo_white.svg" alt="logo"></a>
   </div>
   <div class="navbar hidden">
     <div class="hamburger-menu">
@@ -47,6 +48,7 @@ if(!isset($_SESSION['lang'])){
     </div>
   </div>
   <div class="desktop-menu">
+    <a href="" class="logo-container"><img class="logotype" src="resources/logo_black.svg" alt="logo"></a>
     <ul class="menu-list">
       <li class="menu-item">
         <a class="nav-link" href="#"><?= translate('home') ?></a>
@@ -58,12 +60,12 @@ if(!isset($_SESSION['lang'])){
         <a class="nav-link" href="#"><?= translate('safety') ?></a>
       </li>
       <li class="menu-item">
-        <a class="nav-link" href="#"><?= translate('testimonials') ?></a>
+        <a class="nav-link" href="#">Product Folder</a>
       </li>
       <li class="menu-item">
         <a class="nav-link" href="#"><?= translate('contact') ?></a>
       </li>
-      <li>
+      <li class="flag-container">
         <a class="lang-option" href="/?lang=en"><img class="flag" src="resources/Flag_UK.svg"></a>
         <a class="lang-option" href="/?lang=sv"><img class="flag" src="resources/Flag_SWE.svg"></a>
       </li>
@@ -140,7 +142,7 @@ if(!isset($_SESSION['lang'])){
           </div>
           <div class="slide-show-text">
             <div class="text-container">
-              <h1 class="quote">"The FS1 is an incredible vehicle! More text here please... And especially the extra safety measures!"</h1>
+              <h1 class="quote">“The FS1 is an incredible vehicle! All of the components are crafted to perfection. The luxurious interior and the slick design is just what a motorcycle enthusiast deserves. To keep you safe we have incorporated strong materials especially in the extra safety measures!”</h1>
               <p class="quote-name">Mathilde Thatsum</p>
               <p class="quote-source">CEO, Electric Solutions</p>
             </div>
@@ -148,25 +150,25 @@ if(!isset($_SESSION['lang'])){
         </div>
         <div class="slide">
           <div class="slide-show-photo">
-            <img src="https://pbs.twimg.com/profile_images/73758361/square_profile_shot_400x400.jpg" class="photo">
+            <img src="https://stelena.se/wp-content/uploads/2018/02/Maria-Nemeth-Headshot-1-Square.jpeg" class="photo">
           </div>
           <div class="slide-show-text">
             <div class="text-container">
-              <h1 class="quote">"Waheeey!!!"</h1>
-              <p class="quote-name">Mathilde Thatsum</p>
-              <p class="quote-source">CEO, Electric Solutions</p>
+              <h1 class="quote">"Oh my this bike is brilliant!"</h1>
+              <p class="quote-name">Margaret Thatcher</p>
+              <p class="quote-source">CEO, Hybrid Technology</p>
             </div>
           </div>
         </div>
         <div class="slide">
           <div class="slide-show-photo">
-            <img src="https://www.hawthorn.biz/sites/default/files/styles/segment_people_profile/public/David%20Barton%20Profile%20Shot%20Square_2.jpg?itok=kFNiCDSU" class="photo">
+            <img src="https://static1.squarespace.com/static/50f79c6fe4b00d3480c9bbf0/5b2a97c4f950b7e4204d64a4/5b4e3bb0aa4a9964ca2c7804/1531853792642/Headshot_20180510_Angel+Rosario_Richard_Waine_Lancaster_PA_0080+%28square+500px%29.jpg" class="photo">
           </div>
           <div class="slide-show-text">
             <div class="text-container">
-              <h1 class="quote">"Another quote!!!"</h1>
-              <p class="quote-name">Mathilde Thatsum</p>
-              <p class="quote-source">CEO, Electric Solutions</p>
+              <h1 class="quote">"The FS01 is a revolutionary piece of transport for the best."</h1>
+              <p class="quote-name">Adam Savage</p>
+              <p class="quote-source">President, France</p>
             </div>
           </div>
         </div>
@@ -201,7 +203,7 @@ if(!isset($_SESSION['lang'])){
 
   <!-- AUTONOMOUS SECTION -->
   <div class="autonomous">
-    <div class="text-section">
+    <div class="autonomous-text-section">
       <div class="header-section pink-margin">
         <h3 class="article-header"><?=translate('auto-header') ?></h3>
         <p class="article-text">Autonomous cars combine a variety of sensors to perceive their surroundings, such as radar, computer vision, Lidar, sonar, GPS, odometry and inertial measurement units.</p>
@@ -209,7 +211,7 @@ if(!isset($_SESSION['lang'])){
       </div>
       <div class="subheader-section">
         <h5 class="article-subheader">BRAKING SENSORS</h5>
-        <p class="article-text"><?= translate('break-cont') ?></p>
+        <p class="article-text">With the new SG-2 braking sensors self driving has never been safer. Humans, with a one second reaction time do not always have enough time to react to dangers in trafic, with AI systems in place you can rest assured that less accidents will take place.</p>
       </div>
     </div>
     <div class="autonomous-image">
@@ -225,7 +227,7 @@ if(!isset($_SESSION['lang'])){
     <div class="comfort-text">
       <div class="text-container">
         <h3 class="article-header">Maximum Comfort</h3>
-        <p class="article-text">The FS1 is engineered to perfection with the finest materials in mind, creating a fantastic experience combined with the luxorious comfort of leather seats.</p>
+        <p class="article-text">The FS1 is engineered to perfection with the finest materials in mind, creating a fantastic experience combined with the luxurious comfort of leather seats. All of the materials are carefully selected from the interior carpet to the strings in the seat. The comforting cushion embedded in the seat measures shape and stability. All of this to give you the most satisfying experience of this century.</p>
       </div>
     </div>
   </div><!--/comfort-->
@@ -268,8 +270,7 @@ if(!isset($_SESSION['lang'])){
       <p class="article-bold">Engineered with perfection in mind.</p>
       <p class="article-subbold">The FS1 is engineered to perfection with the finest materials in mind, creating a fantastic experience combined with the luxorious comfort of leather seats.</p>
     </div>
-    <div class="engineering-image">
-    </div>
+    <img class="engineering-image" src="resources/engineering.jpg">
     <p class="article-subheader">ACCELERATION AND SPEED</p>
     <div class="engineering-article">
       <div class="text-section">
@@ -294,8 +295,7 @@ if(!isset($_SESSION['lang'])){
           <p class="stats-text">with turbo charge</p>
         </div>
         <div class="image-section">
-          <div class="stat-image">
-          </div>
+          <img class="stat-image" src="resources/graph.png" alt="Graph of acceleration">
           <p class="stats-text">Graph on the acceleration – FS1</p>
         </div>
         <div class="read-more mobile">
@@ -316,7 +316,7 @@ if(!isset($_SESSION['lang'])){
     <p class="article-subheader">WEIGHT</p>
     <div class="engineering-article">
       <div class="text-section">
-        <p class="article-medium">The difference between GVWR and wet weight is how much the motorcycle can safely carry, including fuel; the rider, passenger and their clothing; cargo; and other accessories.</p>
+        <p class="article-medium">The FS1 is as light as a heavy motorcycle safetely can be. With an astounding  weight of 180 kilograms, sliding through curves is as natural as it gets.</p>
         <div class="read-more desktop">
           <a href="#">
             Read more
@@ -349,13 +349,12 @@ if(!isset($_SESSION['lang'])){
       </div>
     </div>
 
-    <div class="engineering-image">
-    </div>
+    <img class="engineering-image" src="resources/exterior.jpg">
 
     <p class="article-subheader">RANGE</p>
     <div class="engineering-article">
       <div class="text-section">
-        <p class="article-medium">The EPA rated the 2017 90D Model S's energy consumption at 3.096 miles per kWh (200.9 watt-hours per kilometer or 32.33 kWh/100 mi or 20.09 kWh/100.</p>
+        <p class="article-medium">With lithium ion battery packs, The FS1 has a range up to 970 km per charge, depending on speed, acceleration, weather and terrain. </p>
         <div class="read-more desktop">
           <a href="#">
             Read more
@@ -403,13 +402,13 @@ if(!isset($_SESSION['lang'])){
         <p class="article-subheader">REGENERATIVE BRAKES</p>
       </div>
       <div class="subheader">
-        <p class="desktop article-subheader">SOMETHING ELSE</p>
+        <p class="desktop article-subheader">ELECTRIC DRIVE-TRAIN MOTOR</p>
       </div>
     </div>
 
     <div class="engineering-article">
       <div class="text-section no-border">
-        <p class="article-medium">The EPA rated the 2017 90D Model S's energy consumption at 3.096 miles per kWh (200.9 watt-hours per kilometer or 32.33 kWh/100 mi or 20.09 kWh/100.</p>
+        <p class="article-medium">The regenerative brakes in the FS1 converts the kinetic energy which is usually lost when applying the brakes into a form of energy which can be either used immediately or stored until needed.</p>
         <div class="read-more desktop">
           <a href="#">
             Read more
@@ -421,9 +420,9 @@ if(!isset($_SESSION['lang'])){
           </a>
         </div>
       </div>
-      <p class="mobile article-subheader">SOMETHING ELSE</p>
+      <p class="mobile article-subheader">ELECTRIC DRIVE-TRAIN MOTOR</p>
       <div class="text-section no-border">
-        <p class="article-medium">The EPA rated the 2017 90D Model S's energy consumption at 3.096 miles per kWh (200.9 watt-hours per kilometer or 32.33 kWh/100 mi or 20.09 kWh/100.</p>
+        <p class="article-medium">The regenerative brakes in the FS1 converts the kinetic energy which is usually lost when applying the brakes into a form of energy which can be either used immediately or stored until needed.</p>
         <div class="read-more mobile">
           <a href="#">
             Read more
@@ -437,8 +436,8 @@ if(!isset($_SESSION['lang'])){
       </div>
     </div>
 
-    <div class="engineering-image">
-    </div>
+    <img class="engineering-image left" src="resources/interior2.jpg">
+
 
 
   </div>
@@ -479,7 +478,26 @@ if(!isset($_SESSION['lang'])){
      </button>
    </div>
  </div><!--/merch-->
+ <!-- PRODUCT FOLDER -->
+<div class="product">
+  <div class="product-text">
+    <h3 class="article-header">Check out our product folder</h3>
+    <p class="article-text">If you want to complete your FS1 look, our handcrafted merchandise is a must have. We offer you a smartwatch with embedded auto-sync technology connected to your FS1. An exclusive handbag in the same soft surface leather as the FS1 interior, and much more.</p>
+    <button class="button" name="button">Download
+    <svg class="button-arrow" width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M1 8.396L18.091 8.396" stroke="white" stroke-linecap="round"/>
+      <path d="M10.6948 1L18.0909 8.39608" stroke="white" stroke-linecap="round"/>
+      <path d="M10.6948 15.7922L18.0909 8.39615" stroke="white" stroke-linecap="round"/>
+    </svg>
+    </button>
 
+  </div>
+  <div class="product-image">
+  </div>
+</div>
+
+
+<!-- EMAIL FOOTER -->
  <div class="CTA last">
    <div class="cta-section">
      <h3 class="article-header white"><?= translate('CTA-header') ?></h3>
@@ -523,10 +541,13 @@ if(!isset($_SESSION['lang'])){
              <li class="menu-item">
                <a href="#">Your Data</a>
              </li>
+             <li class="menu-item">
+              <a href="#">Product Folder</a>
+             </li>
            </ul>
          </div>
        <div class="company-info">
-         <img class="footer-logotype" src="resources/logo.svg" alt="logo">
+         <img class="footer-logotype" src="resources/logo_white.svg" alt="logo">
          <p>FastSecurity, Inc.</p>
          <p>Bråtaviks 12</p>
          <p>439 53 - Åsa, Sweden</p>
