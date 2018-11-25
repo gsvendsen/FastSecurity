@@ -1,12 +1,25 @@
 .merch {
+   display: flex;
+   flex-direction: row;
+   padding: 0px 303px 0px 180px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+.merch {
    display:flex;
    flex-direction:column;
    padding:0px 20px 0px 20px;
-   color: #000000;
 }
 
-.merch-img {
+.merch-image {
    margin-bottom:120px;
+   background-image: url('../resources/merch-store.png');
+   width:353px;
+   height:170px;
 }
 
 .merch-button {
