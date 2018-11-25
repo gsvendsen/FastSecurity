@@ -451,8 +451,7 @@ if(!isset($_SESSION['lang'])){
            <h3 class="article-header"><?= translate('phone-header') ?></h3>
            <p class="article-text"><?= translate('phone-content') ?></p>
         </div>
-        <div>
-           <img src='../resources/smartphone.png'>
+        <div class="smartphone-image">
         </div>
      </div>
      <button class="button phone-button" type="button" name="phone-button">Read more
@@ -467,8 +466,7 @@ if(!isset($_SESSION['lang'])){
   <!--MERCH-->
   <div class="merch">
      <div class="merch-content">
-       <div class="merch-img">
-           <img src='../resources/merch-store.png'>
+       <div class="merch-image">
        </div>
        <h3 class="article-header merch-header">Yo</h3>
        <p class="article-text merch-text">Waddup</p>
