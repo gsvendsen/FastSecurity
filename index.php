@@ -298,16 +298,16 @@ if(!isset($_SESSION['lang'])){
           <img class="stat-image" src="resources/graph.png" alt="Graph of acceleration">
           <p class="stats-text">Graph on the acceleration – FS1</p>
         </div>
-        <div class="read-more mobile">
-          <a href="#">
-            Read more
-            <svg width="23" height="13" viewBox="0 0 23 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M1 6.60791L21.5263 6.60791" stroke="#7E8EAB" stroke-width="1.5" stroke-linecap="round"/>
-              <path d="M16.8923 2L21.6662 6.77387" stroke="#7E8EAB" stroke-width="1.5" stroke-linecap="round"/>
-              <path d="M16.8923 11.5479L21.6662 6.77399" stroke="#7E8EAB" stroke-width="1.5" stroke-linecap="round"/>
-            </svg>
-          </a>
-        </div>
+      </div>
+      <div class="read-more mobile">
+        <a href="#">
+          Read more
+          <svg width="23" height="13" viewBox="0 0 23 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 6.60791L21.5263 6.60791" stroke="#7E8EAB" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M16.8923 2L21.6662 6.77387" stroke="#7E8EAB" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M16.8923 11.5479L21.6662 6.77399" stroke="#7E8EAB" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </a>
       </div>
     </div>
 
@@ -336,16 +336,16 @@ if(!isset($_SESSION['lang'])){
           <p class="stats-info">200 kWh</p>
           <p class="stats-text">ion battery</p>
         </div>
-        <div class="read-more mobile">
-          <a href="#">
-            Read more
-            <svg width="23" height="13" viewBox="0 0 23 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M1 6.60791L21.5263 6.60791" stroke="#7E8EAB" stroke-width="1.5" stroke-linecap="round"/>
-              <path d="M16.8923 2L21.6662 6.77387" stroke="#7E8EAB" stroke-width="1.5" stroke-linecap="round"/>
-              <path d="M16.8923 11.5479L21.6662 6.77399" stroke="#7E8EAB" stroke-width="1.5" stroke-linecap="round"/>
-            </svg>
-          </a>
-        </div>
+      </div>
+      <div class="read-more mobile">
+        <a href="#">
+          Read more
+          <svg width="23" height="13" viewBox="0 0 23 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 6.60791L21.5263 6.60791" stroke="#7E8EAB" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M16.8923 2L21.6662 6.77387" stroke="#7E8EAB" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M16.8923 11.5479L21.6662 6.77399" stroke="#7E8EAB" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </a>
       </div>
     </div>
 
@@ -373,16 +373,16 @@ if(!isset($_SESSION['lang'])){
           <p class="stats-text">and a range of</p>
           <p class="stats-info">970 km</p>
         </div>
-        <div class="read-more mobile">
-          <a href="#">
-            Read more
-            <svg width="23" height="13" viewBox="0 0 23 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M1 6.60791L21.5263 6.60791" stroke="#7E8EAB" stroke-width="1.5" stroke-linecap="round"/>
-              <path d="M16.8923 2L21.6662 6.77387" stroke="#7E8EAB" stroke-width="1.5" stroke-linecap="round"/>
-              <path d="M16.8923 11.5479L21.6662 6.77399" stroke="#7E8EAB" stroke-width="1.5" stroke-linecap="round"/>
-            </svg>
-          </a>
-        </div>
+      </div>
+      <div class="read-more mobile">
+        <a href="#">
+          Read more
+          <svg width="23" height="13" viewBox="0 0 23 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 6.60791L21.5263 6.60791" stroke="#7E8EAB" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M16.8923 2L21.6662 6.77387" stroke="#7E8EAB" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M16.8923 11.5479L21.6662 6.77399" stroke="#7E8EAB" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </a>
       </div>
     </div>
     <!-- CTA -->
@@ -423,16 +423,16 @@ if(!isset($_SESSION['lang'])){
       <p class="mobile article-subheader">ELECTRIC DRIVE-TRAIN MOTOR</p>
       <div class="text-section no-border">
         <p class="article-medium">The regenerative brakes in the FS1 converts the kinetic energy which is usually lost when applying the brakes into a form of energy which can be either used immediately or stored until needed.</p>
-        <div class="read-more mobile">
-          <a href="#">
-            Read more
-            <svg width="23" height="13" viewBox="0 0 23 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M1 6.60791L21.5263 6.60791" stroke="#7E8EAB" stroke-width="1.5" stroke-linecap="round"/>
-              <path d="M16.8923 2L21.6662 6.77387" stroke="#7E8EAB" stroke-width="1.5" stroke-linecap="round"/>
-              <path d="M16.8923 11.5479L21.6662 6.77399" stroke="#7E8EAB" stroke-width="1.5" stroke-linecap="round"/>
-            </svg>
-          </a>
-        </div>
+      </div>
+      <div class="read-more mobile">
+        <a href="#">
+          Read more
+          <svg width="23" height="13" viewBox="0 0 23 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 6.60791L21.5263 6.60791" stroke="#7E8EAB" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M16.8923 2L21.6662 6.77387" stroke="#7E8EAB" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M16.8923 11.5479L21.6662 6.77399" stroke="#7E8EAB" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </a>
       </div>
     </div>
 
