@@ -48,7 +48,7 @@ if(!isset($_SESSION['lang'])){
     </div>
   </div>
   <div class="desktop-menu">
-    <a href="" class="logo-container"><img class="logotype" src="resources/logo_black.svg" alt="logo"></a>
+    <a href="" class="logo-container"><img class="logotype" src="resources/logo_white.svg" alt="logo"></a>
     <ul class="menu-list">
       <li class="menu-item">
         <a class="nav-link" href="#"><?= translate('home') ?></a>
