@@ -38,4 +38,9 @@
     margin:0 0 120px 0;
   }
 
+
+  div.no-reverse {
+     flex-direction:column;
+  }
+
 }
