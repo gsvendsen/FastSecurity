@@ -397,7 +397,7 @@ if(!isset($_SESSION['lang'])){
        </form>
     </div><!--/CTA-->
 
-    <div class="multi-headers">
+    <div class="multi-headers padded">
       <div class="subheader">
         <p class="article-subheader">REGENERATIVE BRAKES</p>
       </div>
@@ -406,7 +406,7 @@ if(!isset($_SESSION['lang'])){
       </div>
     </div>
 
-    <div class="engineering-article">
+    <div class="engineering-article padded">
       <div class="text-section no-border">
         <p class="article-medium">The regenerative brakes in the FS1 converts the kinetic energy which is usually lost when applying the brakes into a form of energy which can be either used immediately or stored until needed.</p>
         <div class="read-more desktop">
