@@ -17,16 +17,6 @@
    max-width:420px;
 }
 
-.smartphone-article:after{
-   content:"";
-   display:block;
-   height:2px;
-   width:80px;
-   position:absolute;
-   background-color:lightgrey;
-   margin: 10px 0 0 0;
-}
-
 .smartphone-image {
    width:34%;
    height:614px;

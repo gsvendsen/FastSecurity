@@ -220,6 +220,18 @@
       margin:19px 0 0 0;
     }
 
+
+    .after-line:after{
+       content:"";
+       display:block;
+       height:1px;
+       width:125px;
+       position:absolute;
+       background-color:#C4C4C4;
+       margin: 22px 0 0 0;
+    }
+
+
     .white {
       color:white;
     }
