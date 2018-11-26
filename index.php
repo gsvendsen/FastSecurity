@@ -211,7 +211,7 @@ if(!isset($_SESSION['lang'])){
       </div>
       <div class="subheader-section">
         <h5 class="article-subheader">BRAKING SENSORS</h5>
-        <p class="article-text">With the new SG-2 braking sensors self driving has never been safer. Humans, with a one second reaction time do not always have enough time to react to dangers in trafic, with AI systems in place you can rest assured that less accidents will take place.</p>
+        <p class="article-text after-line">With the new SG-2 braking sensors self driving has never been safer. Humans, with a one second reaction time do not always have enough time to react to dangers in trafic, with AI systems in place you can rest assured that less accidents will take place.</p>
       </div>
     </div>
     <div class="autonomous-image">
@@ -448,7 +448,7 @@ if(!isset($_SESSION['lang'])){
      <div class="smartphone-content">
         <div class="smartphone-article">
            <h3 class="article-header"><?= translate('phone-header') ?></h3>
-           <p class="article-text"><?= translate('phone-content') ?></p>
+           <p class="article-text after-line"><?= translate('phone-content') ?></p>
         </div>
         <button class="button phone-button" type="button" name="phone-button">Read more
            <svg class="button-arrow" width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
