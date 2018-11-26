@@ -13,7 +13,7 @@
 
 .header-section {
   max-width:570px;
-  margin:0 0 120px 0;
+  margin:0 0 60px 0;
 }
 
 .subheader-section {
@@ -33,7 +33,7 @@
     /* For mobile phones: */
 
   .autonomous {
-    margin:110px 0 110px 0;
+    margin:55px 0 55px 0;
     height:auto;
     width:100%;
     flex-direction:column;

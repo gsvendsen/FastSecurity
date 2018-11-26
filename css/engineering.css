@@ -92,6 +92,11 @@
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
 
+  .padded {
+      padding: 0 22px 0 0;
+      box-sizing: border-box;
+    }
+
   .engineering {
     padding: 0 0 0 22px;
   }
@@ -100,6 +105,11 @@
     margin:0 0 60px 0;
   }
 
+  .subheader {
+    width:auto;
+  }
+
+
   .left {
     margin: 0 0 60px 0;
     height:auto;
@@ -107,7 +117,7 @@
 
   .engineering-article {
     flex-direction: column;
-    margin: 0 0 62px 0;
+    margin: 0 0 60px 0;
   }
 
   .text-section {
@@ -119,6 +129,7 @@
     padding:0;
     width:100%;
     flex-direction:column;
+    margin:0 0 58px 0;
   }
 
   .stats > p {
@@ -145,8 +156,7 @@
     display:block;
   }
 
-  .mobile.article-subheader {
-    margin: 0 0 19px 0;
+  .read-more {
+    margin:0 0 0 0;
   }
-
 }

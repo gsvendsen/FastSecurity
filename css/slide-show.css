@@ -147,7 +147,7 @@ display: none;
     /* For mobile phones: */
     .viewport-container {
       height: 617px;
-      margin:110px 11px 110px 11px;
+      margin:55px 11px 55px 11px;
       width:100%;
       padding:0;
       justify-content: flex-start;
