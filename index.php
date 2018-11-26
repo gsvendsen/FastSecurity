@@ -450,16 +450,16 @@ if(!isset($_SESSION['lang'])){
            <h3 class="article-header"><?= translate('phone-header') ?></h3>
            <p class="article-text"><?= translate('phone-content') ?></p>
         </div>
-        <div class="smartphone-image">
-        </div>
+        <button class="button phone-button" type="button" name="phone-button">Read more
+           <svg class="button-arrow" width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+             <path d="M1 8.396L18.091 8.396" stroke="white" stroke-linecap="round"/>
+             <path d="M10.6948 1L18.0909 8.39608" stroke="white" stroke-linecap="round"/>
+             <path d="M10.6948 15.7922L18.0909 8.39615" stroke="white" stroke-linecap="round"/>
+          </svg>
+       </button>
      </div>
-     <button class="button phone-button" type="button" name="phone-button">Read more
-     <svg class="button-arrow" width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-       <path d="M1 8.396L18.091 8.396" stroke="white" stroke-linecap="round"/>
-       <path d="M10.6948 1L18.0909 8.39608" stroke="white" stroke-linecap="round"/>
-       <path d="M10.6948 15.7922L18.0909 8.39615" stroke="white" stroke-linecap="round"/>
-     </svg>
-     </button>
+     <div class="smartphone-image">
+     </div>
   </div><!--/smartphone-->
 
   <!--MERCH-->
@@ -476,7 +476,7 @@ if(!isset($_SESSION['lang'])){
        <path d="M10.6948 15.7922L18.0909 8.39615" stroke="white" stroke-linecap="round"/>
      </svg>
      </button>
-   </div>
+  </div>mam
  </div><!--/merch-->
  <!-- PRODUCT FOLDER -->
 <div class="product">
