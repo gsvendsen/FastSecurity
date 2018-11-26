@@ -1,14 +1,14 @@
 .smartphone {
    display:flex;
-   flex-direction:column;
+   flex-direction:row;
    padding: 0px 303px 0px 180px;
+   justify-content: center;
 }
 
 .smartphone-content {
    display:flex;
-   flex-direction:row;
+   flex-direction: column;
    margin-bottom:58px;
-   justify-content: space-between;
    box-sizing: border-box;
 }
 
@@ -27,13 +27,13 @@
 
    .smartphone {
       display:flex;
-      flex-direction:column;
+      flex-direction:row;
       padding:0px 20px 0px 20px;
+      justify-content: center;
    }
 
    .smartphone-content {
       display:flex;
-      flex-direction:row;
       margin-bottom:58px;
       box-sizing: border-box;
    }
