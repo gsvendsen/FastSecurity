@@ -6,12 +6,12 @@
 
 .engineering-article {
   display:flex;
-  margin:19px 0 120px 0;
+  margin:19px 0 60px 0;
 }
 
 .eng-header {
   max-width: 600px;
-  margin:0 0 120px 0;
+  margin:0 0 60px 0;
   padding:0 22px 0 0;
 }
 
@@ -20,11 +20,11 @@
   background-color: lightgrey;
   width:100%;
   align-items: flex-start;
-  margin:0 0 120px 0;
+  margin:0 0 60px 0;
 }
 
 .left {
-  margin: 0 0 120px -180px;
+  margin: 0 0 60px -180px;
   height:auto;
 }
 
@@ -84,6 +84,11 @@
   width:50%;
 }
 
+.padded {
+  padding: 0 180px 0 0;
+  box-sizing: border-box;
+}
+
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
 
@@ -92,11 +97,11 @@
   }
 
   .engineering-image {
-    margin:0 0 120px 0;
+    margin:0 0 60px 0;
   }
 
   .left {
-    margin: 0 0 120px 0;
+    margin: 0 0 60px 0;
     height:auto;
   }
 

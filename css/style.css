@@ -369,6 +369,22 @@ CLASS SELECTORS
    background-color:white;
 }
 
+.title-container {
+  animation: fade-in 1s ease-in-out;
+}
+
+@keyframes fade-in {
+  from {
+    transform: translateY(-10px);
+    opacity:0;
+  }
+
+  to {
+    transform: translate(0);
+    opacity:1;
+  }
+}
+
 /*
 MEDIA QUERY MOBILE
  */
@@ -564,5 +580,4 @@ MEDIA QUERY MOBILE
    opacity:1;
    height:100vh;
  }
-
 }
