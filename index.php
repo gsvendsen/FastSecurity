@@ -476,7 +476,7 @@ if(!isset($_SESSION['lang'])){
        <path d="M10.6948 15.7922L18.0909 8.39615" stroke="white" stroke-linecap="round"/>
      </svg>
      </button>
-  </div>mam
+  </div>
  </div><!--/merch-->
  <!-- PRODUCT FOLDER -->
 <div class="product">
@@ -495,6 +495,7 @@ if(!isset($_SESSION['lang'])){
   <div class="product-image">
   </div>
 </div>
+<!-- PRODUCT END -->
 
 
 <!-- EMAIL FOOTER -->
