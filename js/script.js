@@ -47,11 +47,30 @@ hyperLinks.forEach((hyperLink)=>{
   })
 })
 
+const desktopNav = document.querySelector('.desktop-menu');
+const navLinks = document.querySelectorAll('.nav-link')
+const desktopLogo = document.querySelector('.desktop-logo')
+
 /* FADES LOGO OUT WHEN WINDOW SCROLLS DOWN */
 window.addEventListener('scroll', ()=>{
 
   /* HIDES LOGO THROUGH INITIAL SCROLL DOWN */
-  logo.style.opacity = 1 - window.pageYOffset / 250;
+  var scrollConstDown = 0 + window.pageYOffset / 250;
+  var scrollConstUp = 1 - window.pageYOffset / 250;
+
+
+
+
+  logo.style.opacity = scrollConstUp;
+  desktopNav.style.backgroundColor = "rgba(255,255,255,"+scrollConstDown+")";
+  desktopLogo.style.webkitFilter = "invert("+scrollConstDown+")"
+  console.log(desktopLogo)
+
+
+  navLinks.forEach((navLink)=>{
+    navLink.style.webkitFilter = "invert("+scrollConstDown+")"
+  })
+
   if(logo.style.opacity < 0) {
     logo.style.display = "none";
   } else {
