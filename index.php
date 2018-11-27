@@ -271,11 +271,11 @@ if(!isset($_SESSION['lang'])){
       <p class="article-bold">Engineered with perfection in mind.</p>
       <p class="article-subbold">The FS1 is engineered to perfection with the finest materials in mind, creating a fantastic experience combined with the luxorious comfort of leather seats.</p>
     </div>
-    <img class="engineering-image" src="resources/engineering.jpg">
+    <img class="engineering-image right" src="resources/engineering.jpg">
     <p class="article-subheader">ACCELERATION AND SPEED</p>
     <div class="engineering-article">
       <div class="text-section">
-        <p class="article-medium">The FS1 is engineered to perfection with the finest materials in mind, creating a fantastic experience combined with the luxorious comfort of leather seats.</p>
+        <p class="article-text">The FS1 is engineered to perfection with the finest materials in mind, creating a fantastic experience combined with the luxorious comfort of leather seats.</p>
         <div class="read-more desktop">
           <a href="#">
             Read more
@@ -317,7 +317,7 @@ if(!isset($_SESSION['lang'])){
     <p class="article-subheader">WEIGHT</p>
     <div class="engineering-article">
       <div class="text-section">
-        <p class="article-medium">The FS1 is as light as a heavy motorcycle safetely can be. With an astounding  weight of 180 kilograms, sliding through curves is as natural as it gets.</p>
+        <p class="article-text">The FS1 is as light as a heavy motorcycle safetely can be. With an astounding  weight of 180 kilograms, sliding through curves is as natural as it gets.</p>
         <div class="read-more desktop">
           <a href="#">
             Read more
@@ -350,12 +350,12 @@ if(!isset($_SESSION['lang'])){
       </div>
     </div>
 
-    <img class="engineering-image" src="resources/exterior.jpg">
+    <img class="engineering-image right" src="resources/exterior.jpg">
 
     <p class="article-subheader">RANGE</p>
     <div class="engineering-article">
       <div class="text-section">
-        <p class="article-medium">With lithium ion battery packs, The FS1 has a range up to 970 km per charge, depending on speed, acceleration, weather and terrain. </p>
+        <p class="article-text">With lithium ion battery packs, The FS1 has a range up to 970 km per charge, depending on speed, acceleration, weather and terrain. </p>
         <div class="read-more desktop">
           <a href="#">
             Read more
@@ -409,7 +409,7 @@ if(!isset($_SESSION['lang'])){
 
     <div class="engineering-article padded">
       <div class="text-section no-border">
-        <p class="article-medium">The regenerative brakes in the FS1 converts the kinetic energy which is usually lost when applying the brakes into a form of energy which can be either used immediately or stored until needed.</p>
+        <p class="article-text">The regenerative brakes in the FS1 converts the kinetic energy which is usually lost when applying the brakes into a form of energy which can be either used immediately or stored until needed.</p>
         <div class="read-more desktop">
           <a href="#">
             Read more
@@ -423,7 +423,7 @@ if(!isset($_SESSION['lang'])){
       </div>
       <p class="mobile article-subheader">ELECTRIC DRIVE-TRAIN MOTOR</p>
       <div class="text-section no-border">
-        <p class="article-medium">The regenerative brakes in the FS1 converts the kinetic energy which is usually lost when applying the brakes into a form of energy which can be either used immediately or stored until needed.</p>
+        <p class="article-text">The regenerative brakes in the FS1 converts the kinetic energy which is usually lost when applying the brakes into a form of energy which can be either used immediately or stored until needed.</p>
       </div>
       <div class="read-more mobile">
         <a href="#">

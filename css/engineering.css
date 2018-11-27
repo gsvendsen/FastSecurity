@@ -17,7 +17,6 @@
 
 .engineering-image {
   height: auto;
-  background-color: lightgrey;
   width:100%;
   align-items: flex-start;
   margin:0 0 60px 0;
@@ -26,7 +25,15 @@
 .left {
   margin: 0 0 60px -180px;
   height:auto;
+  padding:0 180px 0 0;
+  box-sizing: border-box;
 }
+
+.right {
+  box-sizing: border-box;
+  padding:0 0 0 180px;
+}
+
 
 .read-more {
   margin:58px 0 0 0;
