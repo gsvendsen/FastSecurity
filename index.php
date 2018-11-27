@@ -104,7 +104,7 @@ if(!isset($_SESSION['lang'])){
       <p class="hero-sub"><?= translate('hero-desc') ?></p>
     </div>
     <form class="email-sign-up">
-      <input class="email-input" type="text" name="email" placeholder="Email...">
+      <input class="email-input" type="text" name="email" placeholder="E-mail">
       <button type="submit" name="register-button"><?= translate('register') ?></button>
     </form>
     <svg class="down-arrow" width="26" height="29" viewBox="0 0 26 29" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -240,8 +240,14 @@ if(!isset($_SESSION['lang'])){
       <p class="cta-text"><?= translate('CTA-desc') ?></p>
     </div>
      <form class="email-sign-up">
-      <input class="email-input" type="text" name="email" placeholder="Email...">
-      <button class="register-button" type="submit" name="button"><?= translate('register') ?></button>
+      <input class="email-input" type="text" name="email" placeholder="E-mail">
+      <button class="register-button" type="submit" name="button">
+        <svg width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M1 10L21 10" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M12.5042 1.79199L21.108 10.3959" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M12.5042 19L21.108 10.3961" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </button>
      </form>
   </div><!--/cta-->
 
@@ -393,8 +399,14 @@ if(!isset($_SESSION['lang'])){
         <p class="cta-text"><?= translate('CTA-desc') ?></p>
       </div>
        <form class="email-sign-up">
-        <input class="email-input" type="text" name="email" placeholder="Email...">
-        <button class="register-button" type="submit" name="button"><?= translate('register') ?></button>
+        <input class="email-input" type="text" name="email" placeholder="E-mail">
+        <button class="register-button" type="submit" name="button">
+          <svg width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 10L21 10" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M12.5042 1.79199L21.108 10.3959" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M12.5042 19L21.108 10.3961" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </button>
        </form>
     </div><!--/CTA-->
 
@@ -507,8 +519,14 @@ if(!isset($_SESSION['lang'])){
      <p class="cta-text white"><?= translate('CTA-desc') ?></p>
    </div>
    <form class="email-sign-up">
-     <input class="email-input" type="text" name="email" placeholder="Email...">
-     <button class="register-button" type="submit" name="button"><?= translate('register') ?></button>
+     <input class="email-input" type="text" name="email" placeholder="E-mail">
+     <button class="register-button" type="submit" name="button">
+       <svg width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+         <path d="M1 10L21 10" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+         <path d="M12.5042 1.79199L21.108 10.3959" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+         <path d="M12.5042 19L21.108 10.3961" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+       </svg>
+     </button>
    </form>
  </div><!--/cta last-->
 

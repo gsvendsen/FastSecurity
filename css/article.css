@@ -65,7 +65,7 @@
    background-color:#FAFAFA;
    border-top:1px solid rgba(0,0,0,0.2);
    border-bottom:1px solid rgba(0,0,0,0.2);
-   padding:10px 0 10px 180px;
+   padding:10px 180px 10px 180px;
    color:#334A74;
 }
 
@@ -78,11 +78,11 @@
 }
 
 .CTA > form > button {
-  width:150px;
+  width:50px;
 }
 
 .CTA > form > input {
-  width:205px;
+  width:280px;
 }
 
 .cta-text {
@@ -196,14 +196,18 @@
 
     .CTA > form {
       margin:19px 0 0 0;
+      padding:0 50px 0 0;
+      box-sizing: border-box;
+      width:100%;
     }
 
     .CTA > form > button {
-      width:150px;
+      width:50px;
+      margin:0 -50px 0 0;
     }
 
     .CTA > form > input {
-      width:205px;
+      width:100%;
     }
 
     .indented {
