@@ -1,5 +1,6 @@
 .contact {
   display:flex;
+  position:relative;
   padding:0 180px 0 180px;
   box-sizing: border-box;
   justify-content: space-between;
@@ -18,6 +19,7 @@
 }
 
 .company-info {
+  width:40%;
 }
 
 .company-info>p {
@@ -32,8 +34,20 @@
 .footer-logotype {
   height:50px;
   width:50px;
+  position: absolute;
+  left:180px;
+  top:55px;
 }
 
+.footer-lists {
+  display:flex;
+  justify-content: space-between;
+  width:60%;
+}
+
+.menu-col{
+  width: 180px;
+}
 
 
 @media only screen and (max-width: 768px) {
@@ -73,10 +87,15 @@
   .footer-logotype {
     height:50px;
     width:50px;
+    position:static;
   }
 
   .menu-col {
     width:50%;
+  }
+
+  .footer-lists {
+    width:100%;
   }
 
   }
