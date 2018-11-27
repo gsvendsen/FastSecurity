@@ -120,6 +120,11 @@
   .left {
     margin: 0 0 60px 0;
     height:auto;
+    padding:0;
+  }
+
+  .right {
+    padding:0;
   }
 
   .engineering-article {
