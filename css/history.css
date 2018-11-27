@@ -32,7 +32,7 @@
     /* For mobile phones: */
   .history {
      height:688px;
-     padding:20px;
+     padding:100px 20px 0 20px;
      margin:55px 0 0 0;
   }
 
@@ -50,7 +50,6 @@
     font-size: 16px;
     letter-spacing: 0.03em;
     color: #FFFFFF;
-    font-weight: 100;
     max-width: 100%;
   }
 }
