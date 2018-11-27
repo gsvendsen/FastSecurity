@@ -1,9 +1,6 @@
 @import url("https://p.typekit.net/p.css?s=1&k=yrr6lcj&ht=tk&f=14032.14033.14034&a=13081250&app=typekit&e=css");
 
 * {
-  padding: 0;
-  margin: 0;
-  font-family:aktiv-grotesk, sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -13,7 +10,6 @@
   letter-spacing: 0.03em;
   color: #000000;
   font-weight:normal;
-
 }
 
 .viewport-container {
@@ -99,8 +95,6 @@ display: none;
   letter-spacing: 0.03em;
   font-weight:normal;
   color: rgba(0, 0, 0, 0.5);
-
-
 }
 
 .slide-button {
@@ -199,14 +193,11 @@ display: none;
     }
 
     .quote {
-      line-height: 17px;
-      font-size: 14px;
+      line-height: 20px;
+      font-size: 16px;
       text-align: center;
       letter-spacing: 0.03em;
-      font-weight:normal;
       color: #000000;
-
-
     }
 
 }

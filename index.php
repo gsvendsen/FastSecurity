@@ -143,7 +143,7 @@ if(!isset($_SESSION['lang'])){
           </div>
           <div class="slide-show-text">
             <div class="text-container">
-              <h1 class="quote">“The FS1 is an incredible vehicle! All of the components are crafted to perfection. The luxurious interior and the slick design is just what a motorcycle enthusiast deserves. To keep you safe we have incorporated strong materials especially in the extra safety measures!”</h1>
+              <h1 class="quote">“The FS1 is an incredible vehicle! All of the components are crafted to perfection.”</h1>
               <p class="quote-name">Mathilde Thatsum</p>
               <p class="quote-source">CEO, Electric Solutions</p>
             </div>
