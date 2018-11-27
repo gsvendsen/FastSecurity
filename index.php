@@ -467,7 +467,7 @@ if(!isset($_SESSION['lang'])){
     <div class="product-image">
     </div>
     <div class="product-text">
-      <h3 class="article-header">Check out our product folder</h3>
+      <h3 class="article-header">Shop our merch</h3>
       <p class="article-text">If you want to complete your FS1 look, our handcrafted merchandise is a must have. We offer you a smartwatch with embedded auto-sync technology connected to your FS1. An exclusive handbag in the same soft surface leather as the FS1 interior, and much more.</p>
       <button class="button" name="button">Download
       <svg class="button-arrow" width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -513,43 +513,46 @@ if(!isset($_SESSION['lang'])){
 
   <div class="footer">
      <div class="contact">
-         <div class="menu-col">
-          <ul>
-            <li class="menu-item">
-              <a href="#">Home</a>
-            </li>
-            <li class="menu-item">
-              <a href="#">Merchandise</a>
-            </li>
-            <li class="menu-item">
-              <a href="#">Comfort</a>
-            </li>
-            <li class="menu-item">
-              <a href="#">Safety</a>
-            </li>
-          </ul>
-         </div>
-         <div class="menu-col">
-           <ul>
-             <li class="menu-item">
-               <a href="#">Specifications</a>
-             </li>
-             <li class="menu-item">
-               <a href="#">Connect</a>
-             </li>
-             <li class="menu-item">
-               <a href="#">Policy</a>
-             </li>
-             <li class="menu-item">
-               <a href="#">Your Data</a>
-             </li>
-             <li class="menu-item">
-              <a href="#">Product Folder</a>
-             </li>
-           </ul>
-         </div>
+        <img class="footer-logotype desktop" src="resources/logo_white.svg" alt="logo">
+        <div class="footer-lists">
+          <div class="menu-col">
+            <ul>
+              <li class="menu-item">
+                <a href="#">Home</a>
+              </li>
+              <li class="menu-item">
+                <a href="#">Merchandise</a>
+              </li>
+              <li class="menu-item">
+                <a href="#">Comfort</a>
+              </li>
+              <li class="menu-item">
+                <a href="#">Safety</a>
+              </li>
+            </ul>
+          </div>
+          <div class="menu-col">
+            <ul>
+              <li class="menu-item">
+                <a href="#">Specifications</a>
+              </li>
+              <li class="menu-item">
+                <a href="#">Connect</a>
+              </li>
+              <li class="menu-item">
+                <a href="#">Policy</a>
+              </li>
+              <li class="menu-item">
+                <a href="#">Your Data</a>
+              </li>
+              <li class="menu-item">
+                <a href="#">Product Folder</a>
+              </li>
+            </ul>
+          </div>
+        </div>
        <div class="company-info">
-         <img class="footer-logotype" src="resources/logo_white.svg" alt="logo">
+         <img class="footer-logotype mobile" src="resources/logo_white.svg" alt="logo">
          <p>FastSecurity, Inc.</p>
          <p>Bråtaviks 12</p>
          <p>439 53 - Åsa, Sweden</p>
