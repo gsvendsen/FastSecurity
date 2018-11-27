@@ -119,7 +119,8 @@ if(!isset($_SESSION['lang'])){
   <div class="history">
      <div>
         <h3 class="history-header"><?=translate('history-header') ?></h3>
-         <p class="history-text"><?= translate('history-cont') ?></p>
+         <p class="history-text"><?= translate('history-cont1') ?></p>
+         <p class="history-text"><?= translate('history-cont2') ?></p>
      </div><!--/history-content-->
      <div>
         <button class="button history-button" type="button" name="history-button">Our history
