@@ -387,7 +387,8 @@ if(!isset($_SESSION['lang'])){
 			<div class="smartphone-article">
 				<h3 class="article-header translate" data-translate="phone header"><?= translate('phone', 'header') ?>
 				</h3>
-				<p class="article-text after-line  translate" data-translate="phone content"><?= translate('phone', 'content') ?>
+				<p class="article-text translate" data-translate="phone content1"><?= translate('phone', 'content1') ?>
+        <p class="article-text after-line  translate" data-translate="phone content2"><?= translate('phone', 'content2') ?>
 				</p>
 			</div><button class="button phone-button" name="phone-button" type="button">Read more <svg class="button-arrow" height="17" viewbox="0 0 19 17" width="19" xmlns="http://www.w3.org/2000/svg">
 			<path d="M1 8.396L18.091 8.396" stroke="white" stroke-linecap="round"></path>

@@ -35,6 +35,7 @@ return [
   ],
   'phone' =>[
     'header' => 'Smartphone App',
-    'content' => 'Adjust your special bike to your liking using our smartphone app that you can connect to the FS1. Calibrate temperature, torque and other special features in order to make your FS1 suited best for you.'
+    'content1' => 'Adjust your special bike to your liking using our smartphone app that you can connect to the FS1. With the auto-sync technology you can let the app manage your information for you.',
+    'content2' => 'Calibrate temperature, torque and other special features in order to make your FS1 suited best for you. With the quick learning ai you will get feedback on your usage and be updated with various changes.',
    ],
 ];

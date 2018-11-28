@@ -35,7 +35,8 @@ return [
      'content' => 'Nå toppfart eller ta snäva kurvor, Lucid Airs perfekt kalibrerade luftfjädring, avancerade dämpningsteknik och låga tyngdpunkt levererar precisionhantering och smidig körning.',
   ],
   'phone' =>[
-  'header' => 'Smartphone App',
-  'content' => 'Justera din speciella motorcykel efter eget tycke med vår smartphone-app som du kan ansluta till FS1. Kalibrera temperatur, vridmoment och andra specialfunktioner för att göra din FS1 passa bäst för just dig.'
+    'header' => 'Smartphone App',
+    'content1' => 'Justera din speciella motorcykel efter eget tycke med vår smartphone-app som du kan ansluta till FS1. Med auto-synk teknologin kan du låta appen hantera din information åt dig.',
+    'content2' => 'Kalibrera temperatur, vridmoment och andra speciella funktioner för att försäkra dig om att din FS1 är bäst passad för dig. Med hjälp av Quick Learning AI får du regelbundna uppdateringar kring ditt användande av din FS1.',
    ],
 ];
