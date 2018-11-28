@@ -113,7 +113,9 @@ display: none;
 
 .slide-container {
   display: flex;
-  overflow-x: auto;
+  position: relative;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .selected-button {
@@ -123,18 +125,6 @@ display: none;
 
 .left-arrow, .right-arrow {
   cursor:pointer;
-}
-
-.slide-container {
-  position: relative;
-}
-
-.active {
-  transform: translateX(-100vw);
-}
-
-.slide-wrapper {
-  display: inline-flex;
 }
 
 @media only screen and (max-width: 768px) {
