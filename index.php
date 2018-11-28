@@ -246,7 +246,7 @@ if(!isset($_SESSION['lang'])){
 		<p class="article-pre">SPECIFICATIONS</p>
 		<p class="article-bold">Engineered with perfection in mind.</p>
 		<p class="article-subbold">The FS1 is engineered to perfection with the finest materials in mind, creating a fantastic experience combined with the luxorious comfort of leather seats.</p>
-	</div><img class="engineering-image right" src="resources/engineering.jpg">
+	</div><img class="engineering-image right" src="resources/desktop/range.jpg">
 	<p class="article-subheader">ACCELERATION AND SPEED</p>
 	<div class="engineering-article">
 		<div class="text-section">
@@ -277,7 +277,7 @@ if(!isset($_SESSION['lang'])){
 			<path d="M16.8923 2L21.6662 6.77387" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path>
 			<path d="M16.8923 11.5479L21.6662 6.77399" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path></svg></a>
 		</div>
-	</div><img class="engineering-image left" src="resources/interior.png">
+	</div><img class="engineering-image left" src="resources/desktop/Delorean_Vinkel.jpg">
 	<p class="article-subheader">WEIGHT</p>
 
   <div class="engineering-article">
@@ -305,7 +305,7 @@ if(!isset($_SESSION['lang'])){
 			<path d="M16.8923 2L21.6662 6.77387" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path>
 			<path d="M16.8923 11.5479L21.6662 6.77399" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path></svg></a>
 		</div>
-	</div><img class="engineering-image right" src="resources/exterior.jpg">
+	</div><img class="engineering-image right" src="resources/desktop/image_range-left-aligned.jpg">
 	<p class="article-subheader">RANGE</p>
 
   <div class="engineering-article">
@@ -378,7 +378,7 @@ if(!isset($_SESSION['lang'])){
 			<path d="M16.8923 2L21.6662 6.77387" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path>
 			<path d="M16.8923 11.5479L21.6662 6.77399" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path></svg></a>
 		</div>
-	</div><img class="engineering-image left" src="resources/interior2.jpg"></div><!-- /ENGINEERING -->
+	</div><img class="engineering-image left" src="resources/desktop/image_align-left.jpg"></div><!-- /ENGINEERING -->
 
   <!--SMARTPHONE-->
 	<div class="smartphone">
@@ -398,7 +398,7 @@ if(!isset($_SESSION['lang'])){
 
   <!--MERCH-->
 	<div class="product no-reverse">
-		<div class="product-image"></div>
+		<div class="merch-image"></div>
 		<div class="product-text">
 			<h3 class="article-header">Shop our merch</h3>
 			<p class="article-text">If you want to complete your FS1 look, our handcrafted merchandise is a must have. We offer you a smartwatch with embedded auto-sync technology connected to your FS1. An exclusive handbag in the same soft surface leather as the FS1 interior, and much more.</p><button class="button" name="button">Download <svg class="button-arrow" height="17" viewbox="0 0 19 17" width="19" xmlns="http://www.w3.org/2000/svg">
