@@ -33,7 +33,7 @@ if(!isset($_SESSION['lang'])){
 </head>
 <body>
 	<div class="mobile-container">
-		<a class="logo-container" href=""><img alt="logo" class="logotype" src="resources/logo_white.svg"></a>
+		<a class="logo-container" href=""><img alt="logo" class="logotype" src="resources/svg/logo_white.svg"></a>
 	</div>
 	<div class="navbar hidden">
 		<div class="hamburger-menu">
@@ -41,7 +41,7 @@ if(!isset($_SESSION['lang'])){
 		</div>
 	</div>
 	<div class="desktop-menu">
-		<a class="logo-container" href=""><img alt="logo" class="logotype desktop-logo" src="resources/logo_white.svg"></a>
+		<a class="logo-container" href=""><img alt="logo" class="logotype desktop-logo" src="resources/svg/logo_white.svg"></a>
 		<ul class="menu-list">
 			<li class="menu-item">
 				<a class="nav-link translate" href="#" data-translate="menu home"><?= translate2('menu', 'home') ?>
@@ -63,7 +63,8 @@ if(!isset($_SESSION['lang'])){
 				</a>
 			</li>
 			<li class="flag-container">
-				<a class="lang-option en" href="#"><img class="flag lang-option en" src="resources/Flag_UK.svg"></a> <a class="lang-option sv" href="#"><img class="flag lang-option sv" src="resources/Flag_SWE.svg"></a>
+				<img class="flag lang-option en" src="resources/svg/Flag_UK.svg">
+        <img class="flag lang-option sv" src="resources/svg/Flag_SWE.svg">
 			</li>
 		</ul>
 	</div><!-- MOBILE MENU -->
@@ -436,7 +437,7 @@ if(!isset($_SESSION['lang'])){
 	</div><!--/cta last-->
 	<div class="footer">
 		<div class="contact">
-			<img alt="logo" class="footer-logotype desktop" src="resources/logo_white.svg">
+			<img alt="logo" class="footer-logotype desktop" src="resources/svg/logo_white.svg">
 			<div class="footer-lists">
 				<div class="menu-col">
 					<ul>
@@ -475,9 +476,9 @@ if(!isset($_SESSION['lang'])){
 				</div>
 			</div>
 			<div class="company-info">
-				<img alt="logo" class="footer-logotype mobile" src="resources/logo_white.svg">
+				<img alt="logo" class="footer-logotype mobile" src="resources/svg/logo_white.svg">
 				<p>FastSecurity, Inc.</p>
-				<p>Bråtaviks 12</p>
+				<p>Bråtaviksvägen 12</p>
 				<p>439 53 - Åsa, Sweden</p>
 			</div>
 		</div><!--/contact-->
