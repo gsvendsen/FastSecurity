@@ -44,22 +44,22 @@ if(!isset($_SESSION['lang'])){
 		<a class="logo-container" href=""><img alt="logo" class="logotype desktop-logo" src="resources/svg/logo_white.svg"></a>
 		<ul class="menu-list">
 			<li class="menu-item">
-				<a class="nav-link translate" href="#" data-translate="menu home"><?= translate2('menu', 'home') ?>
+				<a class="nav-link translate" href="#" data-translate="menu home"><?= translate('menu', 'home') ?>
 				</a>
 			</li>
 			<li class="menu-item">
-				<a class="nav-link translate" href="#" data-translate="menu specs"><?= translate2('menu', 'specs') ?>
+				<a class="nav-link translate" href="#" data-translate="menu specs"><?= translate('menu', 'specs') ?>
 				</a>
 			</li>
 			<li class="menu-item">
-				<a class="nav-link translate" href="#" data-translate="menu safety"><?= translate2('menu', 'safety') ?>
+				<a class="nav-link translate" href="#" data-translate="menu safety"><?= translate('menu', 'safety') ?>
 				</a>
 			</li>
 			<li class="menu-item">
-				<a class="nav-link translate" href="#" data-translate="menu product-folder"><?= translate2('menu', 'product-folder') ?></a>
+				<a class="nav-link translate" href="#" data-translate="menu product-folder"><?= translate('menu', 'product-folder') ?></a>
 			</li>
 			<li class="menu-item">
-				<a class="nav-link translate" href="#" data-translate="menu contact"><?= translate2('menu', 'contact') ?>
+				<a class="nav-link translate" href="#" data-translate="menu contact"><?= translate('menu', 'contact') ?>
 				</a>
 			</li>
 			<li class="flag-container">
@@ -71,22 +71,22 @@ if(!isset($_SESSION['lang'])){
 	<div class="menu">
 		<ul>
          <li class="menu-item selected">
-				<a class="translate" href="#" data-translate="menu home"><?= translate2('menu', 'home') ?>
+				<a class="translate" href="#" data-translate="menu home"><?= translate('menu', 'home') ?>
 				</a>
 			</li>
 			<li class="menu-item">
-				<a class="translate" href="#" data-translate="menu specs"><?= translate2('menu', 'specs') ?>
+				<a class="translate" href="#" data-translate="menu specs"><?= translate('menu', 'specs') ?>
 				</a>
 			</li>
 			<li class="menu-item">
-				<a class="translate" href="#" data-translate="menu safety"><?= translate2('menu', 'safety') ?>
+				<a class="translate" href="#" data-translate="menu safety"><?= translate('menu', 'safety') ?>
 				</a>
 			</li>
 			<li class="menu-item">
-				<a class="translate" href="#" data-translate="menu product-folder"><?= translate2('menu', 'product-folder') ?></a>
+				<a class="translate" href="#" data-translate="menu product-folder"><?= translate('menu', 'product-folder') ?></a>
 			</li>
 			<li class="menu-item">
-				<a class="translate" href="#" data-translate="menu contact"><?= translate2('menu', 'contact') ?>
+				<a class="translate" href="#" data-translate="menu contact"><?= translate('menu', 'contact') ?>
 				</a>
 			</li>
 			<li>
@@ -97,9 +97,9 @@ if(!isset($_SESSION['lang'])){
 	<!-- HERO -->
 	<div class="hero">
 		<div class="title-container">
-			<h1 class="hero-header translate" data-translate="hero header"><?= translate2('hero','header') ?>
+			<h1 class="hero-header translate" data-translate="hero header"><?= translate('hero','header') ?>
 			</h1>
-			<p class="hero-sub translate" data-translate="hero description"><?= translate2('hero','description') ?>
+			<p class="hero-sub translate" data-translate="hero description"><?= translate('hero','description') ?>
 			</p>
 		</div>
 		<form class="email-sign-up">
@@ -113,11 +113,11 @@ if(!isset($_SESSION['lang'])){
 	<!-- HISTORY -->
 	<div class="history">
 		<div>
-			<h3 class="history-header translate" data-translate="history header"><?=translate2('history', 'header') ?>
+			<h3 class="history-header translate" data-translate="history header"><?=translate('history', 'header') ?>
 			</h3>
-			<p class="history-text translate" data-translate="history content1"><?= translate2('history', 'content1') ?>
+			<p class="history-text translate" data-translate="history content1"><?= translate('history', 'content1') ?>
 			</p>
-			<p class="history-text translate" data-translate="history content2"><?= translate2('history', 'content2') ?>
+			<p class="history-text translate" data-translate="history content2"><?= translate('history', 'content2') ?>
 			</p>
 		</div><!--/history-content-->
 		<div>
@@ -187,14 +187,14 @@ if(!isset($_SESSION['lang'])){
 	<div class="autonomous">
 		<div class="autonomous-text-section">
 			<div class="header-section pink-margin">
-				<h3 class="article-header translate" data-translate="autonomous header"><?=translate2('autonomous', 'header') ?>
+				<h3 class="article-header translate" data-translate="autonomous header"><?=translate('autonomous', 'header') ?>
 				</h3>
-				<p class="article-text translate" data-translate="autonomous content1"><?=translate2('autonomous', 'content1') ?></p>
-				<p class="article-text translate" data-translate="autonomous content2"><?=translate2('autonomous', 'content2') ?></p>
+				<p class="article-text translate" data-translate="autonomous content1"><?=translate('autonomous', 'content1') ?></p>
+				<p class="article-text translate" data-translate="autonomous content2"><?=translate('autonomous', 'content2') ?></p>
 			</div>
 			<div class="subheader-section">
-				<h5 class="article-subheader translate" data-translate="break header"><?= translate2('break', 'header') ?></h5>
-				<p class="article-text after-line translate" data-translate="break content"><?= translate2('break', 'content') ?></p>
+				<h5 class="article-subheader translate" data-translate="break header"><?= translate('break', 'header') ?></h5>
+				<p class="article-text after-line translate" data-translate="break content"><?= translate('break', 'content') ?></p>
 			</div>
 		</div>
 		<div class="autonomous-image"></div>
@@ -212,9 +212,9 @@ if(!isset($_SESSION['lang'])){
 	<!-- cta -->
 	<div class="CTA margin-after">
 		<div class="cta-section">
-			<h3 class="article-header  translate" data-translate="cta header"><?= translate2('cta', 'header') ?>
+			<h3 class="article-header  translate" data-translate="cta header"><?= translate('cta', 'header') ?>
 			</h3>
-			<p class="cta-text translate" data-translate="cta description"><?= translate2('cta', 'description') ?>
+			<p class="cta-text translate" data-translate="cta description"><?= translate('cta', 'description') ?>
 			</p>
 		</div>
 		<form class="email-sign-up">
@@ -338,9 +338,9 @@ if(!isset($_SESSION['lang'])){
   <!-- CTA -->
   <div class="CTA margin-after indented">
 		<div class="cta-section">
-			<h3 class="article-header translate" data-translate="cta header"><?= translate2('cta', 'header') ?>
+			<h3 class="article-header translate" data-translate="cta header"><?= translate('cta', 'header') ?>
 			</h3>
-			<p class="cta-text translate" data-translate="cta description"><?= translate2('cta', 'description') ?>
+			<p class="cta-text translate" data-translate="cta description"><?= translate('cta', 'description') ?>
 			</p>
 		</div>
 		<form class="email-sign-up">
@@ -385,9 +385,9 @@ if(!isset($_SESSION['lang'])){
 	<div class="smartphone">
 		<div class="smartphone-content">
 			<div class="smartphone-article">
-				<h3 class="article-header translate" data-translate="phone header"><?= translate2('phone', 'header') ?>
+				<h3 class="article-header translate" data-translate="phone header"><?= translate('phone', 'header') ?>
 				</h3>
-				<p class="article-text after-line  translate" data-translate="phone content"><?= translate2('phone', 'content') ?>
+				<p class="article-text after-line  translate" data-translate="phone content"><?= translate('phone', 'content') ?>
 				</p>
 			</div><button class="button phone-button" name="phone-button" type="button">Read more <svg class="button-arrow" height="17" viewbox="0 0 19 17" width="19" xmlns="http://www.w3.org/2000/svg">
 			<path d="M1 8.396L18.091 8.396" stroke="white" stroke-linecap="round"></path>
@@ -423,9 +423,9 @@ if(!isset($_SESSION['lang'])){
 	<!-- EMAIL FOOTER -->
 	<div class="CTA last">
 		<div class="cta-section">
-         <h3 class="article-header white  translate" data-translate="cta header"><?= translate2('cta', 'header') ?>
+         <h3 class="article-header white  translate" data-translate="cta header"><?= translate('cta', 'header') ?>
 			</h3>
-			<p class="cta-text white translate" data-translate="cta description"><?= translate2('cta', 'description') ?>
+			<p class="cta-text white translate" data-translate="cta description"><?= translate('cta', 'description') ?>
 			</p>
 		</div>
 		<form class="email-sign-up">
