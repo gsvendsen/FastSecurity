@@ -1,8 +1,8 @@
 .smartphone {
    display:flex;
    flex-direction:row;
-   padding: 0px 180px 0px 180px;
-   margin: 0 0 120px 0;
+   padding: 0px 300px 0px 180px;
+   margin: 120px 0 120px 0;
    justify-content: space-between;
 }
 
@@ -19,8 +19,10 @@
 
 .smartphone-image {
    width:34%;
-   height:614px;
-   background-color: lightgrey;
+   height:492px;
+   background-image:url('../resources/desktop/app.png');
+   background-repeat: no-repeat;
+   background-position: center;
 }
 
 @media only screen and (max-width: 768px) {

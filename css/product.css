@@ -1,6 +1,6 @@
 .product {
   display:flex;
-  padding:0 100px 0 180px;
+  padding:0 148px 0 180px;
   box-sizing: border-box;
   align-items: center;
   justify-content: space-between;
@@ -13,9 +13,19 @@
 }
 
 .product-image {
-  width:50%;
+  width:587px;
+  height:433px;
+  background-color:lightgrey;
+  background:url('../resources/desktop/image_mockup-product-folder.jpg') center no-repeat;
+}
+
+.merch-image {
+  width:540px;
   height:453px;
   background-color:lightgrey;
+  background-image:url('../resources/desktop/image_merch-mockup-1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 @media only screen and (max-width: 768px) {
@@ -30,6 +40,12 @@
   .product-text {
     width:auto;
     padding:0 50px 0 0 ;
+  }
+
+  .merch-image {
+    width:100%;
+    height:165px;
+    margin:0 0 60px 0;
   }
 
   .product-image {

@@ -249,7 +249,7 @@ CLASS SELECTORS
   width:100%;
   height:100vh;
   display:flex;
-  background-image:url('../resources/desktop-hero.png');
+  background-image:url('../resources/desktop/1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y:bottom;
