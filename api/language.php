@@ -6,7 +6,7 @@ header('Content-type: application/json');
 
 $lang = $_GET['locale'] ?? 'en';
 
-
+session_start();
 
 $languageArray = require __DIR__.'/../lang/'.$lang.'.php';
 
