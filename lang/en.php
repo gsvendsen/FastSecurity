@@ -3,6 +3,10 @@
 declare(strict_types=1);
 
 return [
+  'hero' => [
+    'header' => 'Introducing the future.',
+    'desc' => 'Sign up to our newsletter for exclusive offers, deals and release dates on the motorcycles of the next century.',
+  ],
   'home' => 'Home',
   'specs' => 'Specs',
   'safety' => 'Safety',

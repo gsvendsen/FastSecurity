@@ -3,6 +3,10 @@
 declare(strict_types=1);
 
 return [
+  'hero' => [
+    'header' => 'Till en ny framtid.',
+    'desc' => 'Skriv upp dig för nyhetsbrevet för att få senast information & erbjudanden för nästa generationen av motorcyklar.',
+  ],
   'home' => 'Hem',
   'specs' => 'Specifikationer',
   'safety' => 'Säkerhet',
