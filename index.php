@@ -44,22 +44,22 @@ if(!isset($_SESSION['lang'])){
 		<a class="logo-container" href=""><img alt="logo" class="logotype desktop-logo" src="resources/logo_white.svg"></a>
 		<ul class="menu-list">
 			<li class="menu-item">
-				<a class="nav-link" href="#"><?= translate('home') ?>
+				<a class="nav-link translate" href="#" data-translate="menu home"><?= translate2('menu', 'home') ?>
 				</a>
 			</li>
 			<li class="menu-item">
-				<a class="nav-link" href="#"><?= translate('specs') ?>
+				<a class="nav-link translate" href="#" data-translate="menu specs"><?= translate2('menu', 'specs') ?>
 				</a>
 			</li>
 			<li class="menu-item">
-				<a class="nav-link" href="#"><?= translate('safety') ?>
+				<a class="nav-link translate" href="#" data-translate="menu safety"><?= translate2('menu', 'safety') ?>
 				</a>
 			</li>
 			<li class="menu-item">
-				<a class="nav-link" href="#">Product Folder</a>
+				<a class="nav-link translate" href="#" data-translate="menu product-folder"><?= translate2('menu', 'product-folder') ?></a>
 			</li>
 			<li class="menu-item">
-				<a class="nav-link" href="#"><?= translate('contact') ?>
+				<a class="nav-link translate" href="#" data-translate="menu contact"><?= translate2('menu', 'contact') ?>
 				</a>
 			</li>
 			<li class="flag-container">
@@ -69,24 +69,23 @@ if(!isset($_SESSION['lang'])){
 	</div><!-- MOBILE MENU -->
 	<div class="menu">
 		<ul>
-			<li class="menu-item selected">
-				<a href="#"><?= translate('home') ?>
+         <li class="menu-item selected">
+				<a class="translate" href="#" data-translate="menu home"><?= translate2('menu', 'home') ?>
 				</a>
 			</li>
 			<li class="menu-item">
-				<a href="#"><?= translate('specs') ?>
+				<a class="translate" href="#" data-translate="menu specs"><?= translate2('menu', 'specs') ?>
 				</a>
 			</li>
 			<li class="menu-item">
-				<a href="#"><?= translate('safety') ?>
+				<a class="translate" href="#" data-translate="menu safety"><?= translate2('menu', 'safety') ?>
 				</a>
 			</li>
 			<li class="menu-item">
-				<a href="#"><?= translate('testimonials') ?>
-				</a>
+				<a class="translate" href="#" data-translate="menu product-folder"><?= translate2('menu', 'product-folder') ?></a>
 			</li>
 			<li class="menu-item">
-				<a href="#"><?= translate('contact') ?>
+				<a class="translate" href="#" data-translate="menu contact"><?= translate2('menu', 'contact') ?>
 				</a>
 			</li>
 			<li>
@@ -99,11 +98,11 @@ if(!isset($_SESSION['lang'])){
 		<div class="title-container">
 			<h1 class="hero-header translate" data-translate="hero header"><?= translate2('hero','header') ?>
 			</h1>
-			<p class="hero-sub translate" data-translate="hero desc"><?= translate2('hero','desc') ?>
+			<p class="hero-sub translate" data-translate="hero description"><?= translate2('hero','description') ?>
 			</p>
 		</div>
 		<form class="email-sign-up">
-			<input class="email-input" name="email" placeholder="E-mail" type="text"> <button name="register-button" type="submit"><?= translate('register') ?>
+			<input class="email-input" name="email" placeholder="E-mail" type="text"> <button name="register-button" type="submit">
 			</button>
 		</form><svg class="down-arrow" height="29" viewbox="0 0 26 29" width="26" xmlns="http://www.w3.org/2000/svg">
 		<path d="M13.3961 1V27.3342" stroke="white" stroke-linecap="round" stroke-width="1.5"></path>
@@ -113,11 +112,11 @@ if(!isset($_SESSION['lang'])){
 	<!-- HISTORY -->
 	<div class="history">
 		<div>
-			<h3 class="history-header"><?=translate('history-header') ?>
+			<h3 class="history-header translate" data-translate="history header"><?=translate2('history', 'header') ?>
 			</h3>
-			<p class="history-text"><?= translate('history-cont1') ?>
+			<p class="history-text translate" data-translate="history content1"><?= translate2('history', 'content1') ?>
 			</p>
-			<p class="history-text"><?= translate('history-cont2') ?>
+			<p class="history-text translate" data-translate="history content2"><?= translate2('history', 'content2') ?>
 			</p>
 		</div><!--/history-content-->
 		<div>
@@ -187,14 +186,14 @@ if(!isset($_SESSION['lang'])){
 	<div class="autonomous">
 		<div class="autonomous-text-section">
 			<div class="header-section pink-margin">
-				<h3 class="article-header"><?=translate('auto-header') ?>
+				<h3 class="article-header translate" data-translate="autonomous header"><?=translate2('autonomous', 'header') ?>
 				</h3>
-				<p class="article-text">Autonomous cars combine a variety of sensors to perceive their surroundings, such as radar, computer vision, Lidar, sonar, GPS, odometry and inertial measurement units.</p>
-				<p class="article-text">A self-driving car, also known as a robot car, autonomous car, or driverless car is a vehicle that is capable of sensing its environment and moving with little or no human input.</p>
+				<p class="article-text translate" data-translate="autonomous content1"><?=translate2('autonomous', 'content1') ?></p>
+				<p class="article-text translate" data-translate="autonomous content2"><?=translate2('autonomous', 'content2') ?></p>
 			</div>
 			<div class="subheader-section">
-				<h5 class="article-subheader">BRAKING SENSORS</h5>
-				<p class="article-text after-line">With the new SG-2 braking sensors self driving has never been safer. Humans, with a one second reaction time do not always have enough time to react to dangers in trafic, with AI systems in place you can rest assured that less accidents will take place.</p>
+				<h5 class="article-subheader translate" data-translate="break header"><?= translate2('break', 'header') ?></h5>
+				<p class="article-text after-line translate" data-translate="break content"><?= translate2('break', 'content') ?></p>
 			</div>
 		</div>
 		<div class="autonomous-image"></div>
@@ -212,9 +211,9 @@ if(!isset($_SESSION['lang'])){
 	<!-- cta -->
 	<div class="CTA margin-after">
 		<div class="cta-section">
-			<h3 class="article-header"><?= translate('CTA-header') ?>
+			<h3 class="article-header  translate" data-translate="cta header"><?= translate2('cta', 'header') ?>
 			</h3>
-			<p class="cta-text"><?= translate('CTA-desc') ?>
+			<p class="cta-text translate" data-translate="cta description"><?= translate2('cta', 'description') ?>
 			</p>
 		</div>
 		<form class="email-sign-up">
@@ -338,9 +337,9 @@ if(!isset($_SESSION['lang'])){
   <!-- CTA -->
   <div class="CTA margin-after indented">
 		<div class="cta-section">
-			<h3 class="article-header"><?= translate('CTA-header') ?>
+			<h3 class="article-header translate" data-translate="cta header"><?= translate2('cta', 'header') ?>
 			</h3>
-			<p class="cta-text"><?= translate('CTA-desc') ?>
+			<p class="cta-text translate" data-translate="cta description"><?= translate2('cta', 'description') ?>
 			</p>
 		</div>
 		<form class="email-sign-up">
@@ -385,9 +384,9 @@ if(!isset($_SESSION['lang'])){
 	<div class="smartphone">
 		<div class="smartphone-content">
 			<div class="smartphone-article">
-				<h3 class="article-header"><?= translate('phone-header') ?>
+				<h3 class="article-header translate" data-translate="phone header"><?= translate2('phone', 'header') ?>
 				</h3>
-				<p class="article-text after-line"><?= translate('phone-content') ?>
+				<p class="article-text after-line  translate" data-translate="phone content"><?= translate2('phone', 'content') ?>
 				</p>
 			</div><button class="button phone-button" name="phone-button" type="button">Read more <svg class="button-arrow" height="17" viewbox="0 0 19 17" width="19" xmlns="http://www.w3.org/2000/svg">
 			<path d="M1 8.396L18.091 8.396" stroke="white" stroke-linecap="round"></path>
@@ -423,9 +422,9 @@ if(!isset($_SESSION['lang'])){
 	<!-- EMAIL FOOTER -->
 	<div class="CTA last">
 		<div class="cta-section">
-			<h3 class="article-header white"><?= translate('CTA-header') ?>
+         <h3 class="article-header white  translate" data-translate="cta header"><?= translate2('cta', 'header') ?>
 			</h3>
-			<p class="cta-text white"><?= translate('CTA-desc') ?>
+			<p class="cta-text white translate" data-translate="cta description"><?= translate2('cta', 'description') ?>
 			</p>
 		</div>
 		<form class="email-sign-up">
