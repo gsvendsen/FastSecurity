@@ -8,19 +8,19 @@
 }
 
 .product-text {
-  width:50%;
+  width:40%;
   max-width: 430px;
 }
 
 .product-image {
-  width:587px;
+  width:50%;
   height:433px;
   background-color:lightgrey;
   background:url('../resources/desktop/image_mockup-product-folder.jpg') center no-repeat;
 }
 
 .merch-image {
-  width:540px;
+  width:50%;
   height:453px;
   background-color:lightgrey;
   background-image:url('../resources/desktop/image_merch-mockup-1.jpg');

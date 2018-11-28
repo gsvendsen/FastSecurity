@@ -1,9 +1,9 @@
 .smartphone {
    display:flex;
    flex-direction:row;
-   padding: 0px 330px 0px 180px;
+   padding: 0px 180px 0px 180px;
    margin: 120px 0 120px 0;
-   justify-content: space-between;
+   justify-content:space-between;
 }
 
 .smartphone-content {
@@ -11,6 +11,7 @@
    flex-direction: column;
    box-sizing: border-box;
    justify-content: center;
+   width:50%;
 }
 
 .smartphone-article {
