@@ -66,8 +66,8 @@ if(!isset($_SESSION['lang'])){
         <a class="nav-link" href="#"><?= translate('contact') ?></a>
       </li>
       <li class="flag-container">
-        <a class="lang-option" href="/?lang=en"><img class="flag" src="resources/Flag_UK.svg"></a>
-        <a class="lang-option" href="/?lang=sv"><img class="flag" src="resources/Flag_SWE.svg"></a>
+        <a class="lang-option en" href="#"><img class="flag lang-option en" src="resources/Flag_UK.svg"></a>
+        <a class="lang-option sv" href="#"><img class="flag lang-option sv" src="resources/Flag_SWE.svg"></a>
       </li>
     </ul>
   </div>
@@ -100,8 +100,8 @@ if(!isset($_SESSION['lang'])){
   <!-- HERO -->
   <div class="hero">
     <div class="title-container">
-      <h1 class="hero-header"><?= translate('hero-header') ?></h1>
-      <p class="hero-sub"><?= translate('hero-desc') ?></p>
+      <h1 class="hero-header translate" data-translate="hero-header"><?= translate('hero-header') ?></h1>
+      <p class="hero-sub translate" data-translate="hero-desc"><?= translate('hero-desc') ?></p>
     </div>
     <form class="email-sign-up">
       <input class="email-input" type="text" name="email" placeholder="E-mail">
@@ -583,5 +583,7 @@ if(!isset($_SESSION['lang'])){
 </body>
 <script src="js/script.js"></script>
 <script src="js/slide-show.js"></script>
+<script src="js/lang.js"></script>
+
 
 </html>
