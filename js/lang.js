@@ -23,9 +23,14 @@ const updateLang = (language) => {
 
       translates.forEach((translate) => {
 
-        translateKey = translate.dataset.translate;
+        translateData = translate.dataset.translate.split(" ");
+        translateKey = translateData[0];
+        let translateValue = translateData[1];
+        let dataSection = data[translateKey];
 
-        translate.textContent = data[translateKey];
+        let selectedContent = dataContent[translateValue];
+
+        translate.textContent = selectedContent;
 
       })
 
