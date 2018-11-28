@@ -6,38 +6,45 @@ const enFlag = document.querySelector('.en');
 const svFlag = document.querySelector('.sv');
 
 
-var selectedLang = 'en';
-
 // Replace ./data.json with your JSON feed
-const updateLang = () => {
-
-  fetch('api/language.php?locale='+selectedLang).then(response => {
+const updateLang = (language) => {
+  fetch('api/lang-session.php?locale='+language).then(response => {
     return response.json();
   }).then(data => {
 
-    // Work with JSON data here
-    languages = data;
+    var selectedLang = data;
 
-    translates.forEach((translate) => {
+    fetch('api/language.php?locale='+selectedLang).then(response => {
+      return response.json();
+    }).then(data => {
 
-      translateKey = translate.dataset.translate;
+      // Work with JSON data here
+      languages = data;
 
-      translate.textContent = data[translateKey];
+      translates.forEach((translate) => {
 
-    })
+        translateKey = translate.dataset.translate;
+
+        translate.textContent = data[translateKey];
+
+      })
 
 
-  }).catch(err => {
+    }).catch(err => {
+      // Do something for an error here
+    });
+    }
+
+  ).catch(err => {
     // Do something for an error here
   });
 }
 
+
 enFlag.addEventListener("click", ()=>{
-  selectedLang = "en";
-  updateLang();
+  updateLang('en');
 })
 
 svFlag.addEventListener("click", ()=>{
-  selectedLang = "sv";
-  updateLang();
+  updateLang('sv');
 })
