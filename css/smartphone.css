@@ -1,7 +1,7 @@
 .smartphone {
    display:flex;
    flex-direction:row;
-   padding: 0px 300px 0px 180px;
+   padding: 0px 330px 0px 180px;
    margin: 120px 0 120px 0;
    justify-content: space-between;
 }
@@ -18,7 +18,7 @@
 }
 
 .smartphone-image {
-   width:34%;
+   width:249px;
    height:492px;
    background-image:url('../resources/desktop/app.png');
    background-repeat: no-repeat;
@@ -45,6 +45,9 @@
    .smartphone-image {
       width:40%;
       height:440px;
+      background-image:url('../resources/mobile/app.png');
+      background-repeat: no-repeat;
+      background-position: right;
    }
 
 
