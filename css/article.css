@@ -75,6 +75,9 @@
 
 .cta > form {
   margin:0;
+  width:50%;
+  display:flex;
+  justify-content:flex-end;
 }
 
 .cta > form > button {
