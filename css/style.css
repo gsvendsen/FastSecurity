@@ -232,6 +232,8 @@ CLASS SELECTORS
 .flag {
   width:25px;
   height:13px;
+  cursor:pointer;
+  margin:5px 0 5px 0;
 }
 
 .hamburger-menu {
