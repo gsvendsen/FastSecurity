@@ -10,7 +10,6 @@ const historySection = document.querySelector('.history');
 
 /* HAMBURGER MENU TOGGLE FOR MOBILE/TABLET */
 hamButton.addEventListener("click", ()=>{
-  console.log("bla");
   hamBar.classList.toggle("clicked");
   menu.classList.toggle("open");
   document.body.classList.toggle("no-scroll");
@@ -64,7 +63,6 @@ window.addEventListener('scroll', ()=>{
   logo.style.opacity = scrollConstUp;
   desktopNav.style.backgroundColor = "rgba(255,255,255,"+scrollConstDown+")";
   desktopLogo.style.webkitFilter = "invert("+scrollConstDown+")"
-  console.log(desktopLogo)
 
 
   navLinks.forEach((navLink)=>{
