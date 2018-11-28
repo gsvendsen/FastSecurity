@@ -267,7 +267,7 @@ if(!isset($_SESSION['lang'])){
 				<p class="stats-text">with turbo charge</p>
 			</div>
 			<div class="image-section">
-				<img alt="Graph of acceleration" class="stat-image" src="resources/graph.png">
+				<img alt="Graph of acceleration" class="stat-image" src="resources/desktop/graph.png">
 				<p class="stats-text">Graph on the acceleration – FS1</p>
 			</div>
 		</div>
