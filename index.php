@@ -97,9 +97,9 @@ if(!isset($_SESSION['lang'])){
 	<!-- HERO -->
 	<div class="hero">
 		<div class="title-container">
-			<h1 class="hero-header translate" data-translate="hero-header"><?= translate('hero-header') ?>
+			<h1 class="hero-header translate" data-translate="hero header"><?= translate2('hero','header') ?>
 			</h1>
-			<p class="hero-sub translate" data-translate="hero-desc"><?= translate('hero-desc') ?>
+			<p class="hero-sub translate" data-translate="hero desc"><?= translate2('hero','desc') ?>
 			</p>
 		</div>
 		<form class="email-sign-up">
