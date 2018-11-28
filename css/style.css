@@ -58,7 +58,7 @@ GLOBAL SELECTORS
 
  .hero-sub {
    line-height: normal;
-   font-size: 18px;
+   font-size: 1.125em;
    letter-spacing: 0.03em;
    padding-right: 4px;
    margin-top:10px;
@@ -67,7 +67,7 @@ GLOBAL SELECTORS
 
  .hero-header {
    line-height: 98px;
-   font-size: 120px;
+   font-size: 7.5em;
    letter-spacing: -0.03em;
    max-width: 630px;
    margin:0;
@@ -179,7 +179,7 @@ CLASS SELECTORS
 
 .email-sign-up > input {
   box-sizing: border-box;
-  font-size:16px;
+  font-size:1em;
   padding-left: 10px;
   height:100%;
   width:100%;
@@ -187,7 +187,7 @@ CLASS SELECTORS
 
 .email-sign-up > button {
   height:100%;
-  font-size:16px;
+  font-size:1em;
   width:181px;
   border:none;
   color:white;
@@ -205,7 +205,7 @@ CLASS SELECTORS
 
 .desktop-menu> .menu-list > .menu-item > a {
   line-height: 13px;
-  font-size: 16px;
+  font-size: 1em;
   letter-spacing: 0.03em;
   color: #FFFF;
 }
@@ -287,7 +287,7 @@ CLASS SELECTORS
 
 .nav-link {
   line-height: 13px;
-  font-size: 16px;
+  font-size: 1em;
   letter-spacing: 0.03em;
 }
 
@@ -351,7 +351,7 @@ CLASS SELECTORS
 
 .button {
    height:100%;
-   font-size:16px;
+   font-size:1em;
    width:180px;
    height:50px;
    border:none;
@@ -406,7 +406,7 @@ MEDIA QUERY MOBILE
    }
 
    .hero-sub {
-     font-size:16px;
+     font-size:1em;
      padding-right: 4px;
    }
 
@@ -426,7 +426,7 @@ MEDIA QUERY MOBILE
    }
 
    .hero-header {
-     font-size:60px;
+     font-size:3.75em;
      line-height: 0.95;
      margin-bottom:19px;
    }
@@ -504,7 +504,7 @@ MEDIA QUERY MOBILE
    }
 
    .menu-item a{
-    font-size: 24px;
+    font-size: 1.5em;
     letter-spacing: 0.03em;
     color: #FFFFFF;
    }
@@ -569,7 +569,7 @@ MEDIA QUERY MOBILE
  }
 
  .menu-item a{
-  font-size: 24px;
+  font-size: 1.5em;
   letter-spacing: 0.03em;
   color: #FFFFFF;
  }

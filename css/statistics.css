@@ -14,7 +14,7 @@
 
 .stats-text {
   line-height: 17px;
-  font-size: 14px;
+  font-size: 0.875em;
   text-align: center;
   letter-spacing: 0.03em;
   color: rgba(0, 0, 0, 0.55);
@@ -23,7 +23,7 @@
 
 .stats-info {
   line-height: 27px;
-  font-size: 22px;
+  font-size: 1.375em;
   text-align: center;
   color: #00205A;
   font-weight: normal;
