@@ -210,7 +210,7 @@ if(!isset($_SESSION['lang'])){
 		</div>
 	</div><!--/comfort-->
 	<!-- cta -->
-	<div class="CTA margin-after">
+	<div class="cta margin-after">
 		<div class="cta-section">
 			<h3 class="article-header  translate" data-translate="cta header"><?= translate('cta', 'header') ?>
 			</h3>
@@ -336,7 +336,7 @@ if(!isset($_SESSION['lang'])){
 	</div>
 
   <!-- CTA -->
-  <div class="CTA margin-after indented">
+  <div class="cta margin-after indented">
 		<div class="cta-section">
 			<h3 class="article-header translate" data-translate="cta header"><?= translate('cta', 'header') ?>
 			</h3>
@@ -422,7 +422,7 @@ if(!isset($_SESSION['lang'])){
 		<div class="product-image"></div>
 	</div><!-- PRODUCT END -->
 	<!-- EMAIL FOOTER -->
-	<div class="CTA last">
+	<div class="cta last">
 		<div class="cta-section">
          <h3 class="article-header white  translate" data-translate="cta header"><?= translate('cta', 'header') ?>
 			</h3>
