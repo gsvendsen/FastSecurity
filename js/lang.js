@@ -25,10 +25,10 @@ const updateLang = (language) => {
 
         translateData = translate.dataset.translate.split(" ");
         translateKey = translateData[0];
-        let translateValue = translateData[1];
-        let dataSection = data[translateKey];
+        var translateValue = translateData[1];
+        var dataSection = data[translateKey];
 
-        let selectedContent = dataContent[translateValue];
+        var selectedContent = dataSection[translateValue];
 
         translate.textContent = selectedContent;
 
