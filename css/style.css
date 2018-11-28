@@ -265,6 +265,8 @@ CLASS SELECTORS
   position:absolute;
   bottom:40px;
   align-self: center;
+  animation: bounce 0.8s alternate infinite ease-in-out 1.5s;
+  transform: translateY(-5px);
 }
 
 .logotype {
@@ -378,6 +380,16 @@ CLASS SELECTORS
     transform: translate(0);
     opacity:1;
   }
+}
+
+@keyframes bounce {
+   from {
+      transform: translateY(-5px);
+   }
+
+   to {
+      transform: translateY(5px);
+   }
 }
 
 /*
