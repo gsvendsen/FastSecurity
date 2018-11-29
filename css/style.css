@@ -1,3 +1,4 @@
+/* Imports all css files */
 @import url("article.css");
 @import url("autonomous.css");
 @import url("comfort.css");
@@ -10,21 +11,16 @@
 @import url("smartphone.css");
 @import url("statistics.css");
 
+/* AktivGrotesk font import */
 @font-face {
 font-family:"aktiv-grotesk";
-src:url("https://use.typekit.net/af/affdf5/00000000000000003b9b0328/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/affdf5/00000000000000003b9b0328/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/affdf5/00000000000000003b9b0328/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+src:url("../resources/fonts/AktivGrotesk-Regular") format("woff");
 font-style:normal;font-weight:400;
 }
 
 @font-face {
 font-family:"aktiv-grotesk";
-src:url("https://use.typekit.net/af/90ce96/00000000000000003b9b0329/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/90ce96/00000000000000003b9b0329/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/90ce96/00000000000000003b9b0329/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
-font-style:italic;font-weight:400;
-}
-
-@font-face {
-font-family:"aktiv-grotesk";
-src:url("https://use.typekit.net/af/b5ce2a/00000000000000003b9b032d/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/b5ce2a/00000000000000003b9b032d/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/b5ce2a/00000000000000003b9b032d/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+src:url("../resources/fonts/AktivGrotesk-Bold") format("woff");
 font-style:bold;font-weight:700;
 }
 
@@ -39,8 +35,6 @@ GLOBAL SELECTORS
 
 
  a {
-  color:white;
-  font-size:2em;
   text-decoration: none;
  }
 
@@ -51,22 +45,7 @@ GLOBAL SELECTORS
    font-family:aktiv-grotesk, sans-serif;
    transition: all 0.3s;
    background-color: white;
-   color:white;
  }
-
- a:after{
-   content: "Links dont work in demo!";
-   display: block;
-   background-color:white;
-   width: 0;
-   position:absolute;
-   height: 0;
-   border-radius: 5px;
-   opacity: 0;
-   overflow:hidden;
-   padding:4px;
-   transition:opacity 0.2s ease-in-out;
-  }
 
  .hero-sub {
    line-height: normal;
@@ -169,17 +148,6 @@ CLASS SELECTORS
   transform: rotate(-45deg);
   bottom: 0;
   background: #000;
-}
-
-.deny:after {
-  content: "Links dont work in demo!";
-  display: block;
-  background-color:red;
-  width: 200px;
-  color:white;
-  opacity:1;
-  position:absolute;
-  height: auto;
 }
 
 .email-sign-up {
