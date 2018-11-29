@@ -94,7 +94,7 @@ return [
     'text2' => 'Den kraftfulla elmotorn i FS1 använder roterande drivgearteknik som förändrar hur dagens elmotorer fungerar. Genom att leverera dubbelt så mycket ström för mindre inmatning och vara rymmeeffektiv.',
   ],
   'break' => [
-     'header' => 'Bromssensorer',
+     'header' => 'BROMSSENSORER',
      'content' => 'Nå toppfart eller ta snäva kurvor, Lucid Airs perfekt kalibrerade luftfjädring, avancerade dämpningsteknik och låga tyngdpunkt levererar precisionhantering och smidig körning.',
   ],
   'phone' =>[

@@ -16,7 +16,7 @@ return [
      'connect' => 'Connect',
      'policy' => 'Policy',
      'data' => 'Your Data',
-     
+
   ],
   'hero' => [
      'header' => 'Introducing the future.',
@@ -93,7 +93,7 @@ return [
     'text2' => 'The powerful electric motor in the FS1 uses rotating drive-train technology which alters the way current electric motors work. By delivering twice as much power for less input and being space-efficient.',
   ],
   'break' => [
-     'header' => 'Breaking sensors',
+     'header' => 'BRAKING SENSORS',
      'content' => 'Hitting top speeds or hugging tight corners, the Lucid Air’s perfectly calibrated air springs, advanced damper technology, and low center of gravity deliver precision handling and a smooth ride.',
   ],
   'phone' =>[
