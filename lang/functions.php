@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 function translate(string $key1, string $key2):string {
   $languages = [
-    'sv' => __DIR__.'/lang/sv.php',
-    'en' => __DIR__.'/lang/en.php',
+    'sv' => __DIR__.'/sv.php',
+    'en' => __DIR__.'/en.php',
   ];
 
   if(isset($_GET['lang'])){
