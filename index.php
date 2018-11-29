@@ -5,6 +5,7 @@ require __DIR__.'/lang/functions.php';
 
 session_start();
 
+// Sets language session to english by default
 if(!isset($_SESSION['lang'])){
   $_SESSION['lang'] = 'en';
 }
@@ -23,14 +24,17 @@ if(!isset($_SESSION['lang'])){
 
 </head>
 <body>
+  <!-- Logo container for mobile -->
 	<div class="mobile-container">
 		<a class="logo-container" href=""><img alt="logo" class="logotype" src="resources/svg/logo_white.svg"></a>
 	</div>
+  <!-- Navbar for mobile/tablet -->
 	<div class="navbar hidden">
 		<div class="hamburger-menu">
 			<div class="bar"></div>
 		</div>
 	</div>
+  <!-- Navmenu for desktop -->
 	<div class="desktop-menu">
 		<a class="logo-container" href=""><img alt="logo" class="logotype desktop-logo" src="resources/svg/logo_white.svg"></a>
 		<ul class="menu-list">
@@ -58,7 +62,8 @@ if(!isset($_SESSION['lang'])){
         <img class="flag lang-option sv" src="resources/svg/Flag_SWE.svg">
 			</li>
 		</ul>
-	</div><!-- MOBILE MENU -->
+	</div>
+  <!-- Navmenu for mobile -->
 	<div class="menu">
 		<ul>
          <li class="menu-item selected">
@@ -85,7 +90,7 @@ if(!isset($_SESSION['lang'])){
 			</li>
 		</ul>
 	</div><!-- / MOBILE MENU -->
-	<!-- HERO -->
+	<!-- Hero -->
 	<div class="hero">
 		<div class="title-container">
 			<h1 class="hero-header translate" data-translate="hero header"><?= translate('hero','header') ?>
@@ -100,8 +105,8 @@ if(!isset($_SESSION['lang'])){
 		<path d="M13.3961 1V27.3342" stroke="white" stroke-linecap="round" stroke-width="1.5"></path>
 		<path d="M24.7922 15.9381L13.3962 27.3342" stroke="white" stroke-linecap="round" stroke-width="1.5"></path>
 		<path d="M2 15.9381L13.3961 27.3342" stroke="white" stroke-linecap="round" stroke-width="1.5"></path></svg>
-	</div><!-- /HERO -->
-	<!-- HISTORY -->
+	</div><!-- /hero -->
+	<!-- History section -->
 	<div class="history">
 		<div>
 			<h3 class="history-header translate" data-translate="history header"><?=translate('history', 'header') ?>
@@ -110,7 +115,7 @@ if(!isset($_SESSION['lang'])){
 			</p>
 			<p class="history-text translate" data-translate="history content2"><?= translate('history', 'content2') ?>
 			</p>
-		</div><!--/history-content-->
+		</div>
 		<div>
 			<button class="button history-button" name="history-button" type="button">Our history <svg class="button-arrow" height="17" viewbox="0 0 19 17" width="19" xmlns="http://www.w3.org/2000/svg">
 			<path d="M1 8.396L18.091 8.396" stroke="white" stroke-linecap="round"></path>
@@ -118,7 +123,7 @@ if(!isset($_SESSION['lang'])){
 			<path d="M10.6948 15.7922L18.0909 8.39615" stroke="white" stroke-linecap="round"></path></svg></button>
 		</div>
 	</div><!--/history-->
-	<!-- SLIDESHOW -->
+	<!-- Slideshow -->
 	<div class="viewport-container">
 		<div class="image-slider">
 			<div class="slide-container">
@@ -173,8 +178,8 @@ if(!isset($_SESSION['lang'])){
 				</div>
 			</div>
 		</div>
-	</div><!-- /SLIDESHOW -->
-	<!-- AUTONOMOUS SECTION -->
+	</div><!-- /viewport-container -->
+	<!-- Autonomous section -->
 	<div class="autonomous">
 		<div class="autonomous-text-section">
 			<div class="header-section pink-margin">
@@ -190,7 +195,7 @@ if(!isset($_SESSION['lang'])){
 		</div>
 		<div class="autonomous-image"></div>
 	</div><!--/autonomous-->
-	<!-- COMFORT SECTION -->
+	<!-- Comfort section -->
 	<div class="comfort">
 		<div class="comfort-image"></div>
 		<div class="comfort-text">
@@ -200,7 +205,7 @@ if(!isset($_SESSION['lang'])){
 			</div>
 		</div>
 	</div><!--/comfort-->
-	<!-- cta -->
+	<!-- Call to action email box -->
 	<div class="cta margin-after">
 		<div class="cta-section">
 			<h3 class="article-header  translate" data-translate="cta header"><?= translate('cta', 'header') ?>
@@ -215,7 +220,7 @@ if(!isset($_SESSION['lang'])){
 			<path d="M12.5042 19L21.108 10.3961" stroke="white" stroke-linecap="round" stroke-width="1.5"></path></svg></button>
 		</form>
 	</div><!--/cta-->
-	<!-- STATS -->
+	<!-- Statistics section -->
 	<div class="statistics">
 		<div class="stats-box">
 			<p class="stats-text translate" data-translate="stats hours1"><?= translate('stats', 'hours1') ?></p>
@@ -232,101 +237,105 @@ if(!isset($_SESSION['lang'])){
 			<p class="stats-info translate" data-translate="stats drive2"><?= translate('stats', 'drive2') ?></p>
 			<p class="stats-text translate" data-translate="stats drive3"><?= translate('stats', 'drive3') ?></p>
 		</div>
-	</div><!-- ENGINEERING -->
-	<div class="engineering">
-	<div class="eng-header">
-		<p class="article-pre translate" data-translate="specifications preheader"><?= translate('specifications', 'preheader') ?></p>
-		<p class="article-bold translate" data-translate="specifications header"><?= translate('specifications', 'header') ?></p>
-		<p class="article-subbold translate" data-translate="specifications sub"><?= translate('specifications', 'sub') ?></p>
-	</div><img class="engineering-image right" src="resources/desktop/range.jpg">
-	<p class="article-subheader translate" data-translate="acceleration header"><?= translate('acceleration', 'header') ?></p>
-	<div class="engineering-article">
-		<div class="text-section">
-			<p class="article-text translate" data-translate="acceleration text"><?= translate('acceleration', 'text') ?></p>
-			<div class="read-more desktop">
-				<a href="#">Read more <svg height="13" viewbox="0 0 23 13" width="23" xmlns="http://www.w3.org/2000/svg">
-				<path d="M1 6.60791L21.5263 6.60791" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path>
-				<path d="M16.8923 2L21.6662 6.77387" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path>
-				<path d="M16.8923 11.5479L21.6662 6.77399" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path></svg></a>
-			</div>
-		</div>
-		<div class="stat-section">
-			<div class="stats">
-				<p class="stats-text translate" data-translate="acceleration stat1"><?= translate('acceleration', 'stat1') ?></p>
-				<p class="stats-info translate" data-translate="acceleration stat2"><?= translate('acceleration', 'stat2') ?></p>
-				<p class="stats-text translate" data-translate="acceleration stat3"><?= translate('acceleration', 'stat3') ?></p>
-				<p class="stats-info translate" data-translate="acceleration stat4"><?= translate('acceleration', 'stat4') ?></p>
-				<p class="stats-text translate" data-translate="acceleration stat5"><?= translate('acceleration', 'stat5') ?></p>
-			</div>
-			<div class="image-section">
-				<img alt="Graph of acceleration" class="stat-image" src="resources/desktop/graph.png">
-				<p class="stats-text translate" data-translate="acceleration graph"><?= translate('acceleration', 'graph') ?></p>
-			</div>
-		</div>
-		<div class="read-more mobile">
-			<a href="#">Read more <svg height="13" viewbox="0 0 23 13" width="23" xmlns="http://www.w3.org/2000/svg">
-			<path d="M1 6.60791L21.5263 6.60791" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path>
-			<path d="M16.8923 2L21.6662 6.77387" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path>
-			<path d="M16.8923 11.5479L21.6662 6.77399" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path></svg></a>
-		</div>
-	</div><img class="engineering-image left" src="resources/desktop/Delorean_Vinkel.jpg">
-  <p class="article-subheader translate" data-translate="weight header"><?= translate('weight', 'header') ?></p>
-
-  <div class="engineering-article">
-		<div class="text-section">
-      <p class="article-text translate" data-translate="weight text"><?= translate('weight', 'text') ?></p>
-			<div class="read-more desktop">
-				<a href="#">Read more <svg height="13" viewbox="0 0 23 13" width="23" xmlns="http://www.w3.org/2000/svg">
-				<path d="M1 6.60791L21.5263 6.60791" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path>
-				<path d="M16.8923 2L21.6662 6.77387" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path>
-				<path d="M16.8923 11.5479L21.6662 6.77399" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path></svg></a>
-			</div>
-		</div>
-		<div class="stat-section">
-      <div class="stats">
-				<p class="stats-text translate" data-translate="weight stat1"><?= translate('weight', 'stat1') ?></p>
-				<p class="stats-info translate" data-translate="weight stat2"><?= translate('weight', 'stat2') ?></p>
-				<p class="stats-text translate" data-translate="weight stat3"><?= translate('weight', 'stat3') ?></p>
-				<p class="stats-info translate" data-translate="weight stat4"><?= translate('weight', 'stat4') ?></p>
-				<p class="stats-text translate" data-translate="weight stat5"><?= translate('weight', 'stat5') ?></p>
-			</div>
-		</div>
-		<div class="read-more mobile">
-			<a href="#">Read more <svg height="13" viewbox="0 0 23 13" width="23" xmlns="http://www.w3.org/2000/svg">
-			<path d="M1 6.60791L21.5263 6.60791" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path>
-			<path d="M16.8923 2L21.6662 6.77387" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path>
-			<path d="M16.8923 11.5479L21.6662 6.77399" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path></svg></a>
-		</div>
-	</div><img class="engineering-image right" src="resources/desktop/image_range-left-aligned.jpg">
-  <p class="article-subheader translate" data-translate="range header"><?= translate('range', 'header') ?></p>
-
-  <div class="engineering-article">
-		<div class="text-section">
-      <p class="article-text translate" data-translate="range text"><?= translate('range', 'text') ?></p>
-			<div class="read-more desktop">
-				<a href="#">Read more <svg height="13" viewbox="0 0 23 13" width="23" xmlns="http://www.w3.org/2000/svg">
-				<path d="M1 6.60791L21.5263 6.60791" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path>
-				<path d="M16.8923 2L21.6662 6.77387" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path>
-				<path d="M16.8923 11.5479L21.6662 6.77399" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path></svg></a>
-			</div>
-		</div>
-		<div class="stat-section">
-			<div class="stats">
-        <p class="stats-text translate" data-translate="range stat1"><?= translate('range', 'stat1') ?></p>
-				<p class="stats-info translate" data-translate="range stat2"><?= translate('range', 'stat2') ?></p>
-				<p class="stats-text translate" data-translate="range stat3"><?= translate('range', 'stat3') ?></p>
-				<p class="stats-info translate" data-translate="range stat4"><?= translate('range', 'stat4') ?></p>
-			</div>
-		</div>
-		<div class="read-more mobile">
-			<a href="#">Read more <svg height="13" viewbox="0 0 23 13" width="23" xmlns="http://www.w3.org/2000/svg">
-			<path d="M1 6.60791L21.5263 6.60791" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path>
-			<path d="M16.8923 2L21.6662 6.77387" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path>
-			<path d="M16.8923 11.5479L21.6662 6.77399" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path></svg></a>
-		</div>
 	</div>
+  <!-- Engineering section -->
+	<div class="engineering">
+  	<div class="eng-header">
+  		<p class="article-pre translate" data-translate="specifications preheader"><?= translate('specifications', 'preheader') ?></p>
+  		<p class="article-bold translate" data-translate="specifications header"><?= translate('specifications', 'header') ?></p>
+  		<p class="article-subbold translate" data-translate="specifications sub"><?= translate('specifications', 'sub') ?></p>
+  	</div>
+    <img class="engineering-image right" src="resources/desktop/range.jpg">
+	  <p class="article-subheader translate" data-translate="acceleration header"><?= translate('acceleration', 'header') ?></p>
+  	<div class="engineering-article">
+  		<div class="text-section">
+  			<p class="article-text translate" data-translate="acceleration text"><?= translate('acceleration', 'text') ?></p>
+  			<div class="read-more desktop">
+  				<a href="#">Read more <svg height="13" viewbox="0 0 23 13" width="23" xmlns="http://www.w3.org/2000/svg">
+  				<path d="M1 6.60791L21.5263 6.60791" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path>
+  				<path d="M16.8923 2L21.6662 6.77387" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path>
+  				<path d="M16.8923 11.5479L21.6662 6.77399" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path></svg></a>
+  			</div>
+  		</div>
+  		<div class="stat-section">
+  			<div class="stats">
+  				<p class="stats-text translate" data-translate="acceleration stat1"><?= translate('acceleration', 'stat1') ?></p>
+  				<p class="stats-info translate" data-translate="acceleration stat2"><?= translate('acceleration', 'stat2') ?></p>
+  				<p class="stats-text translate" data-translate="acceleration stat3"><?= translate('acceleration', 'stat3') ?></p>
+  				<p class="stats-info translate" data-translate="acceleration stat4"><?= translate('acceleration', 'stat4') ?></p>
+  				<p class="stats-text translate" data-translate="acceleration stat5"><?= translate('acceleration', 'stat5') ?></p>
+  			</div>
+  			<div class="image-section">
+  				<img alt="Graph of acceleration" class="stat-image" src="resources/desktop/graph.png">
+  				<p class="stats-text translate" data-translate="acceleration graph"><?= translate('acceleration', 'graph') ?></p>
+  			</div>
+  		</div>
+  		<div class="read-more mobile">
+  			<a href="#">Read more <svg height="13" viewbox="0 0 23 13" width="23" xmlns="http://www.w3.org/2000/svg">
+  			<path d="M1 6.60791L21.5263 6.60791" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path>
+  			<path d="M16.8923 2L21.6662 6.77387" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path>
+  			<path d="M16.8923 11.5479L21.6662 6.77399" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path></svg></a>
+  		</div>
+  	</div>
+    <img class="engineering-image left" src="resources/desktop/Delorean_Vinkel.jpg">
+    <p class="article-subheader translate" data-translate="weight header"><?= translate('weight', 'header') ?></p>
 
-  <!-- CTA -->
+    <div class="engineering-article">
+  		<div class="text-section">
+        <p class="article-text translate" data-translate="weight text"><?= translate('weight', 'text') ?></p>
+  			<div class="read-more desktop">
+  				<a href="#">Read more <svg height="13" viewbox="0 0 23 13" width="23" xmlns="http://www.w3.org/2000/svg">
+  				<path d="M1 6.60791L21.5263 6.60791" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path>
+  				<path d="M16.8923 2L21.6662 6.77387" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path>
+  				<path d="M16.8923 11.5479L21.6662 6.77399" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path></svg></a>
+  			</div>
+  		</div>
+  		<div class="stat-section">
+        <div class="stats">
+  				<p class="stats-text translate" data-translate="weight stat1"><?= translate('weight', 'stat1') ?></p>
+  				<p class="stats-info translate" data-translate="weight stat2"><?= translate('weight', 'stat2') ?></p>
+  				<p class="stats-text translate" data-translate="weight stat3"><?= translate('weight', 'stat3') ?></p>
+  				<p class="stats-info translate" data-translate="weight stat4"><?= translate('weight', 'stat4') ?></p>
+  				<p class="stats-text translate" data-translate="weight stat5"><?= translate('weight', 'stat5') ?></p>
+  			</div>
+  		</div>
+  		<div class="read-more mobile">
+  			<a href="#">Read more <svg height="13" viewbox="0 0 23 13" width="23" xmlns="http://www.w3.org/2000/svg">
+  			<path d="M1 6.60791L21.5263 6.60791" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path>
+  			<path d="M16.8923 2L21.6662 6.77387" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path>
+  			<path d="M16.8923 11.5479L21.6662 6.77399" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path></svg></a>
+  		</div>
+  	</div>
+    <img class="engineering-image right" src="resources/desktop/image_range-left-aligned.jpg">
+    <p class="article-subheader translate" data-translate="range header"><?= translate('range', 'header') ?></p>
+
+    <div class="engineering-article">
+  		<div class="text-section">
+        <p class="article-text translate" data-translate="range text"><?= translate('range', 'text') ?></p>
+  			<div class="read-more desktop">
+  				<a href="#">Read more <svg height="13" viewbox="0 0 23 13" width="23" xmlns="http://www.w3.org/2000/svg">
+  				<path d="M1 6.60791L21.5263 6.60791" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path>
+  				<path d="M16.8923 2L21.6662 6.77387" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path>
+  				<path d="M16.8923 11.5479L21.6662 6.77399" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path></svg></a>
+  			</div>
+  		</div>
+  		<div class="stat-section">
+  			<div class="stats">
+          <p class="stats-text translate" data-translate="range stat1"><?= translate('range', 'stat1') ?></p>
+  				<p class="stats-info translate" data-translate="range stat2"><?= translate('range', 'stat2') ?></p>
+  				<p class="stats-text translate" data-translate="range stat3"><?= translate('range', 'stat3') ?></p>
+  				<p class="stats-info translate" data-translate="range stat4"><?= translate('range', 'stat4') ?></p>
+  			</div>
+  		</div>
+  		<div class="read-more mobile">
+  			<a href="#">Read more <svg height="13" viewbox="0 0 23 13" width="23" xmlns="http://www.w3.org/2000/svg">
+  			<path d="M1 6.60791L21.5263 6.60791" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path>
+  			<path d="M16.8923 2L21.6662 6.77387" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path>
+  			<path d="M16.8923 11.5479L21.6662 6.77399" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path></svg></a>
+  		</div>
+  	</div>
+  </div><!-- /engineering -->
+  <!-- Call to action email box -->
   <div class="cta margin-after indented">
 		<div class="cta-section">
 			<h3 class="article-header translate" data-translate="cta header"><?= translate('cta', 'header') ?>
@@ -340,8 +349,8 @@ if(!isset($_SESSION['lang'])){
 			<path d="M12.5042 1.79199L21.108 10.3959" stroke="white" stroke-linecap="round" stroke-width="1.5"></path>
 			<path d="M12.5042 19L21.108 10.3961" stroke="white" stroke-linecap="round" stroke-width="1.5"></path></svg></button>
 		</form>
-	</div><!--/CTA-->
-
+	</div><!--/cta-->
+  <!-- Engineering continuation -->
   <div class="multi-headers padded">
 		<div class="subheader">
 			<p class="article-subheader translate" data-translate="regenerative header1"><?= translate('regenerative', 'header1') ?></p>
@@ -370,9 +379,10 @@ if(!isset($_SESSION['lang'])){
 			<path d="M16.8923 2L21.6662 6.77387" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path>
 			<path d="M16.8923 11.5479L21.6662 6.77399" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path></svg></a>
 		</div>
-	</div><img class="engineering-image left" src="resources/desktop/image_align-left.jpg"></div><!-- /ENGINEERING -->
-
-  <!--SMARTPHONE-->
+	</div>
+  <img class="engineering-image left" src="resources/desktop/image_align-left.jpg"></div><!-- /ENGINEERING -->
+  <!-- /engineering continuation -->
+  <!-- Smartphone app section -->
 	<div class="smartphone">
 		<div class="smartphone-content">
 			<div class="smartphone-article">
@@ -389,7 +399,7 @@ if(!isset($_SESSION['lang'])){
 		<div class="smartphone-image"></div>
 	</div><!--/smartphone-->
 
-  <!--MERCH-->
+  <!-- Merchandise section -->
 	<div class="product no-reverse">
 		<div class="merch-image"></div>
 		<div class="product-text">
@@ -399,9 +409,9 @@ if(!isset($_SESSION['lang'])){
 			<path d="M10.6948 1L18.0909 8.39608" stroke="white" stroke-linecap="round"></path>
 			<path d="M10.6948 15.7922L18.0909 8.39615" stroke="white" stroke-linecap="round"></path></svg></button>
 		</div>
-	</div>
+	</div><!-- /merchandise
 
-  <!-- PRODUCT FOLDER -->
+  <!-- Product section -->
 	<div class="product">
 		<div class="product-text">
       <h3 class="article-header translate" data-translate="product header"><?= translate('product', 'header') ?></h3>
@@ -411,8 +421,8 @@ if(!isset($_SESSION['lang'])){
 			<path d="M10.6948 15.7922L18.0909 8.39615" stroke="white" stroke-linecap="round"></path></svg></button>
 		</div>
 		<div class="product-image"></div>
-	</div><!-- PRODUCT END -->
-	<!-- EMAIL FOOTER -->
+	</div><!-- /product -->
+  <!-- Call to action email footer -->
 	<div class="cta last">
 		<div class="cta-section">
          <h3 class="article-header white  translate" data-translate="cta header"><?= translate('cta', 'header') ?>
@@ -427,17 +437,13 @@ if(!isset($_SESSION['lang'])){
 			<path d="M12.5042 19L21.108 10.3961" stroke="white" stroke-linecap="round" stroke-width="1.5"></path></svg></button>
 		</form>
 	</div><!--/cta last-->
+  <!-- Footer -->
 	<div class="footer">
 		<div class="contact">
 			<img alt="logo" class="footer-logotype desktop" src="resources/svg/logo_white.svg">
 			<div class="footer-lists">
 				<div class="menu-col">
 					<ul>
-
-
-
-
-
             <li class="menu-item">
               <a class="translate" href="#" data-translate="menu home"><?= translate('menu', 'home') ?>
               </a>
@@ -487,7 +493,9 @@ if(!isset($_SESSION['lang'])){
 				<p>439 53 - Åsa, Sweden</p>
 			</div>
 		</div><!--/contact-->
-	</div>
+	</div><!-- /footer -->
+
+  <!-- JavaScript scripts -->
 	<script src="js/script.js">
 	</script>
 	<script src="js/slide-show.js">
