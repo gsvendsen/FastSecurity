@@ -240,7 +240,7 @@ if(!isset($_SESSION['lang'])){
 	</div>
   <!-- Engineering section -->
 	<div class="engineering">
-  	<div class="eng-header">
+    <div class="eng-header">
   		<p class="article-pre translate" data-translate="specifications preheader"><?= translate('specifications', 'preheader') ?></p>
   		<p class="article-bold translate" data-translate="specifications header"><?= translate('specifications', 'header') ?></p>
   		<p class="article-subbold translate" data-translate="specifications sub"><?= translate('specifications', 'sub') ?></p>
@@ -279,7 +279,6 @@ if(!isset($_SESSION['lang'])){
   	</div>
     <img class="engineering-image left" src="resources/desktop/Delorean_Vinkel.jpg">
     <p class="article-subheader translate" data-translate="weight header"><?= translate('weight', 'header') ?></p>
-
     <div class="engineering-article">
   		<div class="text-section">
         <p class="article-text translate" data-translate="weight text"><?= translate('weight', 'text') ?></p>
@@ -308,7 +307,6 @@ if(!isset($_SESSION['lang'])){
   	</div>
     <img class="engineering-image right" src="resources/desktop/image_range-left-aligned.jpg">
     <p class="article-subheader translate" data-translate="range header"><?= translate('range', 'header') ?></p>
-
     <div class="engineering-article">
   		<div class="text-section">
         <p class="article-text translate" data-translate="range text"><?= translate('range', 'text') ?></p>
@@ -334,54 +332,54 @@ if(!isset($_SESSION['lang'])){
   			<path d="M16.8923 11.5479L21.6662 6.77399" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path></svg></a>
   		</div>
   	</div>
-  </div><!-- /engineering -->
   <!-- Call to action email box -->
-  <div class="cta margin-after indented">
-		<div class="cta-section">
-			<h3 class="article-header translate" data-translate="cta header"><?= translate('cta', 'header') ?>
-			</h3>
-			<p class="cta-text translate" data-translate="cta description"><?= translate('cta', 'description') ?>
-			</p>
-		</div>
-		<form class="email-sign-up">
-			<input class="email-input" name="email" placeholder="E-mail" type="text"> <button class="register-button" name="button" type="submit"><svg height="21" viewbox="0 0 23 21" width="23" xmlns="http://www.w3.org/2000/svg">
-			<path d="M1 10L21 10" stroke="white" stroke-linecap="round" stroke-width="1.5"></path>
-			<path d="M12.5042 1.79199L21.108 10.3959" stroke="white" stroke-linecap="round" stroke-width="1.5"></path>
-			<path d="M12.5042 19L21.108 10.3961" stroke="white" stroke-linecap="round" stroke-width="1.5"></path></svg></button>
-		</form>
-	</div><!--/cta-->
+    <div class="cta margin-after indented">
+  		<div class="cta-section">
+  			<h3 class="article-header translate" data-translate="cta header"><?= translate('cta', 'header') ?>
+  			</h3>
+  			<p class="cta-text translate" data-translate="cta description"><?= translate('cta', 'description') ?>
+  			</p>
+  		</div>
+  		<form class="email-sign-up">
+  			<input class="email-input" name="email" placeholder="E-mail" type="text"> <button class="register-button" name="button" type="submit"><svg height="21" viewbox="0 0 23 21" width="23" xmlns="http://www.w3.org/2000/svg">
+  			<path d="M1 10L21 10" stroke="white" stroke-linecap="round" stroke-width="1.5"></path>
+			   <path d="M12.5042 1.79199L21.108 10.3959" stroke="white" stroke-linecap="round" stroke-width="1.5"></path>
+			   <path d="M12.5042 19L21.108 10.3961" stroke="white" stroke-linecap="round" stroke-width="1.5"></path></svg></button>
+		  </form>
+	 </div><!--/cta-->
   <!-- Engineering continuation -->
-  <div class="multi-headers padded">
-		<div class="subheader">
-			<p class="article-subheader translate" data-translate="regenerative header1"><?= translate('regenerative', 'header1') ?></p>
-		</div>
-		<div class="subheader">
-			<p class="desktop article-subheader translate" data-translate="regenerative header2"><?= translate('regenerative', 'header2') ?></p>
-		</div>
-	</div>
-	<div class="engineering-article padded">
-		<div class="text-section no-border">
-			<p class="article-text translate" data-translate="regenerative text1"><?= translate('regenerative', 'text1') ?></p>
-			<div class="read-more desktop">
-				<a href="#">Read more <svg height="13" viewbox="0 0 23 13" width="23" xmlns="http://www.w3.org/2000/svg">
-				<path d="M1 6.60791L21.5263 6.60791" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path>
-				<path d="M16.8923 2L21.6662 6.77387" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path>
-				<path d="M16.8923 11.5479L21.6662 6.77399" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path></svg></a>
-			</div>
-		</div>
-		<p class="mobile article-subheader translate" data-translate="regenerative header2"><?= translate('regenerative', 'header2') ?></p>
-		<div class="text-section no-border">
-			<p class="article-text translate" data-translate="regenerative text2"><?= translate('regenerative', 'text2') ?></p>
-		</div>
-		<div class="read-more mobile">
-			<a href="#">Read more <svg height="13" viewbox="0 0 23 13" width="23" xmlns="http://www.w3.org/2000/svg">
-			<path d="M1 6.60791L21.5263 6.60791" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path>
-			<path d="M16.8923 2L21.6662 6.77387" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path>
-			<path d="M16.8923 11.5479L21.6662 6.77399" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path></svg></a>
-		</div>
-	</div>
+    <div class="multi-headers padded">
+		  <div class="subheader">
+			   <p class="article-subheader translate" data-translate="regenerative header1"><?= translate('regenerative', 'header1') ?></p>
+		  </div>
+		  <div class="subheader">
+			   <p class="desktop article-subheader translate" data-translate="regenerative header2"><?= translate('regenerative', 'header2') ?></p>
+		  </div>
+	  </div>
+	  <div class="engineering-article padded">
+		  <div class="text-section no-border">
+			   <p class="article-text translate" data-translate="regenerative text1"><?= translate('regenerative', 'text1') ?></p>
+			   <div class="read-more desktop">
+				   <a href="#">Read more <svg height="13" viewbox="0 0 23 13" width="23" xmlns="http://www.w3.org/2000/svg">
+				   <path d="M1 6.60791L21.5263 6.60791" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path>
+				   <path d="M16.8923 2L21.6662 6.77387" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path>
+				   <path d="M16.8923 11.5479L21.6662 6.77399" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path></svg></a>
+			  </div>
+		  </div>
+		  <p class="mobile article-subheader translate" data-translate="regenerative header2"><?= translate('regenerative', 'header2') ?></p>
+		  <div class="text-section no-border">
+			   <p class="article-text translate" data-translate="regenerative text2"><?= translate('regenerative', 'text2') ?></p>
+		  </div>
+		  <div class="read-more mobile">
+			  <a href="#">Read more <svg height="13" viewbox="0 0 23 13" width="23" xmlns="http://www.w3.org/2000/svg">
+			  <path d="M1 6.60791L21.5263 6.60791" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path>
+			  <path d="M16.8923 2L21.6662 6.77387" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path>
+			  <path d="M16.8923 11.5479L21.6662 6.77399" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path></svg></a>
+	    </div>
+	  </div>
+  </div>
   <img class="engineering-image left" src="resources/desktop/image_align-left.jpg"></div><!-- /ENGINEERING -->
-  <!-- /engineering continuation -->
+  <!-- /engineering  -->
   <!-- Smartphone app section -->
 	<div class="smartphone">
 		<div class="smartphone-content">
