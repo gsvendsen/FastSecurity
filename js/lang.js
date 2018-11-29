@@ -2,8 +2,8 @@ var languages;
 
 const translates = document.querySelectorAll('.translate');
 
-const enFlag = document.querySelector('.en');
-const svFlag = document.querySelector('.sv');
+const enFlag = document.querySelectorAll('.en');
+const svFlag = document.querySelectorAll('.sv');
 
 
 // Replace ./data.json with your JSON feed
@@ -46,10 +46,14 @@ const updateLang = (language) => {
 }
 
 
-enFlag.addEventListener("click", ()=>{
-  updateLang('en');
+enFlag.forEach((flag)=>{
+  flag.addEventListener("click", ()=>{
+    updateLang('en');
+  })
 })
 
-svFlag.addEventListener("click", ()=>{
-  updateLang('sv');
+svFlag.forEach((flag)=>{
+  flag.addEventListener("click", ()=>{
+    updateLang('sv');
+  })
 })
