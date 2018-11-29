@@ -93,9 +93,9 @@ if(!isset($_SESSION['lang'])){
 	<!-- Hero -->
 	<div class="hero">
 		<div class="title-container">
-			<h1 class="hero-header translate" data-translate="hero header"><?= translate('hero','header') ?>
+			<h1 class="hero-header white translate" data-translate="hero header"><?= translate('hero','header') ?>
 			</h1>
-			<p class="hero-sub translate" data-translate="hero description"><?= translate('hero','description') ?>
+			<p class="hero-sub white translate" data-translate="hero description"><?= translate('hero','description') ?>
 			</p>
 		</div>
 		<form class="email-sign-up">
@@ -484,7 +484,7 @@ if(!isset($_SESSION['lang'])){
 					</ul>
 				</div>
 			</div>
-			<div class="company-info">
+			<div class="company-info white">
 				<img alt="logo" class="footer-logotype mobile" src="resources/svg/logo_white.svg">
 				<p>FastSecurity, Inc.</p>
 				<p>Bråtaviksvägen 12</p>
