@@ -132,7 +132,7 @@ if(!isset($_SESSION['lang'])){
 		<div class="image-slider">
 			<div class="slide-container">
 				<div class="slide">
-					<div class="slide-show-photo"><img class="photo" src="https://dwv100zweqd2m.cloudfront.net/uploads/user/avatar/1261/Square_Profile_Shot.jpg"></div>
+					<div class="slide-show-photo"><img class="photo" src="resources/desktop/testperson_1.jpg"></div>
 					<div class="slide-show-text">
 						<div class="text-container">
 							<h1 class="quote">“The FS1 is an incredible vehicle! All of the components are crafted to perfection.”</h1>
@@ -142,7 +142,7 @@ if(!isset($_SESSION['lang'])){
 					</div>
 				</div>
 				<div class="slide">
-					<div class="slide-show-photo"><img class="photo" src="https://stelena.se/wp-content/uploads/2018/02/Maria-Nemeth-Headshot-1-Square.jpeg"></div>
+					<div class="slide-show-photo"><img class="photo" src="resources/desktop/testperson_2.jpg"></div>
 					<div class="slide-show-text">
 						<div class="text-container">
 							<h1 class="quote">"Oh my this bike is brilliant!"</h1>
@@ -152,7 +152,7 @@ if(!isset($_SESSION['lang'])){
 					</div>
 				</div>
 				<div class="slide">
-					<div class="slide-show-photo"><img class="photo" src="https://static1.squarespace.com/static/50f79c6fe4b00d3480c9bbf0/5b2a97c4f950b7e4204d64a4/5b4e3bb0aa4a9964ca2c7804/1531853792642/Headshot_20180510_Angel+Rosario_Richard_Waine_Lancaster_PA_0080+%28square+500px%29.jpg"></div>
+					<div class="slide-show-photo"><img class="photo" src="resources/desktop/testperson_3.jpg"></div>
 					<div class="slide-show-text">
 						<div class="text-container">
 							<h1 class="quote">"The FS01 is a revolutionary piece of transport for the best."</h1>
