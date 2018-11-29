@@ -24,17 +24,19 @@ if(!isset($_SESSION['lang'])){
 
 </head>
 <body>
-  <!-- Logo container for mobile -->
+    
+    <!-- Logo container for mobile -->
 	<div class="mobile-container">
 		<a class="logo-container" href=""><img alt="logo" class="logotype" src="resources/svg/logo_white.svg"></a>
 	</div><!-- /mobile-container -->
-  <!-- Navbar for mobile/tablet -->
+    <!-- Navbar for mobile/tablet -->
 	<div class="navbar hidden">
 		<div class="hamburger-menu">
 			<div class="bar"></div>
 		</div><!-- /hamburger-menu -->
 	</div><!-- /navbar -->
-  <!-- Navmenu for desktop -->
+
+    <!-- Navmenu for desktop -->
 	<div class="desktop-menu">
 		<a class="logo-container" href=""><img alt="logo" class="logotype desktop-logo" src="resources/svg/logo_white.svg"></a>
 		<ul class="menu-list">
@@ -59,7 +61,8 @@ if(!isset($_SESSION['lang'])){
 			</li>
 		</ul><!-- /menu-list -->
 	</div><!-- /desktop-menu -->
-  <!-- Navmenu for mobile -->
+
+    <!-- Navmenu for mobile -->
 	<div class="menu">
 		<ul>
          <li class="menu-item selected">
@@ -82,6 +85,7 @@ if(!isset($_SESSION['lang'])){
 			</li>
 		</ul><!-- /menu-list -->
 	</div><!-- /mobile-menu -->
+
 	<!-- Hero -->
 	<div class="hero">
 		<div class="title-container">
@@ -98,6 +102,7 @@ if(!isset($_SESSION['lang'])){
     		<path d="M2 15.9381L13.3961 27.3342" stroke="white" stroke-linecap="round" stroke-width="1.5"></path>
         </svg><!-- /down-arrow -->
 	</div><!-- /hero -->
+
 	<!-- History section -->
 	<div class="history">
 		<div>
@@ -115,7 +120,8 @@ if(!isset($_SESSION['lang'])){
 			<path d="M10.6948 15.7922L18.0909 8.39615" stroke="white" stroke-linecap="round"></path></svg></button>
 		</div>
 	</div><!--/history-->
-	<!-- Slideshow -->
+
+	<!-- Slideshow section -->
 	<div class="viewport-container">
 		<div class="image-slider">
 			<div class="slide-container">
@@ -171,6 +177,7 @@ if(!isset($_SESSION['lang'])){
 			</div><!-- /slide-show-controller -->
 		</div><!-- /image-slider -->
 	</div><!-- /viewport-container -->
+
 	<!-- Autonomous section -->
 	<div class="autonomous">
 		<div class="autonomous-text-section">
@@ -186,6 +193,7 @@ if(!isset($_SESSION['lang'])){
 		</div><!-- /autonomous-text-section -->
 		<div class="autonomous-image"></div>
 	</div><!--/autonomous-->
+
 	<!-- Comfort section -->
 	<div class="comfort">
 		<div class="comfort-image"></div>
@@ -196,6 +204,7 @@ if(!isset($_SESSION['lang'])){
 			</div><!-- /text-container -->
 		</div><!-- /comfort-text -->
 	</div><!--/comfort-->
+
 	<!-- Call to action email box -->
 	<div class="cta margin-after">
 		<div class="cta-section">
@@ -209,6 +218,7 @@ if(!isset($_SESSION['lang'])){
 			<path d="M12.5042 19L21.108 10.3961" stroke="white" stroke-linecap="round" stroke-width="1.5"></path></svg></button>
 		</form>
 	</div><!--/cta-->
+
 	<!-- Statistics section -->
 	<div class="statistics">
 		<div class="stats-box">
@@ -227,6 +237,7 @@ if(!isset($_SESSION['lang'])){
 			<p class="stats-text translate" data-translate="stats drive3"><?= translate('stats', 'drive3') ?></p>
 		</div><!-- /stats-box -->
 	</div><!-- /statistics -->
+
   <!-- Engineering section -->
   <div class="engineering">
       <div class="eng-header">
@@ -375,7 +386,7 @@ if(!isset($_SESSION['lang'])){
   </div><!-- /engineering  -->
   <img class="engineering-image left" src="resources/desktop/image_align-left.jpg"></div>
 
-  <!-- Smartphone app section -->
+    <!-- Smartphone app section -->
 	<div class="smartphone">
 		<div class="smartphone-content">
 			<div class="smartphone-article">
@@ -391,7 +402,7 @@ if(!isset($_SESSION['lang'])){
 		<div class="smartphone-image"></div>
 	</div><!--/smartphone-->
 
-  <!-- Merchandise section -->
+    <!-- Merchandise section -->
 	<div class="product no-reverse">
 		<div class="merch-image"></div>
 		<div class="product-text">
@@ -403,7 +414,7 @@ if(!isset($_SESSION['lang'])){
 		</div><!-- /product-text -->
 	</div><!-- /merchandise -->
 
-  <!-- Product section -->
+    <!-- Product section -->
 	<div class="product">
 		<div class="product-text">
             <h3 class="article-header translate" data-translate="product header"><?= translate('product', 'header') ?></h3>
@@ -414,7 +425,8 @@ if(!isset($_SESSION['lang'])){
 		</div><!-- /product-text -->
 		<div class="product-image"></div>
 	</div><!-- /product -->
-  <!-- Call to action email footer -->
+
+    <!-- Call to action email footer -->
 	<div class="cta last">
 		<div class="cta-section">
          <h3 class="article-header white  translate" data-translate="cta header"><?= translate('cta', 'header') ?>
@@ -429,7 +441,8 @@ if(!isset($_SESSION['lang'])){
 			<path d="M12.5042 19L21.108 10.3961" stroke="white" stroke-linecap="round" stroke-width="1.5"></path></svg></button>
 		</form>
 	</div><!--/cta last-->
-  <!-- Footer -->
+
+    <!-- Footer -->
 	<div class="footer">
 		<div class="contact">
 			<img alt="logo" class="footer-logotype desktop" src="resources/svg/logo_white.svg">
@@ -481,7 +494,7 @@ if(!isset($_SESSION['lang'])){
 		</div><!--/contact-->
 	</div><!-- /footer -->
 
-  <!-- JavaScript scripts -->
+    <!-- JavaScript scripts -->
 	<script src="js/script.js">
 	</script>
 	<script src="js/slide-show.js">
