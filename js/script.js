@@ -1,25 +1,29 @@
+/* All query selectors */
 const hamButton = document.querySelector(".hamburger-menu");
 const hamBar = document.querySelector(".bar");
 const menu = document.querySelector('.menu');
-const menuItems = document.querySelectorAll('.menu>ul>.menu-item')
 const logo = document.querySelector('.logo-container');
 const hyperLinks = document.querySelectorAll('a');
 const navBar = document.querySelector('.navbar');
 const downArrow = document.querySelector('.down-arrow');
 const historySection = document.querySelector('.history');
+const desktopNav = document.querySelector('.desktop-menu');
+const navLinks = document.querySelectorAll('.nav-link')
+const desktopLogo = document.querySelector('.desktop-logo')
 
-/* HAMBURGER MENU TOGGLE FOR MOBILE/TABLET */
+/* Hamburger menu toggle for mobile/tablet */
 hamButton.addEventListener("click", ()=>{
   hamBar.classList.toggle("clicked");
   menu.classList.toggle("open");
   document.body.classList.toggle("no-scroll");
 });
 
+/* Eventlistener scroll down when hero arrow is clicked */
 downArrow.addEventListener('click', ()=>{
   historySection.scrollIntoView({block:'center'});
 })
 
-/* GIVES MENU ITEM CLASS SELECTED WHEN CLICKED */
+/* Toggles selected class for clicked menu item */
 menuItems.forEach((menuItem) => {
   menuItem.addEventListener("click", ()=>{
 
@@ -31,40 +35,26 @@ menuItems.forEach((menuItem) => {
   })
 });
 
-/* PREVENTS LINKS FROM WORKING FOR DEMO AND PROMPTS USER */
+/* Prevents all links from working for demo */
 hyperLinks.forEach((hyperLink)=>{
   hyperLink.addEventListener('click', (e)=>{
-    if (!hyperLink.classList.contains('lang-option') && !hyperLink.classList.contains('product-folder')){
-
+    /* Exception for product folder link */
+    if (!hyperLink.classList.contains('product-folder')){
       e.preventDefault();
-
-      hyperLink.classList.add('deny');
-      setTimeout(function(){
-        hyperLink.classList.remove('deny');
-      }, 500)
     }
   })
 })
 
-const desktopNav = document.querySelector('.desktop-menu');
-const navLinks = document.querySelectorAll('.nav-link')
-const desktopLogo = document.querySelector('.desktop-logo')
 
-/* FADES LOGO OUT WHEN WINDOW SCROLLS DOWN */
 window.addEventListener('scroll', ()=>{
 
-  /* HIDES LOGO THROUGH INITIAL SCROLL DOWN */
+  /* Hides logo and changes desktopnav bg on intial scrolldown */
   var scrollConstDown = 0 + window.pageYOffset / 250;
-  var scrollConstUp = 1 - window.pageYOffset / 250;
 
-
-
-
-  logo.style.opacity = scrollConstUp;
   desktopNav.style.backgroundColor = "rgba(255,255,255,"+scrollConstDown+")";
   desktopLogo.style.webkitFilter = "invert("+scrollConstDown+")"
 
-
+  /* Turns desktop menu links black according to scrollDown var */
   navLinks.forEach((navLink)=>{
     navLink.style.webkitFilter = "invert("+scrollConstDown+")"
   })
@@ -75,7 +65,7 @@ window.addEventListener('scroll', ()=>{
     logo.style.display = "flex";
   }
 
-  /* HIDES NAVBAR AT TOP OR BOTTOM OF PAGE */
+  /* Hides mobile navbar at bottom of page */
   if(window.pageYOffset < 20 || (window.innerHeight + window.scrollY) >= document.body.offsetHeight){
     navBar.classList.add('hidden');
   } else {
