@@ -33,7 +33,7 @@ Classes used for history section
 }
 
 @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
+  /* For mobile phones: */
   .history {
      height:688px;
      padding:100px 20px 0 20px;

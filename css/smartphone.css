@@ -32,7 +32,6 @@ Classes used for smartphone app section
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
-
    .smartphone {
       display:flex;
       flex-direction:row;
@@ -55,9 +54,7 @@ Classes used for smartphone app section
       background-position: right;
    }
 
-
    .smartphone-article {
       max-width: none;
    }
-
 }

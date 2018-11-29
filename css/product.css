@@ -33,8 +33,7 @@ Classes used for product article sections
 }
 
 @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-
+  /* For mobile phones: */
   .product {
     padding:0 0 0 22px;
     margin: 0 0 55px;
@@ -59,9 +58,7 @@ Classes used for product article sections
     background:url('../resources/mobile/image_product-folder_align-right.jpg') center no-repeat;
   }
 
-
   div.no-reverse {
      flex-direction:column;
   }
-
 }

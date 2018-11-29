@@ -13,7 +13,6 @@ Classes used for footer
   height:100%;
 }
 
-
 .menu-col>ul>li>a {
   font-size:1.125em;
 }
@@ -53,20 +52,18 @@ Classes used for footer
   width: 180px;
 }
 
-
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
 
-
-.contact {
-  height:435px;
-  display:flex;
-  padding:60px 22px 60px 22px;
-  box-sizing: border-box;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: baseline;
-}
+  .contact {
+    height:435px;
+    display:flex;
+    padding:60px 22px 60px 22px;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+  }
 
   .contact-menu {
     display:flex;
@@ -101,5 +98,4 @@ Classes used for footer
   .footer-lists {
     width:100%;
   }
-
-  }
+}

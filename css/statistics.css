@@ -33,14 +33,11 @@ Classes used for statistics section
   font-weight: normal;
 }
 
-
 @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-
+  /* For mobile phones: */
   .statistics {
     flex-direction: column;
     height:585px;
     margin:0 0 55px 0;
   }
-
 }
