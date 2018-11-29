@@ -10,7 +10,7 @@ const historySection = document.querySelector('.history');
 const desktopNav = document.querySelector('.desktop-menu');
 const navLinks = document.querySelectorAll('.nav-link')
 const desktopLogo = document.querySelector('.desktop-logo')
-
+const menuItems = document.querySelectorAll('.menu-item')
 /* Hamburger menu toggle for mobile/tablet */
 hamButton.addEventListener("click", ()=>{
   hamBar.classList.toggle("clicked");
@@ -51,6 +51,7 @@ window.addEventListener('scroll', ()=>{
   /* Hides logo and changes desktopnav bg on intial scrolldown */
   var scrollConstDown = 0 + window.pageYOffset / 250;
 
+  logo.style.opacity = 1 - window.pageYOffset / 250;
   desktopNav.style.backgroundColor = "rgba(255,255,255,"+scrollConstDown+")";
   desktopLogo.style.webkitFilter = "invert("+scrollConstDown+")"
 
