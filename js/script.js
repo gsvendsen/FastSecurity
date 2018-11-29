@@ -34,7 +34,7 @@ menuItems.forEach((menuItem) => {
 /* PREVENTS LINKS FROM WORKING FOR DEMO AND PROMPTS USER */
 hyperLinks.forEach((hyperLink)=>{
   hyperLink.addEventListener('click', (e)=>{
-    if (!hyperLink.classList.contains('lang-option')){
+    if (!hyperLink.classList.contains('lang-option') && !hyperLink.classList.contains('product-folder')){
 
       e.preventDefault();
 
