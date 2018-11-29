@@ -17,7 +17,7 @@ if(!isset($_SESSION['lang'])){
 	<meta charset="UTF-8">
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
 	<title>FastSecurity</title>
-	<link href="/resources/logo_black.svg" rel="icon">
+	<link href="/resources/svg/logo_black.svg" rel="icon">
 	<link href="css/style.css" rel="stylesheet" type="text/css">
 	<link href="css/slide-show.css" rel="stylesheet" type="text/css">
 	<link href="css/footer.css" rel="stylesheet" type="text/css">
@@ -56,7 +56,7 @@ if(!isset($_SESSION['lang'])){
 				</a>
 			</li>
 			<li class="menu-item">
-				<a class="nav-link translate" href="#" data-translate="menu product-folder"><?= translate('menu', 'product-folder') ?></a>
+        <a class="nav-link translate product-folder"  href="resources/download/FS1_ProductFolder.pdf" download data-translate="menu product-folder"><?= translate('menu', 'product-folder') ?></a>
 			</li>
 			<li class="menu-item">
 				<a class="nav-link translate" href="#" data-translate="menu contact"><?= translate('menu', 'contact') ?>
@@ -83,7 +83,7 @@ if(!isset($_SESSION['lang'])){
 				</a>
 			</li>
 			<li class="menu-item">
-				<a class="translate" href="#" data-translate="menu product-folder"><?= translate('menu', 'product-folder') ?></a>
+				<a class="translate product-folder"  href="resources/download/FS1_ProductFolder.pdf" download data-translate="menu product-folder"><?= translate('menu', 'product-folder') ?></a>
 			</li>
 			<li class="menu-item">
 				<a class="translate" href="#" data-translate="menu contact"><?= translate('menu', 'contact') ?>
@@ -103,7 +103,7 @@ if(!isset($_SESSION['lang'])){
 			</p>
 		</div>
 		<form class="email-sign-up">
-			<input class="email-input" name="email" placeholder="E-mail" type="text"> <button name="register-button" type="submit">
+			<input class="email-input" name="email" placeholder="E-mail" type="text"> <button name="register-button" type="submit" class="translate" data-translate="hero register"><?= translate('hero', 'register') ?>
 			</button>
 		</form><svg class="down-arrow" height="29" viewbox="0 0 26 29" width="26" xmlns="http://www.w3.org/2000/svg">
 		<path d="M13.3961 1V27.3342" stroke="white" stroke-linecap="round" stroke-width="1.5"></path>
