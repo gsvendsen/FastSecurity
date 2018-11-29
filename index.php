@@ -14,22 +14,13 @@ if(!isset($_SESSION['lang'])){
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 	<meta charset="UTF-8">
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
 	<title>FastSecurity</title>
 	<link href="/resources/svg/logo_black.svg" rel="icon">
 	<link href="css/style.css" rel="stylesheet" type="text/css">
-	<link href="css/slide-show.css" rel="stylesheet" type="text/css">
-	<link href="css/footer.css" rel="stylesheet" type="text/css">
-	<link href="css/history.css" rel="stylesheet" type="text/css">
-	<link href="css/article.css" rel="stylesheet" type="text/css">
-	<link href="css/autonomous.css" rel="stylesheet" type="text/css">
-	<link href="css/comfort.css" rel="stylesheet" type="text/css">
-	<link href="css/statistics.css" rel="stylesheet" type="text/css">
-	<link href="css/engineering.css" rel="stylesheet" type="text/css">
-	<link href="css/smartphone.css" rel="stylesheet" type="text/css">
-	<link href="css/merch.css" rel="stylesheet" type="text/css">
-	<link href="css/product.css" rel="stylesheet" type="text/css">
+
 </head>
 <body>
 	<div class="mobile-container">
