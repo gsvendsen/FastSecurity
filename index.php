@@ -90,7 +90,7 @@ if(!isset($_SESSION['lang'])){
 				</a>
 			</li>
 			<li>
-				<a class="lang-option" href="/?lang=en"><img class="flag" src="resources/Flag_UK.svg"></a> <a class="lang-option" href="/?lang=sv"><img class="flag" src="resources/Flag_SWE.svg"></a>
+			<img class="flag lang-option en" src="resources/svg/Flag_UK.svg"></a><img class="flag lang-option sv" src="resources/svg/Flag_SWE.svg"></a>
 			</li>
 		</ul>
 	</div><!-- / MOBILE MENU -->
@@ -145,9 +145,9 @@ if(!isset($_SESSION['lang'])){
 					<div class="slide-show-photo"><img class="photo" src="resources/desktop/testperson_2.jpg"></div>
 					<div class="slide-show-text">
 						<div class="text-container">
-							<h1 class="quote">"Oh my this bike is brilliant!"</h1>
-							<p class="quote-name">Margaret Thatcher</p>
-							<p class="quote-source">CEO, Hybrid Technology</p>
+							<h1 class="quote">“I have never before experienced such a feeling whilst riding.”</h1>
+							<p class="quote-name">Kevin McKinsley</p>
+							<p class="quote-source">Head of Sales SFY</p>
 						</div>
 					</div>
 				</div>
@@ -155,9 +155,9 @@ if(!isset($_SESSION['lang'])){
 					<div class="slide-show-photo"><img class="photo" src="resources/desktop/testperson_3.jpg"></div>
 					<div class="slide-show-text">
 						<div class="text-container">
-							<h1 class="quote">"The FS01 is a revolutionary piece of transport for the best."</h1>
-							<p class="quote-name">Adam Savage</p>
-							<p class="quote-source">President, France</p>
+							<h1 class="quote">“If you’re looking for the complete motorcycle experience this is the way to go.“</h1>
+							<p class="quote-name">Amy Cunningham</p>
+							<p class="quote-source">Partner at Swaine & Moore</p>
 						</div>
 					</div>
 				</div>
@@ -204,8 +204,8 @@ if(!isset($_SESSION['lang'])){
 		<div class="comfort-image"></div>
 		<div class="comfort-text">
 			<div class="text-container">
-				<h3 class="article-header">Maximum Comfort</h3>
-				<p class="article-text">The FS1 is engineered to perfection with the finest materials in mind, creating a fantastic experience combined with the luxurious comfort of leather seats. All of the materials are carefully selected from the interior carpet to the strings in the seat. The comforting cushion embedded in the seat measures shape and stability. All of this to give you the most satisfying experience of this century.</p>
+				<h3 class="article-header translate" data-translate="comfort header"><?= translate('comfort', 'header')?></h3>
+				<p class="article-text translate" data-translate="comfort content"><?= translate('comfort', 'content')?></p>
 			</div>
 		</div>
 	</div><!--/comfort-->
@@ -227,31 +227,31 @@ if(!isset($_SESSION['lang'])){
 	<!-- STATS -->
 	<div class="statistics">
 		<div class="stats-box">
-			<p class="stats-text">more than</p>
-			<p class="stats-info">300 hours</p>
-			<p class="stats-text">battery charge life</p>
+			<p class="stats-text translate" data-translate="stats hours1"><?= translate('stats', 'hours1') ?></p>
+			<p class="stats-info translate" data-translate="stats hours2"><?= translate('stats', 'hours2') ?></p>
+			<p class="stats-text translate" data-translate="stats hours3"><?= translate('stats', 'hours3') ?></p>
 		</div>
 		<div class="stats-box">
-			<p class="stats-text">less than</p>
-			<p class="stats-info">5 hours</p>
-			<p class="stats-text">charge time</p>
+			<p class="stats-text translate" data-translate="stats charge1"><?= translate('stats', 'charge1') ?></p>
+			<p class="stats-info translate" data-translate="stats charge2"><?= translate('stats', 'charge2') ?></p>
+			<p class="stats-text translate" data-translate="stats charge3"><?= translate('stats', 'charge3') ?></p>
 		</div>
 		<div class="stats-box">
-			<p class="stats-text">charging</p>
-			<p class="stats-info">5 minutes</p>
-			<p class="stats-text">gives 1 hours driving</p>
+			<p class="stats-text translate" data-translate="stats drive1"><?= translate('stats', 'drive1') ?></p>
+			<p class="stats-info translate" data-translate="stats drive2"><?= translate('stats', 'drive2') ?></p>
+			<p class="stats-text translate" data-translate="stats drive3"><?= translate('stats', 'drive3') ?></p>
 		</div>
 	</div><!-- ENGINEERING -->
 	<div class="engineering">
 	<div class="eng-header">
-		<p class="article-pre">SPECIFICATIONS</p>
-		<p class="article-bold">Engineered with perfection in mind.</p>
-		<p class="article-subbold">The FS1 is engineered to perfection with the finest materials in mind, creating a fantastic experience combined with the luxorious comfort of leather seats.</p>
+		<p class="article-pre translate" data-translate="specifications preheader"><?= translate('specifications', 'preheader') ?></p>
+		<p class="article-bold translate" data-translate="specifications header"><?= translate('specifications', 'header') ?></p>
+		<p class="article-subbold translate" data-translate="specifications sub"><?= translate('specifications', 'sub') ?></p>
 	</div><img class="engineering-image right" src="resources/desktop/range.jpg">
-	<p class="article-subheader">ACCELERATION AND SPEED</p>
+	<p class="article-subheader translate" data-translate="acceleration header"><?= translate('acceleration', 'header') ?></p>
 	<div class="engineering-article">
 		<div class="text-section">
-			<p class="article-text">The FS1 is engineered to perfection with the finest materials in mind, creating a fantastic experience combined with the luxorious comfort of leather seats.</p>
+			<p class="article-text translate" data-translate="acceleration text"><?= translate('acceleration', 'text') ?></p>
 			<div class="read-more desktop">
 				<a href="#">Read more <svg height="13" viewbox="0 0 23 13" width="23" xmlns="http://www.w3.org/2000/svg">
 				<path d="M1 6.60791L21.5263 6.60791" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path>
@@ -261,15 +261,15 @@ if(!isset($_SESSION['lang'])){
 		</div>
 		<div class="stat-section">
 			<div class="stats">
-				<p class="stats-text">up to</p>
-				<p class="stats-info">360 km / h</p>
-				<p class="stats-text">with</p>
-				<p class="stats-info">600hp</p>
-				<p class="stats-text">with turbo charge</p>
+				<p class="stats-text translate" data-translate="acceleration stat1"><?= translate('acceleration', 'stat1') ?></p>
+				<p class="stats-info translate" data-translate="acceleration stat2"><?= translate('acceleration', 'stat2') ?></p>
+				<p class="stats-text translate" data-translate="acceleration stat3"><?= translate('acceleration', 'stat3') ?></p>
+				<p class="stats-info translate" data-translate="acceleration stat4"><?= translate('acceleration', 'stat4') ?></p>
+				<p class="stats-text translate" data-translate="acceleration stat5"><?= translate('acceleration', 'stat5') ?></p>
 			</div>
 			<div class="image-section">
 				<img alt="Graph of acceleration" class="stat-image" src="resources/desktop/graph.png">
-				<p class="stats-text">Graph on the acceleration – FS1</p>
+				<p class="stats-text translate" data-translate="acceleration graph"><?= translate('acceleration', 'graph') ?></p>
 			</div>
 		</div>
 		<div class="read-more mobile">
@@ -279,11 +279,11 @@ if(!isset($_SESSION['lang'])){
 			<path d="M16.8923 11.5479L21.6662 6.77399" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path></svg></a>
 		</div>
 	</div><img class="engineering-image left" src="resources/desktop/Delorean_Vinkel.jpg">
-	<p class="article-subheader">WEIGHT</p>
+  <p class="article-subheader translate" data-translate="weight header"><?= translate('weight', 'header') ?></p>
 
   <div class="engineering-article">
 		<div class="text-section">
-			<p class="article-text">The FS1 is as light as a heavy motorcycle safetely can be. With an astounding weight of 180 kilograms, sliding through curves is as natural as it gets.</p>
+      <p class="article-text translate" data-translate="weight text"><?= translate('weight', 'text') ?></p>
 			<div class="read-more desktop">
 				<a href="#">Read more <svg height="13" viewbox="0 0 23 13" width="23" xmlns="http://www.w3.org/2000/svg">
 				<path d="M1 6.60791L21.5263 6.60791" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path>
@@ -292,12 +292,12 @@ if(!isset($_SESSION['lang'])){
 			</div>
 		</div>
 		<div class="stat-section">
-			<div class="stats">
-				<p class="stats-text">FS1 weighs</p>
-				<p class="stats-info">180 kg</p>
-				<p class="stats-text">with a</p>
-				<p class="stats-info">200 kWh</p>
-				<p class="stats-text">ion battery</p>
+      <div class="stats">
+				<p class="stats-text translate" data-translate="weight stat1"><?= translate('weight', 'stat1') ?></p>
+				<p class="stats-info translate" data-translate="weight stat2"><?= translate('weight', 'stat2') ?></p>
+				<p class="stats-text translate" data-translate="weight stat3"><?= translate('weight', 'stat3') ?></p>
+				<p class="stats-info translate" data-translate="weight stat4"><?= translate('weight', 'stat4') ?></p>
+				<p class="stats-text translate" data-translate="weight stat5"><?= translate('weight', 'stat5') ?></p>
 			</div>
 		</div>
 		<div class="read-more mobile">
@@ -307,11 +307,11 @@ if(!isset($_SESSION['lang'])){
 			<path d="M16.8923 11.5479L21.6662 6.77399" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path></svg></a>
 		</div>
 	</div><img class="engineering-image right" src="resources/desktop/image_range-left-aligned.jpg">
-	<p class="article-subheader">RANGE</p>
+  <p class="article-subheader translate" data-translate="range header"><?= translate('range', 'header') ?></p>
 
   <div class="engineering-article">
 		<div class="text-section">
-			<p class="article-text">With lithium ion battery packs, The FS1 has a range up to 970 km per charge, depending on speed, acceleration, weather and terrain.</p>
+      <p class="article-text translate" data-translate="range text"><?= translate('range', 'text') ?></p>
 			<div class="read-more desktop">
 				<a href="#">Read more <svg height="13" viewbox="0 0 23 13" width="23" xmlns="http://www.w3.org/2000/svg">
 				<path d="M1 6.60791L21.5263 6.60791" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path>
@@ -321,10 +321,10 @@ if(!isset($_SESSION['lang'])){
 		</div>
 		<div class="stat-section">
 			<div class="stats">
-				<p class="stats-text">with an ion</p>
-				<p class="stats-info">200 kWh</p>
-				<p class="stats-text">and a range of</p>
-				<p class="stats-info">970 km</p>
+        <p class="stats-text translate" data-translate="range stat1"><?= translate('range', 'stat1') ?></p>
+				<p class="stats-info translate" data-translate="range stat2"><?= translate('range', 'stat2') ?></p>
+				<p class="stats-text translate" data-translate="range stat3"><?= translate('range', 'stat3') ?></p>
+				<p class="stats-info translate" data-translate="range stat4"><?= translate('range', 'stat4') ?></p>
 			</div>
 		</div>
 		<div class="read-more mobile">
@@ -353,15 +353,15 @@ if(!isset($_SESSION['lang'])){
 
   <div class="multi-headers padded">
 		<div class="subheader">
-			<p class="article-subheader">REGENERATIVE BRAKES</p>
+			<p class="article-subheader translate" data-translate="regenerative header1"><?= translate('regenerative', 'header1') ?></p>
 		</div>
 		<div class="subheader">
-			<p class="desktop article-subheader">ELECTRIC DRIVE-TRAIN MOTOR</p>
+			<p class="desktop article-subheader translate" data-translate="regenerative header2"><?= translate('regenerative', 'header2') ?></p>
 		</div>
 	</div>
 	<div class="engineering-article padded">
 		<div class="text-section no-border">
-			<p class="article-text">The regenerative brakes in the FS1 converts the kinetic energy which is usually lost when applying the brakes into a form of energy which can be either used immediately or stored until needed.</p>
+			<p class="article-text translate" data-translate="regenerative text1"><?= translate('regenerative', 'text1') ?></p>
 			<div class="read-more desktop">
 				<a href="#">Read more <svg height="13" viewbox="0 0 23 13" width="23" xmlns="http://www.w3.org/2000/svg">
 				<path d="M1 6.60791L21.5263 6.60791" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path>
@@ -369,9 +369,9 @@ if(!isset($_SESSION['lang'])){
 				<path d="M16.8923 11.5479L21.6662 6.77399" stroke="#7E8EAB" stroke-linecap="round" stroke-width="1.5"></path></svg></a>
 			</div>
 		</div>
-		<p class="mobile article-subheader">ELECTRIC DRIVE-TRAIN MOTOR</p>
+		<p class="mobile article-subheader translate" data-translate="regenerative header2"><?= translate('regenerative', 'header2') ?></p>
 		<div class="text-section no-border">
-			<p class="article-text">The regenerative brakes in the FS1 converts the kinetic energy which is usually lost when applying the brakes into a form of energy which can be either used immediately or stored until needed.</p>
+			<p class="article-text translate" data-translate="regenerative text2"><?= translate('regenerative', 'text2') ?></p>
 		</div>
 		<div class="read-more mobile">
 			<a href="#">Read more <svg height="13" viewbox="0 0 23 13" width="23" xmlns="http://www.w3.org/2000/svg">
@@ -402,8 +402,8 @@ if(!isset($_SESSION['lang'])){
 	<div class="product no-reverse">
 		<div class="merch-image"></div>
 		<div class="product-text">
-			<h3 class="article-header">Shop our merch</h3>
-			<p class="article-text">If you want to complete your FS1 look, our handcrafted merchandise is a must have. We offer you a smartwatch with embedded auto-sync technology connected to your FS1. An exclusive handbag in the same soft surface leather as the FS1 interior, and much more.</p><button class="button" name="button">Download <svg class="button-arrow" height="17" viewbox="0 0 19 17" width="19" xmlns="http://www.w3.org/2000/svg">
+			<h3 class="article-header translate" data-translate="merch header"><?= translate('merch', 'header') ?></h3>
+			<p class="article-text translate" data-translate="merch text"><?= translate('merch', 'text') ?></p><button class="button" name="button">Download <svg class="button-arrow" height="17" viewbox="0 0 19 17" width="19" xmlns="http://www.w3.org/2000/svg">
 			<path d="M1 8.396L18.091 8.396" stroke="white" stroke-linecap="round"></path>
 			<path d="M10.6948 1L18.0909 8.39608" stroke="white" stroke-linecap="round"></path>
 			<path d="M10.6948 15.7922L18.0909 8.39615" stroke="white" stroke-linecap="round"></path></svg></button>
@@ -413,8 +413,8 @@ if(!isset($_SESSION['lang'])){
   <!-- PRODUCT FOLDER -->
 	<div class="product">
 		<div class="product-text">
-			<h3 class="article-header">Check out our product folder</h3>
-			<p class="article-text">If you want to complete your FS1 look, our handcrafted merchandise is a must have. We offer you a smartwatch with embedded auto-sync technology connected to your FS1. An exclusive handbag in the same soft surface leather as the FS1 interior, and much more.</p><button class="button" name="button">Download <svg class="button-arrow" height="17" viewbox="0 0 19 17" width="19" xmlns="http://www.w3.org/2000/svg">
+      <h3 class="article-header translate" data-translate="product header"><?= translate('product', 'header') ?></h3>
+			<p class="article-text translate" data-translate="product text"><?= translate('product', 'text') ?></p><button class="button" name="button">Download <svg class="button-arrow" height="17" viewbox="0 0 19 17" width="19" xmlns="http://www.w3.org/2000/svg">
 			<path d="M1 8.396L18.091 8.396" stroke="white" stroke-linecap="round"></path>
 			<path d="M10.6948 1L18.0909 8.39608" stroke="white" stroke-linecap="round"></path>
 			<path d="M10.6948 15.7922L18.0909 8.39615" stroke="white" stroke-linecap="round"></path></svg></button>
@@ -442,37 +442,50 @@ if(!isset($_SESSION['lang'])){
 			<div class="footer-lists">
 				<div class="menu-col">
 					<ul>
-						<li class="menu-item">
-							<a href="#">Home</a>
-						</li>
-						<li class="menu-item">
-							<a href="#">Merchandise</a>
-						</li>
-						<li class="menu-item">
-							<a href="#">Comfort</a>
-						</li>
-						<li class="menu-item">
-							<a href="#">Safety</a>
-						</li>
+
+
+
+
+
+            <li class="menu-item">
+              <a class="translate" href="#" data-translate="menu home"><?= translate('menu', 'home') ?>
+              </a>
+             </li>
+             <li class="menu-item">
+               <a class="translate" href="#" data-translate="menu merchandise"><?= translate('menu', 'merchandise') ?>
+               </a>
+             </li>
+            <li class="menu-item">
+              <a class="translate" href="#" data-translate="menu comfort"><?= translate('menu', 'comfort') ?>
+              </a>
+            </li>
+            <li class="menu-item">
+              <a class="translate" href="#" data-translate="menu safety"><?= translate('menu', 'safety') ?>
+              </a>
+            </li>
 					</ul>
 				</div>
 				<div class="menu-col">
 					<ul>
-						<li class="menu-item">
-							<a href="#">Specifications</a>
-						</li>
-						<li class="menu-item">
-							<a href="#">Connect</a>
-						</li>
-						<li class="menu-item">
-							<a href="#">Policy</a>
-						</li>
-						<li class="menu-item">
-							<a href="#">Your Data</a>
-						</li>
-						<li class="menu-item">
-							<a href="#">Product Folder</a>
-						</li>
+            <li class="menu-item">
+              <a class="translate" href="#" data-translate="menu specifications"><?= translate('menu', 'specifications') ?>
+              </a>
+            </li>
+            <li class="menu-item">
+              <a class="translate" href="#" data-translate="menu connect"><?= translate('menu', 'connect') ?>
+              </a>
+            </li>
+            <li class="menu-item">
+              <a class="translate" href="#" data-translate="menu policy"><?= translate('menu', 'policy') ?>
+              </a>
+            </li>
+            <li class="menu-item">
+              <a class="translate" href="#" data-translate="menu data"><?= translate('menu', 'data') ?>
+              </a>
+            </li>
+            <li class="menu-item">
+              <a class="translate product-folder"  href="resources/download/FS1_ProductFolder.pdf" download data-translate="menu product-folder"><?= translate('menu', 'product-folder') ?></a>
+            </li>
 					</ul>
 				</div>
 			</div>
