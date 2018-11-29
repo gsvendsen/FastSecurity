@@ -1,8 +1,6 @@
-@import url("https://p.typekit.net/p.css?s=1&k=yrr6lcj&ht=tk&f=14032.14033.14034&a=13081250&app=typekit&e=css");
-
-* {
-  scroll-behavior: smooth;
-}
+/*
+Classes used for slideshow section
+ */
 
 .quote {
   line-height: 28px;

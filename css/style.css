@@ -25,12 +25,14 @@ font-style:bold;font-weight:700;
 }
 
 /*
-GLOBAL SELECTORS
+General styling for hero, navbars and menus and
+other global selectors
  */
 
  *{
    margin:0;
    padding:0;
+   scroll-behavior: smooth;
  }
 
 

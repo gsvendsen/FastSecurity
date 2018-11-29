@@ -1,3 +1,7 @@
+/*
+Classes used for history section
+ */
+
 .history {
    display:flex;
    flex-direction:column;
