@@ -527,6 +527,10 @@ CLASS SELECTORS
    height:26px;
  }
 
+ .hero {
+   padding:0 100px 0 100px;
+ }
+
  .menu {
    height:0;
    width:100%;

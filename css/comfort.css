@@ -24,6 +24,8 @@ Classes used for comfort section
   justify-content: center;
   align-items: center;
   width:80%;
+  padding:0 10px 0 10px;
+  box-sizing: border-box;
 }
 
 .text-container {

@@ -255,3 +255,10 @@ Classes used for header and paragraph styling
       height:337px;
     }
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* For tablets */
+  .cta {
+    padding:0 100px 0 100px;
+  }
+}

@@ -177,3 +177,25 @@ Classes used for engineering section
     margin:0 0 0 0;
   }
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+ /* For Tablets: */
+
+  .engineering {
+    padding:0 0 0 100px;
+  }
+
+  .stat-section {
+    padding:0 20px 0 40px;
+  }
+
+  .stat-image {
+    width:200px;
+    height:120px;
+  }
+
+  .left {
+    margin:0 0 60px -100px;
+  }
+
+}
