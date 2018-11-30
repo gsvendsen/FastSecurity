@@ -1,8 +1,6 @@
-<h1 align="center"> Fast Security </h1> <br>
+<h1 align="center">Fast Security</h1> <br>
 <p align="center">
-  <a href="">
-    <img alt="#" title="GitPoint" src="resources/svg/logo_black.svg" width="150">
-  </a>
+    <img alt="FastSecurity Logo" title="FastSecurity" src="resources/svg/logo_black.svg" width="150">
 </p>
 
 ## Introduction
