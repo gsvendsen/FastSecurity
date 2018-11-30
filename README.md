@@ -11,9 +11,11 @@ Fast Security is the first project of class WU18 where we were assigned to make 
 We worked alongside the Digital designer and Computer graphics design classes to assemble a finished product
 
 ## Build Process
-The landing page was made with vanilla HTML, CSS, JavaScript and PHP.
+The landing page was made with vanilla HTML, CSS, JavaScript and PHP. It was designed and developed mobile first 
 
-It is fully responsive and uses a language api that updates the content dynamically depending on the users language preference.
+It is fully responsive and uses a language api that updates the content dynamically depending on the users language preference choice through the flag icons.
+
+
 
 ### ![FastSecurity](https://github.com/gsvendsen/FastSecurity/blob/master/resources/demo/responsive.png)
 
