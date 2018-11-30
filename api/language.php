@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 header('Content-type: application/json');
 
-$lang = $_GET['locale'] ?? 'en';
+$lang = filter_var($_GET['locale'], FILTER_SANITIZE_STRING) ?? 'en';
 
 $languageArray = require __DIR__.'/../lang/'.$lang.'.php';
 

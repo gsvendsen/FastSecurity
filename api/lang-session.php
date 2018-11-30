@@ -6,7 +6,7 @@ header('Content-type: application/json');
 
 session_start();
 
-$lang = $_GET['locale'] ?? 'en';
+$lang = filter_var($_GET['locale'], FILTER_SANITIZE_STRING) ?? 'en';
 
 $_SESSION['lang'] = $lang;
 
