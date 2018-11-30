@@ -25,14 +25,14 @@ downArrow.addEventListener('click', ()=>{
 
 /* Toggles selected class for clicked menu item */
 menuItems.forEach((menuItem) => {
-  menuItem.addEventListener("click", ()=>{
-
-    menuItems.forEach((menuItem) => {
-      menuItem.classList.remove("selected");
-    });
-    menuItem.classList.add("selected");
-
-  })
+    if(!menuItem.classList.contains("no-select")){
+        menuItem.addEventListener("click", ()=>{
+            menuItems.forEach((menuItem) => {
+                menuItem.classList.remove("selected");
+            });
+            menuItem.classList.add("selected");
+        })
+    }
 });
 
 /* Prevents all links from working for demo */
