@@ -49,14 +49,18 @@ const svFlag = document.querySelectorAll('.sv');
 
 /* Click eventlistener if user presses language option */
 
+var currentState = history.state;
+
 enFlag.forEach((flag)=>{
   flag.addEventListener("click", ()=>{
     updateLang('en');
+    history.pushState(null , null, "?lang=en")
   })
 })
 
 svFlag.forEach((flag)=>{
   flag.addEventListener("click", ()=>{
     updateLang('sv');
+    history.pushState(null, null, "?lang=sv")
   })
 })
