@@ -29,3 +29,6 @@ $ git clone https://github.com/gsvendsen/FastSecurity.git
 #### Developers
 - [Gustav Svendsen](https://github.com/gsvendsen)
 - [Isa Areschoug](https://github.com/Neyrin)
+
+#### License
+The [MIT](https://github.com/gsvendsen/FastSecurity/blob/master/LICENSE) License
