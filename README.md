@@ -15,7 +15,8 @@ The landing page was made with vanilla HTML, CSS, JavaScript and PHP.
 
 It is fully responsive and uses a language api that updates the content dynamically depending on the users language preference.
 
-## ![FastSecurity](https://github.com/gsvendsen/FastSecurity/blob/master/resources/demo/responsive.png)
+<div style="text-align:center"> ![FastSecurity](https://github.com/gsvendsen/FastSecurity/blob/master/resources/demo/responsive.png)
+</div>
 
 ### Installation
 1. Clone the repository
