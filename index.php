@@ -24,7 +24,7 @@ if(!isset($_SESSION['lang'])){
 
 </head>
 <body>
-    
+
     <!-- Logo container for mobile -->
 	<div class="mobile-container">
 		<a class="logo-container" href=""><img alt="logo" class="logotype" src="resources/svg/logo_white.svg"></a>
@@ -40,19 +40,19 @@ if(!isset($_SESSION['lang'])){
 	<div class="desktop-menu">
 		<a class="logo-container" href=""><img alt="logo" class="logotype desktop-logo" src="resources/svg/logo_white.svg"></a>
 		<ul class="menu-list">
-			<li class="menu-item">
+			<li class="menu-item no-select">
 				<a class="nav-link translate" href="#" data-translate="menu home"><?= translate('menu', 'home') ?></a>
 			</li><!-- /menu-item -->
-			<li class="menu-item">
+			<li class="menu-item no-select">
 				<a class="nav-link translate" href="#" data-translate="menu specs"><?= translate('menu', 'specs') ?></a>
 			</li><!-- /menu-item -->
-			<li class="menu-item">
+			<li class="menu-item no-select">
 				<a class="nav-link translate" href="#" data-translate="menu safety"><?= translate('menu', 'safety') ?></a>
 			</li><!-- /menu-item -->
-			<li class="menu-item">
-                <a class="nav-link translate product-folder"  href="resources/download/FS1_ProductFolder.pdf" download data-translate="menu product-folder"><?= translate('menu', 'product-folder') ?></a>
+			<li class="menu-item no-select">
+                <a class="nav-link translate product-folder"  href="#productfolder" data-translate="menu product-folder"><?= translate('menu', 'product-folder') ?></a>
 			</li><!-- /menu-item -->
-			<li class="menu-item">
+			<li class="menu-item no-select">
 				<a class="nav-link translate" href="#" data-translate="menu contact"><?= translate('menu', 'contact') ?></a>
 			</li><!-- /menu-item -->
 			<li class="flag-container">
@@ -414,14 +414,14 @@ if(!isset($_SESSION['lang'])){
 		</div><!-- /product-text -->
 	</div><!-- /merchandise -->
 
-    <!-- Product section -->
-	<div class="product">
+    <!-- Product Folder section -->
+	<div class="product" id="productfolder">
 		<div class="product-text">
             <h3 class="article-header translate" data-translate="product header"><?= translate('product', 'header') ?></h3>
-			<p class="article-text translate" data-translate="product text"><?= translate('product', 'text') ?></p><button class="button" name="button">Download <svg class="button-arrow" height="17" viewbox="0 0 19 17" width="19" xmlns="http://www.w3.org/2000/svg">
+			<p class="article-text translate" data-translate="product text"><?= translate('product', 'text') ?></p><a class="product-folder" href="resources/download/FS1_ProductFolder.pdf" download><button class="button" name="button">Download <svg class="button-arrow" height="17" viewbox="0 0 19 17" width="19" xmlns="http://www.w3.org/2000/svg">
 			<path d="M1 8.396L18.091 8.396" stroke="white" stroke-linecap="round"></path>
 			<path d="M10.6948 1L18.0909 8.39608" stroke="white" stroke-linecap="round"></path>
-			<path d="M10.6948 15.7922L18.0909 8.39615" stroke="white" stroke-linecap="round"></path></svg></button>
+			<path d="M10.6948 15.7922L18.0909 8.39615" stroke="white" stroke-linecap="round"></path></svg></button></a>
 		</div><!-- /product-text -->
 		<div class="product-image"></div>
 	</div><!-- /product -->
@@ -449,38 +449,38 @@ if(!isset($_SESSION['lang'])){
 			<div class="footer-lists">
 				<div class="menu-col">
 					<ul>
-                        <li class="menu-item">
+                        <li class="menu-item no-select">
                           <a class="translate" href="#" data-translate="menu home"><?= translate('menu', 'home') ?>
                           </a>
                          </li><!-- /menu-item -->
-                         <li class="menu-item">
+                         <li class="menu-item no-select">
                            <a class="translate" href="#" data-translate="menu merchandise"><?= translate('menu', 'merchandise') ?></a>
                          </li><!-- /menu-item -->
-                        <li class="menu-item">
+                        <li class="menu-item no-select">
                           <a class="translate" href="#" data-translate="menu comfort"><?= translate('menu', 'comfort') ?></a>
                         </li><!-- /menu-item -->
-                        <li class="menu-item">
+                        <li class="menu-item no-select">
                           <a class="translate" href="#" data-translate="menu safety"><?= translate('menu', 'safety') ?></a>
                         </li><!-- /menu-item -->
 					</ul>
 				</div><!-- /menu-col -->
 				<div class="menu-col">
 					<ul>
-                        <li class="menu-item">
+                        <li class="menu-item no-select">
                           <a class="translate" href="#" data-translate="menu specifications"><?= translate('menu', 'specifications') ?></a>
                         </li><!-- /menu-item -->
-                        <li class="menu-item">
+                        <li class="menu-item no-select">
                           <a class="translate" href="#" data-translate="menu connect"><?= translate('menu', 'connect') ?></a>
                         </li><!-- /menu-item -->
-                        <li class="menu-item">
+                        <li class="menu-item no-select">
                           <a class="translate" href="#" data-translate="menu policy"><?= translate('menu', 'policy') ?>
                           </a>
                         </li><!-- /menu-item -->
-                        <li class="menu-item">
+                        <li class="menu-item no-select">
                           <a class="translate" href="#" data-translate="menu data"><?= translate('menu', 'data') ?></a>
                         </li><!-- /menu-item -->
-                        <li class="menu-item">
-                          <a class="translate product-folder"  href="resources/download/FS1_ProductFolder.pdf" download data-translate="menu product-folder"><?= translate('menu', 'product-folder') ?></a>
+                        <li class="menu-item no-select">
+                          <a class="translate product-folder"  href="#productfolder" data-translate="menu product-folder"><?= translate('menu', 'product-folder') ?></a>
                         </li><!-- /menu-item -->
 					</ul>
 				</div><!-- /menu-col -->
