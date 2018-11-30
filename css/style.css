@@ -14,13 +14,13 @@
 /* AktivGrotesk font import */
 @font-face {
 font-family:"aktiv-grotesk";
-src:url("../resources/fonts/AktivGrotesk-Regular") format("woff");
+src:url("../resources/fonts/AktivGrotesk-Regular.woff") format("woff");
 font-style:normal;font-weight:400;
 }
 
 @font-face {
 font-family:"aktiv-grotesk";
-src:url("../resources/fonts/AktivGrotesk-Bold") format("woff");
+src:url("../resources/fonts/AktivGrotesk-Bold.woff") format("woff");
 font-style:bold;font-weight:700;
 }
 
