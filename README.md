@@ -1,7 +1,7 @@
 <h1 align="center"> Fast Security </h1> <br>
 <p align="center">
   <a href="">
-    <img alt="FastSecurity" title="GitPoint" src="resources/svg/logo_black.svg" width="150">
+    <img alt="#" title="GitPoint" src="resources/svg/logo_black.svg" width="150">
   </a>
 </p>
 
@@ -15,9 +15,9 @@ The landing page was made with vanilla HTML, CSS, JavaScript and PHP. It was des
 
 It is fully responsive and uses a language api that updates the content dynamically depending on the users language preference choice through the flag icons. The language data is stored in PHP data arrays which is converted to JSON through the api to update the content without having to page reload
 
-
-
-### ![FastSecurity](https://github.com/gsvendsen/FastSecurity/blob/master/resources/demo/responsive.png)
+<p align="center">
+    <img alt="Responsive Design" title="GitPoint" src="https://github.com/gsvendsen/FastSecurity/blob/master/resources/demo/responsive.png">
+</p>
 
 ### Installation
 1. Clone the repository
